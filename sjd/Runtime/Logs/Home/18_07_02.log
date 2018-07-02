@@ -1,0 +1,1517 @@
+[ 2018-07-02T10:10:35+08:00 ] 127.0.0.1 /index.php/Home/Sprout/index/sprout_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 1 LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `sj_sign` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_sign` WHERE `sprout_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT SUM(vote_num) AS tp_sum FROM `sj_sign` WHERE `sprout_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_sign` LEFT JOIN sj_customer ON sj_customer.user_id = sj_sign.user_id  WHERE `sprout_id` = '1' ORDER BY vote_num desc  [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:10:45+08:00 ] 127.0.0.1 /index.php/Home/Sprout/index/sprout_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Sprout
+
+[ 2018-07-02T10:13:17+08:00 ] 127.0.0.1 /index.php/Home/Sprout/index/sprout_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.4620s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 1 LIMIT 1   [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `sj_sign` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_sign` WHERE `sprout_id` = 1 LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT SUM(vote_num) AS tp_sum FROM `sj_sign` WHERE `sprout_id` = 1 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_sign` LEFT JOIN sj_customer ON sj_customer.user_id = sj_sign.user_id  WHERE `sprout_id` = '1' ORDER BY vote_num desc  [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:10:16+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 0 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `sj_sign` [ RunTime:0.0380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_sign` WHERE `sprout_id` = 0 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT SUM(vote_num) AS tp_sum FROM `sj_sign` WHERE `sprout_id` = 0 LIMIT 1   [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `sj_sign` LEFT JOIN sj_customer ON sj_customer.user_id = sj_sign.user_id  WHERE `sprout_id` = '0' ORDER BY vote_num desc  [ RunTime:0.0370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:10:19+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 0 LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `sj_sign` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_sign` WHERE `sprout_id` = 0 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT SUM(vote_num) AS tp_sum FROM `sj_sign` WHERE `sprout_id` = 0 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_sign` LEFT JOIN sj_customer ON sj_customer.user_id = sj_sign.user_id  WHERE `sprout_id` = '0' ORDER BY vote_num desc  [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:21:45+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'sjd.sj_fenxiao' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sj_fenxiao`
+ERR: 1146:Table 'sjd.sj_fenxiao' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sj_fenxiao`
+
+[ 2018-07-02T16:21:50+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'sjd.sj_fenxiao' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sj_fenxiao`
+ERR: 1146:Table 'sjd.sj_fenxiao' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sj_fenxiao`
+
+[ 2018-07-02T16:22:09+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 0 LIMIT 1   [ RunTime:0.2440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:28:36+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 0 LIMIT 1   [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: commodity_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 13 行.
+NOTIC: [8] Undefined index: discount_info D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 14 行.
+NOTIC: [8] Undefined index: add_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 15 行.
+NOTIC: [8] Undefined index: add_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 17 行.
+NOTIC: [8] Undefined index: mechanism_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 18 行.
+NOTIC: [8] Undefined index: mechanism_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 19 行.
+NOTIC: [8] Undefined index: mechanism_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 20 行.
+NOTIC: [8] Undefined index: store_title D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 21 行.
+NOTIC: [8] Undefined index: store_addr D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 22 行.
+NOTIC: [8] Undefined index: store_num D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 23 行.
+NOTIC: [8] Undefined index: store_phone D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vote D:\director\shangjd\sjd\Runtime\Cache\Home\31a0d16d5931373d9e40b07c39fbf7d3.php 第 19 行.
+NOTIC: [8] Undefined index: title D:\director\shangjd\sjd\Runtime\Cache\Home\31a0d16d5931373d9e40b07c39fbf7d3.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:31:01+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 0 LIMIT 1   [ RunTime:0.5420s ]
+NOTIC: [8] Undefined index: commodity_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 13 行.
+NOTIC: [8] Undefined index: discount_info D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 14 行.
+NOTIC: [8] Undefined index: add_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 15 行.
+NOTIC: [8] Undefined index: add_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 17 行.
+NOTIC: [8] Undefined index: mechanism_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 18 行.
+NOTIC: [8] Undefined index: mechanism_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 19 行.
+NOTIC: [8] Undefined index: mechanism_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 20 行.
+NOTIC: [8] Undefined index: store_title D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 21 行.
+NOTIC: [8] Undefined index: store_addr D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 22 行.
+NOTIC: [8] Undefined index: store_num D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 23 行.
+NOTIC: [8] Undefined index: store_phone D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vote D:\director\shangjd\sjd\Runtime\Cache\Home\31a0d16d5931373d9e40b07c39fbf7d3.php 第 19 行.
+NOTIC: [8] Undefined index: title D:\director\shangjd\sjd\Runtime\Cache\Home\31a0d16d5931373d9e40b07c39fbf7d3.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:31:25+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 0 LIMIT 1   [ RunTime:0.0290s ]
+NOTIC: [8] Undefined index: commodity_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 13 行.
+NOTIC: [8] Undefined index: discount_info D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 14 行.
+NOTIC: [8] Undefined index: add_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 15 行.
+NOTIC: [8] Undefined index: add_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 17 行.
+NOTIC: [8] Undefined index: mechanism_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 18 行.
+NOTIC: [8] Undefined index: mechanism_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 19 行.
+NOTIC: [8] Undefined index: mechanism_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 20 行.
+NOTIC: [8] Undefined index: store_title D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 21 行.
+NOTIC: [8] Undefined index: store_addr D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 22 行.
+NOTIC: [8] Undefined index: store_num D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 23 行.
+NOTIC: [8] Undefined index: store_phone D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: title D:\director\shangjd\sjd\Runtime\Cache\Home\31a0d16d5931373d9e40b07c39fbf7d3.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:31:28+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?a=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 0 LIMIT 1   [ RunTime:0.0510s ]
+NOTIC: [8] Undefined index: commodity_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 13 行.
+NOTIC: [8] Undefined index: discount_info D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 14 行.
+NOTIC: [8] Undefined index: add_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 15 行.
+NOTIC: [8] Undefined index: add_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 17 行.
+NOTIC: [8] Undefined index: mechanism_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 18 行.
+NOTIC: [8] Undefined index: mechanism_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 19 行.
+NOTIC: [8] Undefined index: mechanism_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 20 行.
+NOTIC: [8] Undefined index: store_title D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 21 行.
+NOTIC: [8] Undefined index: store_addr D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 22 行.
+NOTIC: [8] Undefined index: store_num D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 23 行.
+NOTIC: [8] Undefined index: store_phone D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title D:\director\shangjd\sjd\Runtime\Cache\Home\31a0d16d5931373d9e40b07c39fbf7d3.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:31:45+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:32:59+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:33:21+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T16:51:03+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:51:06+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T16:51:10+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:51:10+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T16:53:09+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:53:09+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T16:57:57+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T16:57:57+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:59:34+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:59:35+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.1260s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.1420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T16:59:36+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:13:26+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:16:57+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:16:57+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:17:00+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:17:01+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:17:02+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:17:03+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:17:07+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:17:08+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:17:09+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:17:10+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.4600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:17:40+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.4620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:17:41+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:17:42+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:17:43+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:17:43+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:18:46+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:20:32+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:20:36+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:22:59+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:23:01+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:23:01+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-07-02T17:23:02+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:23:02+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:23:05+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:23:12+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:38:29+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0400s ]
+
+[ 2018-07-02T17:38:59+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: fen_id D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = null LIMIT 1   [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Object of class Think\Page could not be converted to int D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: fen_id D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: sort D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 19 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = null ORDER BY price  LIMIT 5,5   [ RunTime:0.0150s ]
+
+[ 2018-07-02T17:39:21+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Object of class Think\Page could not be converted to int D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: sort D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 19 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price  LIMIT 5,5   [ RunTime:0.0150s ]
+
+[ 2018-07-02T17:39:22+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0320s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Object of class Think\Page could not be converted to int D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: sort D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 19 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price  LIMIT 5,5   [ RunTime:0.0330s ]
+
+[ 2018-07-02T17:39:48+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0150s ]
+
+[ 2018-07-02T17:40:34+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Object of class Think\Page could not be converted to int D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: sort D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 19 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price  LIMIT 5,5   [ RunTime:0.0140s ]
+
+[ 2018-07-02T17:41:48+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: sort D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 19 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price  LIMIT 0,5   [ RunTime:0.0230s ]
+
+[ 2018-07-02T17:41:49+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: sort D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 19 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price  LIMIT 0,5   [ RunTime:0.0170s ]
+
+[ 2018-07-02T17:42:25+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: sort D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 19 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price  LIMIT 0,2   [ RunTime:0.0150s ]
+
+[ 2018-07-02T17:42:29+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: sort D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 19 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price  LIMIT 0,2   [ RunTime:0.0220s ]
+
+[ 2018-07-02T17:42:31+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: sort D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 19 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price  LIMIT 0,2   [ RunTime:0.0170s ]
+
+[ 2018-07-02T17:42:57+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price desc LIMIT 0,2   [ RunTime:0.0230s ]
+
+[ 2018-07-02T17:43:07+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 2 LIMIT 1   [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: commodity_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 13 行.
+NOTIC: [8] Undefined index: discount_info D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 14 行.
+NOTIC: [8] Undefined index: add_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 15 行.
+NOTIC: [8] Undefined index: add_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 17 行.
+NOTIC: [8] Undefined index: mechanism_text D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 18 行.
+NOTIC: [8] Undefined index: mechanism_images D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 19 行.
+NOTIC: [8] Undefined index: mechanism_videos D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 20 行.
+NOTIC: [8] Undefined index: store_title D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 21 行.
+NOTIC: [8] Undefined index: store_addr D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 22 行.
+NOTIC: [8] Undefined index: store_num D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 23 行.
+NOTIC: [8] Undefined index: store_phone D:\director\shangjd\sjd\Home\Controller\FenxiaoController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 2 LIMIT 1   [ RunTime:0.2450s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '2' ORDER BY price desc LIMIT 0,2   [ RunTime:0.0180s ]
+
+[ 2018-07-02T17:43:17+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.4570s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+NOTIC: [8] Undefined index: page D:\director\shangjd\sjd\Home\Model\CutModel.class.php 第 16 行.
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price desc LIMIT 0,2   [ RunTime:0.0150s ]
+
+[ 2018-07-02T17:43:34+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price desc LIMIT 4,2   [ RunTime:0.0200s ]
+
+[ 2018-07-02T17:43:45+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price desc LIMIT 4,2   [ RunTime:0.0200s ]
+
+[ 2018-07-02T17:44:21+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price desc LIMIT 2,2   [ RunTime:0.0150s ]
+
+[ 2018-07-02T17:45:01+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price desc LIMIT 1,2   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:45:02+08:00 ] 127.0.0.1 /index.php/Home/fenxiao/index.html?fen_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_fenxiao` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_fenxiao` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_cut` WHERE `fen_id` = 1 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_cut` LEFT JOIN sj_customer ON sj_customer.user_id = sj_cut.create_id  WHERE `fen_id` = '1' ORDER BY price desc LIMIT 1,2   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

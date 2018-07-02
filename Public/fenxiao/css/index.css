@@ -1,0 +1,996 @@
+body, html {
+    width: 100%;
+    height: auto;
+    background: #F55755;
+}
+
+/* banner */
+.lifei-banner {
+    width: 100%;
+    height: 640px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 640px;
+    float: left;
+    overflow: hidden;
+}
+
+.swiper-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 活动结束时间 */
+.lifei-jieshu {
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+}
+
+.lifei-jieshu-top {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.lifei-jieshu-top-left {
+    width: 238px;
+    height: 237px;
+    margin: 20px 0 0 30px;
+    float: left;
+}
+
+.lifei-jieshu-top-left img {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.lifei-jieshu-top-right {
+    width: 330px;
+    height: 300px;
+    margin: 20px 0 0 10px;
+    float: left;
+}
+
+.lifei-jieshu-top-right p {
+    display: block;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 10px 0 0 10px;
+}
+
+.lifei-jieshu-top-right img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.lifei-jieshu-bottom {
+    width: 100%;
+    height: 175px;
+}
+
+.lifei-jieshu-bottom p {
+    display: block;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 60px;
+}
+
+.lifei-time-item {
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    margin: 10px 0 0 110px;
+    color: #FFF;
+}
+
+.hour_show {
+    font-size: 40px;
+}
+
+/* 砍价 */
+.lifei-kanjia {
+    width: 100%;
+    height: auto;
+    background: rgba(243, 115, 111, .7);
+    overflow: hidden;
+    position: relative;
+}
+
+.lifei-kanjia1 {
+    width: 580px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 30px;
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-kanjia2 {
+    width: 580px;
+    height: auto;
+    transform: translate(10px, 10px);
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-kanjia2-top {
+    width: 570px;
+    height: 170px;
+    overflow: hidden;
+}
+
+.lifei-kanjia2-top img {
+    display: block;
+    width: 132px;
+    height: 132px;
+    border-radius: 76px;
+    margin: 20px auto;
+}
+
+.lifei-kanjia2-center {
+    width: 570px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.lifei-kanjia2-center img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.lifei-kanjia2-center p {
+    display: block;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 170px;
+    left: 180px;
+    background: #F9BBB6;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.lifei-kanjia2-bottom {
+    width: 570px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.lifei-btn1 {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background: #FEEE00;
+    border-radius: 100px;
+}
+
+.lifei-btn2 {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background: #FEEE00;
+    border-radius: 100px;
+}
+
+.lifei-jiazai {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.lifei-left {
+    width: 132px;
+    height: auto;
+    float: left;
+}
+
+.lifei-left img {
+    display: block;
+    width: 132px;
+    height: 132px;
+    border-radius: 62px;
+    margin-left: 10px;
+}
+
+.lifei-center {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.lifei-center span {
+    display: block;
+    font-size: 20px;
+    color: #000000;
+}
+
+.lifei-center p {
+    display: block;
+    font-size: 18px;
+    color: #7E6E6E;
+}
+
+.lifei-right {
+    width: 160px;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin: 40px 0 0 30px;
+}
+
+.lifei-right span {
+    display: block;
+    font-size: 18px;
+    color: #7E6E6E;
+}
+
+.lifei-right p {
+    display: block;
+    font-size: 20px;
+    color: #000;
+}
+
+.lifei-dianji {
+    width: 100%;
+    height: 100px;
+}
+
+.lifei-dianji p {
+    display: block;
+    font-size: 50px;
+    color: #6F6565;
+    float: left;
+    margin: 10px 0 0 210px;
+}
+
+.lifei-dianji span {
+    display: block;
+    font-size: 26px;
+    color: #6F6565;
+    float: left;
+    margin: 30px 0 0 10px;
+}
+
+/* 帮TA一下 */
+.lifei-tishi {
+    width: 100%;
+    height: 1137px;
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    display: none;
+}
+
+.lifei-yibang {
+    width: 100%;
+    height: 200px;
+    background: #FFFFFF;
+    position: fixed;
+    top: 50%;
+    z-index: 99;
+}
+
+.lifei-yibang p {
+    display: block;
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lifei-yibang span {
+    display: block;
+    font-size: 22px;
+    color: #989898;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lifei-zhidao {
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #E8E8EA;
+    margin-top: 30px;
+}
+
+.lifei-int {
+    width: 200px;
+    height: 50px;
+    font-size: 26px;
+    position: absolute;
+    top: 74%;
+    left: 34%;
+    background: #FFFFFF;
+}
+
+/* 商品描述 */
+.lifei-shangpin {
+    width: 580px;
+    height: auto;
+    margin: 80px 0 30px 25px;
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-shangpin1 {
+    width: 580px;
+    height: auto;
+    transform: translate(10px, 10px);
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-miaoshu {
+    width: 100%;
+    height: auto;
+}
+
+.lifei-miaoshu img {
+    display: block;
+    width: 494px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.lifei-shengyu {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.lifei-shengyu span {
+    display: block;
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lifei-shengyu p {
+    display: block;
+    font-size: 22px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.lifei-shengyu img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 20px 0 30px 35px;
+}
+
+/* 店家优惠 */
+.lifei-youhui {
+    width: 100%;
+    height: auto;
+    background: #F55755;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.lifei_top {
+    width: 100%;
+    height: auto;
+}
+
+.lifei_top img {
+    display: block;
+    width: 140px;
+    height: auto;
+    margin: 10px 0 0 230px;
+}
+
+.lifei_bottom_left {
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+.lifei_bottom_left img {
+    display: block;
+    width: 106px;
+    height: auto;
+    float: left;
+}
+
+.lifei_bottom_left p {
+    display: block;
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+    float: left;
+    background: #FFF;
+    margin: 20px 0 0 10px;
+    line-height: 50px;
+}
+
+.lifei_bottom_left span {
+    display: block;
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+    float: left;
+    background: #FFF;
+    margin: 20px 0 0 10px;
+    line-height: 50px;
+}
+
+/* 活动详情 */
+.lifei-huodong {
+    width: 580px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 30px;
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-huodong1 {
+    width: 580px;
+    height: auto;
+    transform: translate(10px, 10px);
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-xiangqing_top {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+.lifei-xiangqing_top img {
+    display: block;
+    width: 498px;
+    height: auto;
+    margin: 0 0 20px 30px;
+
+}
+
+.lifei-xaingqing_center {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.lifei-xaingqing_center p {
+    display: block;
+    font-size: 20px;
+    color: #000;
+    margin: 0 0 20px 10px;
+}
+
+.lifei-xaingqing_center img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 0 0 30px 30px;
+}
+
+/* 机构介绍 */
+.lifei-jigou {
+    width: 580px;
+    height: auto;
+    margin: 80px 0 30px 25px;
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-jigou1 {
+    width: 580px;
+    height: auto;
+    transform: translate(10px, 10px);
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-jieshao {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.lifei-jieshao img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin-left: 35px;
+}
+
+.lifei-liaoyu {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.lifei-jiaoyu h5 {
+    display: block;
+    font-size: 30px;
+    margin: 10px 0 10px 30px;
+}
+
+.lifei-jiaoyu img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 0 0 30px 35px;
+}
+
+.lifei-jiaoyu p {
+    display: block;
+    font-size: 20px;
+    color: #FFF;
+    margin: 10px 20px 30px 10px;
+}
+
+.lifei-fengcai {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.lifei-fengcai h5 {
+    display: block;
+    font-size: 30px;
+    margin: 10px 0 10px 30px;
+}
+
+.lifei-fengcai img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 0 0 30px 35px;
+}
+
+/* 砍 */
+.lifei-lf {
+    width: 580px;
+    height: auto;
+    margin: 80px 0 30px 25px;
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-lf1 {
+    width: 580px;
+    height: auto;
+    transform: translate(10px, 10px);
+    background: rgba(250, 200, 187, .5);
+}
+
+.lifei-yaoqing {
+    width: 570px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.lifei-btn3 {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background: #E84340;
+    border-radius: 100px;
+}
+
+.lifei-btn4 {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background: #E84340;
+    border-radius: 100px;
+}
+
+/* 砍价榜 */
+.lifei-kanjiabang {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /*display: none;*/
+}
+
+.lifei-kanjiabang ul li {
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+.lifei-kanjiabang ul li p {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.lifei-wy {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.san {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: #F55755;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin: 40px 0 20px 40px;
+    float: left;
+    color: #FFF;
+}
+
+.san1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin: 40px 0 20px 40px;
+    float: left;
+}
+
+.lifei-wy img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+    margin: 10px 0 20px 55px;
+}
+
+.lifei-wy p {
+    display: block;
+    font-size: 20px;
+    float: left;
+    margin: 40px 0 20px 34px;
+}
+
+.lifei-wy span {
+    display: block;
+    width: 62px;
+    font-size: 20px;
+    float: left;
+    margin: 40px 0 20px 55px;
+}
+
+.lifei-wy i {
+    display: block;
+    width: 62px;
+    font-size: 16px;
+    color: #6E6257;
+    float: left;
+    margin: 0 0 20px -5px;
+}
+
+.lifei-wy .p {
+    display: block;
+    width: 62px;
+    font-size: 20px;
+    float: left;
+    margin: 40px 0 20px 75px;
+}
+
+/* 邀请榜 */
+.lifei-youqingbang {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: none;
+}
+
+.lifei-youqingbang ul li {
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+.lifei-youqingbang ul li p {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/* 我也要参加 */
+.lifei-canjia {
+    width: 100%;
+    height: 1137px;
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    display: none;
+}
+
+.lifei-woyao {
+    width: 100%;
+    height: 540px;
+    background: #FFFFFF;
+    position: fixed;
+    top: 20%;
+    border-radius: 20px 20px 0 0;
+}
+
+.lifei-woyao img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.lifei-woyao p {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.lifei-woyao input {
+    display: block;
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+    background: #F6F6F6;
+    margin: 10px auto;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    color: #727272;
+    text-indent: 10px;
+}
+
+.lifei-woyao .lifei-int3 {
+    display: block;
+    width: 600px;
+    height: 50px;
+    font-size: 30px;
+    background: #C3000C;
+    margin: 10px auto;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-indent: 10px;
+}
+
+.lifei-woyao .lifei-spn1 {
+    display: block;
+    width: 142px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 0 0 210px;
+    color: #ABABAB;
+    float: left;
+}
+
+.lifei-woyao .lifei-spn2 {
+    display: block;
+    width: 142px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px auto;
+    color: #0059A6;
+    float: left;
+}
+
+/* 关注 */
+.lifei-guanzhu {
+    width: 100%;
+    height: 1137px;
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    display: none;
+}
+
+.lifei-shangjia {
+    width: 580px;
+    height: 350px;
+    position: fixed;
+    top: 300px;
+    left: 30px;
+}
+
+.lifei-shangjia_top {
+    width: 100%;
+    height: 160px;
+    background: #FFB600;
+}
+
+.lifei-fanhui {
+    width: 40px;
+    height: 40px;
+    background: #F13200;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+.lifei-shangjia_top .int4 {
+    width: 450px;
+    height: 50px;
+    background: #FFFFFF;
+    font-size: 20px;
+    color: #767676;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.lifei-shangjia_top .int5 {
+    width: 200px;
+    height: 50px;
+    background: #F13100;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 90px;
+    left: 30%;
+    border-radius: 10px;
+}
+
+.lifei-shangjia_bottom {
+    width: 100%;
+    height: 190px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.lifei-shangjia_bottom p {
+    display: block;
+    width: 200px;
+    height: 80px;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.lifei-shangjia_bottom img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 184px;
+    left: 114px;
+}
+
+.lifei-shangjia_bottom .lifei-zhiwen {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 380px;
+}
+
+.lifei-shangjia_bottom span {
+    display: block;
+    font-size: 15px;
+    color: #313131;
+    float: right;
+    margin: 60px 100px 0 0;
+}
+
+/*music*/
+.lifei_music {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+#lifei_musicBtn {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+}
+
+.xuanzhuan {
+    -webkit-animation: rotateImg 1s linear infinite;
+}
+
+@keyframes rotateImg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotateImg {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+/* 返回顶部 */
+#lifei-top {
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    background-position: 50%;
+    z-index: 99;
+}
+
+.fan {
+    width: 65px;
+    height: 105px;
+}
+
+/*  左边四个 */
+.lifei_topWord {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, .6);
+    text-align: center;
+    color: white;
+    right: 10px;
+    font-size: 18px;
+    z-index: 100;
+}
+
+.lifei_ts {
+    top: 10px;
+}
+
+.lifei_fx {
+    top: 65px;
+}
+
+.lifei_lx {
+    top: 120px;
+}
+
+.lifei_yq {
+    top: 175px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

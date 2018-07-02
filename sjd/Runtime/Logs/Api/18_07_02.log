@@ -1,0 +1,399 @@
+[ 2018-07-02T10:04:00+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=1&num=10&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_project` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_project` WHERE `create_id` = 1 LIMIT 0,10   [ RunTime:0.0190s ]
+NOTIC: [8] Undefined variable: res D:\director\shangjd\sjd\Api\Controller\CutdownController.class.php 第 269 行.
+NOTIC: [8] Undefined variable: res D:\director\shangjd\sjd\Api\Controller\CutdownController.class.php 第 273 行.
+
+[ 2018-07-02T10:04:02+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=1&num=10&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_project` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_project` WHERE `create_id` = 1 LIMIT 0,10   [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: res D:\director\shangjd\sjd\Api\Controller\CutdownController.class.php 第 269 行.
+NOTIC: [8] Undefined variable: res D:\director\shangjd\sjd\Api\Controller\CutdownController.class.php 第 273 行.
+
+[ 2018-07-02T10:04:07+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/web_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:04:12+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '13161147465' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0400s ]
+
+[ 2018-07-02T10:15:58+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/web_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-07-02T10:16:00+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=12&num=10&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sj_project` [ RunTime:0.2510s ]
+SQL: SELECT * FROM `sj_project` WHERE `create_id` = 12 LIMIT 0,10   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.9211s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0200s ]
+
+[ 2018-07-02T10:16:02+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=12&num=10&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_project` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `sj_project` WHERE `create_id` = 12 LIMIT 0,10   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.4800s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.4640s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+
+[ 2018-07-02T10:16:11+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=12&num=10&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_project` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_project` WHERE `create_id` = 12 LIMIT 0,10   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.4680s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.6990s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+
+[ 2018-07-02T10:16:12+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=12&num=10&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_project` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_project` WHERE `create_id` = 12 LIMIT 0,10   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+
+[ 2018-07-02T10:16:33+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/preview_link?user_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac_id D:\director\shangjd\sjd\Api\Controller\CutdownController.class.php 第 377 行.
+
+[ 2018-07-02T10:16:33+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/preview_ercode?ac_id=undefined&user_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:16:39+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/preview_link?user_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac_id D:\director\shangjd\sjd\Api\Controller\CutdownController.class.php 第 377 行.
+
+[ 2018-07-02T10:16:39+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/preview_ercode?ac_id=undefined&user_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:37:38+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=12&num=10&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_project` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_project` WHERE `create_id` = 12 LIMIT 0,10   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0160s ]
+
+[ 2018-07-02T10:37:41+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=12&num=50&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_project` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `sj_project` WHERE `create_id` = 12 LIMIT 0,50   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0200s ]
+
+[ 2018-07-02T10:37:44+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=12&num=100&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_project` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sj_project` WHERE `create_id` = 12 LIMIT 0,100   [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 12 LIMIT 1   [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `sj_sprout` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sj_sprout` WHERE `sprout_id` = 12 LIMIT 1   [ RunTime:0.0390s ]
+
+[ 2018-07-02T17:53:40+08:00 ] 127.0.0.1 /index.php/api/fenxiao/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Fenxiao
+
+[ 2018-07-02T17:53:50+08:00 ] 127.0.0.1 /index.php/api/fenxiao/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Fenxiao
+
+[ 2018-07-02T17:53:59+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:54:06+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Home\Model\CutModel
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0200s ]
+ERR: Think\Model:rankList方法不存在！
+
+[ 2018-07-02T17:55:07+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Home\Model\CutModel
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.1670s ]
+ERR: Think\Model:rankList方法不存在！
+
+[ 2018-07-02T17:55:09+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Home\Model\CutModel
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.1150s ]
+ERR: Think\Model:rankList方法不存在！
+
+[ 2018-07-02T17:55:09+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Home\Model\CutModel
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0680s ]
+ERR: Think\Model:rankList方法不存在！
+
+[ 2018-07-02T17:55:17+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Home\Model\CutModel
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0240s ]
+
+[ 2018-07-02T17:55:18+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Home\Model\CutModel
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0980s ]
+
+[ 2018-07-02T17:57:02+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Home\Model\CutModel
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0250s ]
+ERR: Think\Model:rankList方法不存在！
+
+[ 2018-07-02T17:57:03+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Home\Model\CutModel
+SQL: SHOW COLUMNS FROM `sj_cut` [ RunTime:0.0180s ]
+ERR: Think\Model:rankList方法不存在！
+
+[ 2018-07-02T17:58:27+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:58:28+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:58:28+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:58:34+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:59:18+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:59:18+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T17:59:19+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:59:19+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T17:59:19+08:00 ] 127.0.0.1 /index.php/api/cut/getRankList.html?fen_id=1&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+

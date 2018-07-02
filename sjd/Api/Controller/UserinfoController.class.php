@@ -11,8 +11,9 @@ class UserinfoController extends Controller
         $_SESSION['if_user_id'] = $user_id;
         $_SESSION['if_com_id'] = $_GET['com_id'];
         $_SESSION['if_or_id'] = $_GET['or_id'];
-       header('Access-Control-Allow-Origin:*');
-        $url1="https://open.weixin.qq.com/connect/oauth2/authorize?appid=".WEIXIN_APPID."&redirect_uri=".get_host_name()."/index.php/Api/Userinfo/rtuser.html&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect";
+        header('Access-Control-Allow-Origin:*');
+        $redirect = urlencode(get_host_name()."/index.php/Api/Userinfo/rtuser.html");
+        $url1="https://open.weixin.qq.com/connect/oauth2/authorize?appid=".WEIXIN_APPID."&redirect_uri=".$redirect."&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect";
         Header("Location: $url1");
    }
     //保存获取到用户信息
@@ -35,9 +36,11 @@ class UserinfoController extends Controller
         if($like['openid'] == null || $like['openid']==''){
             $ck  = M('customer')->where(array('user_id'=>$_SESSION['if_user_id']))->save(array('openid'=>$res['info']['openid'],'user_img'=>$res['info']['headimgurl'],'user_name'=>$res['info']['nickname']));
             if($_SESSION['if_com_id']!=null){
-                echo "<script>window.location.href=".get_host_name()."/fankes/bargain.html?user_id=$ck&or_id=".$_SESSION['if_or_id']."&com_id=".$_SESSION['if_com_id']."';</script>";
+                redirect(get_host_name()."/fankes/bargain.html?user_id=$ck&or_id=".$_SESSION['if_or_id']."&com_id=".$_SESSION['if_com_id']);
+                //echo "<script type='text/javascript'>window.location.href=".get_host_name()."/fankes/bargain.html?user_id=$ck&or_id=".$_SESSION['if_or_id']."&com_id=".$_SESSION['if_com_id']."';</script>";
             }else{
-                echo "<script>window.location.href=".get_host_name()."/fankes/index.html?user_id=$ck';</script>";
+                redirect(get_host_name()."/fankes/index.html?user_id=$ck");
+                //echo "<script type='text/javascript'>window.location.href=".get_host_name()."/fankes/index.html?user_id=$ck';</script>";
             }
 
         }
@@ -50,9 +53,11 @@ class UserinfoController extends Controller
 
         }
         if($_SESSION['if_com_id']!=null){
-            echo "<script>window.location.href=".get_host_name()."/fankes/bargain.html?user_id=$ck&or_id=".$_SESSION['if_or_id']."&com_id=".$_SESSION['if_com_id']."';</script>";
+            redirect(get_host_name()."/fankes/bargain.html?user_id=$ck&or_id=".$_SESSION['if_or_id']."&com_id=".$_SESSION['if_com_id']);
+            //echo "<script type='text/javascript'>window.location.href=".get_host_name()."/fankes/bargain.html?user_id=$ck&or_id=".$_SESSION['if_or_id']."&com_id=".$_SESSION['if_com_id']."';</script>";
         }else{
-            echo "<script>window.location.href=".get_host_name()."/fankes/index.html?user_id=$ck';</script>";
+            redirect(get_host_name()."/fankes/index.html?user_id=$ck");
+           //echo "<script type='text/javascript'>window.location.href=".get_host_name()."/fankes/index.html?user_id=$ck';</script>";
         }
     }
 
@@ -63,7 +68,7 @@ class UserinfoController extends Controller
      * 手机端扫码授权
      */
     public function s_code(){
-        $urls = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdfef1120f9ca33d4&redirect_uri=".get_host_name()."/index.php/Api/Userinfo/s_rtuser.html&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect";
+        $urls = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=".WEIXIN_APPID."&redirect_uri=".get_host_name()."/index.php/Api/Userinfo/s_rtuser.html&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect";
         $this->scerweima2($urls);
     }
 
@@ -93,19 +98,20 @@ class UserinfoController extends Controller
         $res['openid'] =  $openid;
         $res['info'] = $json;
         $_SESSION['user_info'] = $res['info'];
-        echo "<script>window.location.href='".get_host_name()."/fanke/land.html';</script>";
+        echo "<script type='text/javascript'>window.location.href='".get_host_name()."/fanke/land.html';</script>";
     }
 
     /**
      * 电脑端注册扫码
      */
     public function web_code(){
-        $urls = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdfef1120f9ca33d4&redirect_uri=http://wx.vsaishi.com/index.php/Api/Userinfo/s_rtuser.html&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect";
+        $redirect = urlencode(get_host_name()."/index.php/Api/Userinfo/rtuser.html");
+        $urls = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=".WEIXIN_APPID."&redirect_uri=".$redirect."&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect";
         $this->scerweima2($urls);
     }
     public function c_rtuser(){
-        $appid="wxdfef1120f9ca33d4";
-        $secret="741a0bf3362444e8e06b169a559ed809";
+        $appid=WEIXIN_APPID;
+        $secret=WEIXIN_SECRET;
         $code=$_GET['code'];
         $url="https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code";
         $date=file_get_contents($url);//openid
@@ -118,7 +124,7 @@ class UserinfoController extends Controller
         $res['openid'] =  $openid;
         $res['info'] = $json;
         $_SESSION['user_info'] = $res['info'];
-        echo "<script>window.location.href=".get_host_name()."/fankeweb/reg.html';</script>";
+        echo "<script type='text/javascript'>window.location.href=".get_host_name()."/fankeweb/reg.html';</script>";
     }
 
 }

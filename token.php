@@ -2,7 +2,7 @@
 //1. 将timestamp , nonce , token 按照字典排序  
 $timestamp = $_GET['timestamp'];
 $nonce = $_GET['nonce'];
-$token = "6450c6f630eeead9202ee2074e1c9b26";
+$token = "puvcn0zt2rth2rgjhnivxl5c4ukn5vcz";
 $signature = $_GET['signature'];
 $array = array($timestamp,$nonce,$token);
 sort($array);

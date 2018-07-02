@@ -1,0 +1,26 @@
+/*重置样式表  为了统一元素在不同浏览器的样式*/
+/*重置样式表 reset.css     nomalize.css*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+input{
+    border: 0 none;
+    outline: none;
+    padding-left: 4px;
+}
+body{
+    user-select: none;   /*禁止用户选中*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
