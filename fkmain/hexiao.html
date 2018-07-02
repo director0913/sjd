@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/hex.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	</head>
+
+	<body>
+		<div id="verifContBox" class="main-whiteBox">
+			<div class="columnTitle">核销奖券 </div>
+			<div id="verifPanel">
+				<div class="searchBoxCont" style="width: 816px; height: 44px"><input type="text" class="searchInput input" placeholder="请输入需要核销的券码">
+					<div class="searchIcon searchBtn"></div>
+					<div class="clearBtn hide"></div>
+				</div>
+
+				<div class="searchResult">
+					<div class="searchTable">
+						<div class="faiTableWrap">
+							<div class="center">
+								<table class="faiTable" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+									<thead>
+										<tr>
+											<th data-key="code1" class="column1 textCenter codeNum sep">
+												<div class="padding">券码</div>
+											</th>
+											
+											<th data-key="award" class="column2 textCenter awardName sep" style="width: 160px;">
+												<div class="padding">奖品名称</div>
+											</th>
+											<th data-key="awardinfo" class="column2 textCenter user sep">
+												<div class="padding">中奖者</div>
+											</th>
+											<th data-key="awardTime" class="column3 textCenter awardTime  sep" style="width: 150px;">
+												<div class="padding">中奖时间</div>
+											</th>
+											<th data-key="codeStatus" class="column4  textCenter sep" style="width: 100px;">
+												<div class="padding">券码状态</div>
+											</th>
+											<th data-key="opt" class="column5 textCenter sprizeCol" style="width: 130px;">
+												<div class="padding">操作</div>
+											</th>
+										</tr>
+									</thead>
+									<tbody id="hxnr">
+										<tr class="queryIngTr odd" style="border-top: 1px solid #e7e7e7;">
+											<td class="padding" colspan="6" >没有数据</td>
+										</tr>
+										
+									</tbody>
+									<tfoot></tfoot>
+								</table>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</body>
+	<script type="text/javascript" src="js/hexiao.js" ></script>
+
+</html>

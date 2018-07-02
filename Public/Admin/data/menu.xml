@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+	<module>
+		<name id="1">活动</name>
+		<en>news</en>
+		<controller>
+			<name id="2">活动列表</name>
+			<en>list</en>
+			<link><![CDATA[activity/activity_list]]></link>
+		</controller>
+	</module>
+	<module>
+		<name id="3">用户</name>
+		<en>news</en>
+		<controller>
+			<name id="4">用户列表</name>
+			<en>list</en>
+			<link><![CDATA[Index/index]]></link>
+		</controller>
+	</module>
+	<module>
+		<name id="5">BGM</name>
+		<en>news</en>
+		<controller>
+			<name id="6">BGM列表</name>
+			<en>list</en>
+			<link><![CDATA[Index/bgm_list]]></link>
+		</controller>
+		<controller>
+			<name id="7">BGM添加</name>
+			<en>list</en>
+			<link><![CDATA[Index/bgm_add]]></link>
+		</controller>
+	</module>
+</menu>

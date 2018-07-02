@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html ng-app="myApp" style="font-size: 20px;">
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/nemain.css" />
+		<link rel="stylesheet" href="css/fain.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script src="https://cdn.bootcss.com/angular.js/1.4.6/angular.min.js"></script> 
+	   
+	    <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	    <script type="text/javascript" src="js/jquery-ui-timepicker-addon.js" ></script>
+	    <script type="text/javascript" src="js/jquery-ui-timepicker-zh-CN.js" ></script>
+		 
+		
+		  <style>
+		  	select::-ms-expand{ display: none; }
+		  	select{
+			     appearance:none;  
+			    -moz-appearance:none;  
+			    -webkit-appearance:none;
+			    
+			     padding-right: 14px;
+			}
+		  </style>
+	</head>
+
+	<body id="sda" ng-controller="myCtrl">
+		
+		<div id="editActContainer"  class="container editActContainer ng-scope" style="padding: 28px;box-sizing: border-box;">
+			<div class="containerTitle">
+				<div id="activityListTitle">
+					<sapn class="icon"></sapn>
+					<a id="cancelButton" href="javascript:hdback();">返回</a>/<span class="name ng-binding">参与活动赢大奖</span></div>
+				<div class="titleBtnBox">
+
+					
+					<div id="saveButon" class="titleBtn main-Button" ng-click="mpost()"><span class="icon"></span>保存</div>
+				</div>
+			</div>
+
+			<div id="editActive" class="editActBox">
+				<div class="topBarWarp">
+					<div class="topBarSrollBox">
+						<div class="topBar" style="width: 1000px;">
+							<div class="column checked" ><span class="name">首页</span></div>
+							<div class="column"><span class="name">我的</span></div>
+							<div class="column"><span class="name">商品</span></div>
+							<div class="column"><span class="name">砍价详情</span></div>
+							<div class="column"><span class="name">好友进入</span></div>
+							<div class="column"><span class="name">活动奖品</span></div>
+							<div class="column"><span class="name">我的奖品</span></div>
+							<div class="column"><span class="name">奖品详情</span></div>
+							<div class="slideBar" style="float: left;">
+								<div id="topBardSlide" class="slideBarTip transitionPanel" style="left: 0px;"></div>
+							</div>
+							<div style="clear: both;"></div>
+						</div>
+						<div class="scrollIcon scrollLeft" style="display: none;"></div>
+						<div class="scrollIcon scrollRight" style="display: none;"></div>
+					</div>
+				</div>
+
+				<div class="editContent">
+					<div class="editDetailBox">
+						<div class="phone">
+							<div class="wxTitle">
+								<div id="actName" class="actName ng-binding" >{{hdjc.title}}</div>
+
+							</div>
+							<div id="changeLeft" class="changePage">
+								<div class="leftImg img"></div>
+							</div>
+							<div id="changeRight" class="changePage">
+								<div class="rightImg img"></div>
+							</div>
+							<div id="gameContent">
+								<iframe id="gamePreviewPage" src="/fkmain/qmkj.html" frameborder="0" scrolling="no" style="width:100%;height:100%;"></iframe>
+							</div>
+
+							<div id="moduleLayerBox">
+								<div class="moduleLayer" style="display: none;">
+									<div class="item">
+										<a class="item tool" hidefocus="true" href="javascript:;">商品详情</a>
+									</div>
+								</div>
+								<div class="moduleLayer" style="display: none;">
+									<div class="item">
+										<a class="item tool" hidefocus="true" href="javascript:;">游戏设置</a>
+									</div>
+								</div>
+								<div class="moduleLayer" style="display: none;">
+									<div class="item">
+										<a class="item tool" hidefocus="true" href="javascript:;">编辑背景</a>
+									</div>
+								</div>
+								<div class="moduleLayer" style="display: none;">
+									<div class="item">
+										<a class="item tool" hidefocus="true" href="javascript:;">编辑背景</a>
+									</div>
+								</div>
+								<div class="moduleLayer" style="display: none;">
+									<div class="item">
+										<a class="item tool" hidefocus="true" href="javascript:;">编辑背景</a>
+									</div>
+								</div>
+								<div class="moduleLayer" style="display: none;">
+									<div class="item">
+										<a class="item tool" hidefocus="true" href="javascript:;">编辑背景</a>
+									</div>
+								</div>
+								<div class="moduleLayer" style="display: none;">
+									<div class="item">
+										<a class="item tool" hidefocus="true" href="javascript:;">编辑背景</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="editDetail isOpenActiveABTest">
+							<div id="activeTab" class="commBg">
+								<div class="tabSetting ng-binding ng-scope checked" style="float: left;" option="0">基础设置</div>
+
+								<div class="tabSetting ng-binding ng-scope " style="float: left;" style="float: left;" option="4">砍价设置</div>
+
+								<div class="tabSetting ng-binding ng-scope " style="float: left;" option="1">商品设置</div>
+
+								<div class="tabSetting ng-binding ng-scope " style="float: left;" option="3">高级设置</div>
+								<div style="clear: both;"></div>
+							</div>
+							
+							<!--基本-->
+							<div id="baseSetting" class="settingBox" option="0" style="display: block;">
+								<p class="underLineWay">
+									<span class="fontWeight">基本选项</span>
+								</p>
+								<div id="actNameSetting">
+									<span class="leftTitle"><span class="flag">*</span><span class="baseSettingTitle">活动标题：</span></span>
+									<input id="name" ng-model="hdjc.title"  class="activeName input input1 " type="text" name="activeName" required >
+								</div>
+
+								<div id="setGameTimeBox">
+									<span class="leftTitle"><span class="flag">*</span><span class="baseSettingTitle">活动时间：</span></span>
+									<input  id="beginTime"  type="text" ng-model="hdjc.startime" name="beginTime" readonly="" style="cursor:pointer" > 至 <input id="endTime" name="endTime" ng-model="hdjc.endtime"  type="text" readonly="" style="cursor:pointer" >
+								</div>
+								<div id="setLimitJoinNumBox" class="hide" style="margin-bottom: 10px; display: block;">
+
+									<div id="joinNumBox" class="baseLine baseLine1">
+										<span class="leftTitle"><span class="flag">&nbsp;</span><span class="baseSettingTitle">参与人数：</span></span>
+										<input id="hideJoinNum"  ng-model="rsid"  ng-value="false" type="radio" name="isShowJoinNum"  value="false"><label for="hideJoinNum">隐藏</label>
+										<input id="showJoinNum"  ng-model="rsid"  ng-value="true"  type="radio"  name="isShowJoinNum"  value="true"><label for="showJoinNum">展示</label>
+										<div class="commMg otherLine virtualLine" ng-show="rsid">
+											<span>增加虚拟参与人数 <input type="text" id="virtualJoinNum" ng-model="rsidnb" model-format="int"  maxlength="6" class="input inputNum onlyNum input3 ng-pristine ng-untouched ng-valid ng-valid-maxlength"> 人</span> <span class="explain">（只展示不计入统计）</span>
+
+										</div>
+									</div>
+
+									<div class="baseLine1 joinNumLimit inputLh verTipsBox">
+										<span class="leftTitle">
+                                    
+										<span class="baseSettingTitle ng-binding">参与人数限制：</span>
+										</span>
+										<input class="js_ver ng-pristine ng-untouched ng-valid" ng-model="xzrsid"  ng-value="false" id="noLimitNum"   type="radio" name="isLimitNum" value="false" ><label for="noLimitNum">不限</label>
+										<input id="LimitNum"  type="radio" name="isLimitNum" ng-model="xzrsid"  ng-value="true" class="ng-pristine ng-untouched ng-valid" value="true"><label for="LimitNum" style="margin:0;" >限制</label>
+										<span id="limitNumBox" ng-show="xzrsid"  class="ng-binding">
+                                    <input type="text" id="theLimitNum" maxlength="6" ng-model="xzrsidnb" model-format="int" class="input inputNum onlyNum input3 ng-pristine ng-untouched ng-valid ng-valid-maxlength"> 人参与
+                                    
+                                    
+                                    
+                                    <div class="errMsg commMg limitNumErr hide ng-binding">微助力类游戏免费版最大参与人数限制为100人</div>
+                                    
+                                </span>
+									</div>
+
+								</div>
+
+								<div class="seniorSetBox transiton300ms">
+									<div class="clear"></div>
+
+									<div id="activeExplainWarp" class="baseLine1">
+										<span class="leftTitle" style="vertical-align:138px"><span class="baseSettingTitle">活动说明：</span></span>
+										<textarea id="activeExplain"  ng-model="hdjc.cont" ed-check-sensit-word="" class="input scrollBox ng-pristine ng-untouched ng-valid"></textarea>
+									</div>
+
+									<div id="attention_item">注：该游戏属于助力型活动，容易触犯微信朋友圈的管理规则，分享人数过大时容易被微信拉黑朋友圈仅自己可见，请慎用！</div>
+
+								</div>
+							</div>
+							
+		                    <!--砍价设置-->
+							<div id="gameTypeSetting" class="settingBox" option="4" style="display: none;">
+	                       
+	                        
+		                        <div class="dspkjLimitCutNum">
+		                            <div class="settingLine inputLh">
+		                                <span class="leftTitle">砍价限制：</span>
+		                                <input type="radio" ng-model="kjrsid"  ng-value="false"  id="noLimitCutTimes" name="isLimitCutTimes" class="ng-untouched ng-valid ng-dirty" value="false"><label for="noLimitCutTimes">不限</label>
+		                                <input type="radio" ng-model="kjrsid"  ng-value="true"  id="limitCutTimes" name="isLimitCutTimes" class="ng-untouched ng-valid ng-dirty ng-valid-parse" value="true"><label for="limitCutTimes">限制</label>
+		                                <span id="setDrawTotalBox" ng-show="kjrsid"  class="" style="display: inline;">每人最多砍
+		                                <input id="cutDownTotalTimes"   maxlength="2" class="onlyNum ng-pristine ng-untouched ng-valid ng-valid-maxlength" ng-model="kjrsidnb" type="text"> 个商品</span>                                     
+		                            </div>
+		                        </div>  
+		                        
+		                    </div>
+		                    
+		                    <!--商品设置-->
+		                    <div id="awardsSetting" class="settingBox hide ng-scope" option="1" style="display: none;">
+		                    	<div id="awardBox" class="awardBox relative">
+		                    		<div id="awardBoxTitle" class="" style="top: 72px; left: 451.141px;">                     
+							            <div class="awardNums pd10 commBg">
+							                
+							                <span class="topAwardExplain text">请设置砍价商品</span>
+							            </div>
+							            <div class="awardLevelBox commBg">
+							               <div class="awardLevelItem norLevelItem ng-scope " ng-class="{checked:spindx == $index}" ng-repeat="indexs in getIntList(1,indx) track by $index"  ng-click="mindx($index)" >
+								               	<span class="awardItemName ng-binding noBorder">{{params[indexs-1].stab}}</span>
+								               	<div class="awardErrDot"></div>
+							               </div>
+							               
+							               
+							               
+							                <span class="awardNumOptBox">
+							                    <div id="delAwardNum" ng-click="setadrj(-1)"  ng-hide="indx == 1"  class="awardNumOpt pointer delAwardNum "></div>
+							                    <div id="addAwardNum" ng-click="setadr(1)" ng-hide="indx == 5"  class="awardNumOpt pointer addAwardNum" style="margin-left:9px"></div>
+							                </span>
+							                
+							            </div>
+							            
+							            
+							        </div>
+							        
+							        
+							        <div  style="padding: 10px 0px;" >
+							        	<div id="awardDetail" ng-repeat="indexs in params track by $index" ng-class="{'hide':$index != spindx}"  class="awardDetail transitionPanel">
+							        		<p class="underLineWay">
+							                    <span class="fontWeight">基本选项{{$index+1}}</span>
+							                   
+							                </p>
+							                <div   class="awardSettingBox ng-scope"  style="left: 0px; display: block;">
+							                	
+							                	<div  class="awardDescribeBox baseLine3 awardSettingLine" >
+							                        <span class="leftTitle2">
+							                        	<span class="flag">*</span>
+							                        	<div class="awardTitle ng-binding">商品名称：</div>
+							                        </span>
+							                        <input  ng-model="params[spindx].cont" class="awardDescribe input input1 ng-pristine ng-untouched ng-valid" type="text">
+							                       
+							                    </div>
+							                    
+							                    <div id="awardAmountSetting" class="awardAmountSetting">
+							                       <div  class="baseLine3 amounLine awardSettingLine ng-scope">
+							                            <span class="leftTitle2">
+							                            	<span class="flag">*</span>
+							                            	<div class="awardTitle ng-binding">商品数量：</div>
+							                            </span>
+							                            <input ng-model="params[spindx].spnbr" class="awardAmount awardTypeCount2 input onlyNum input1 ng-valid-maxlength" maxlength="5" type="text" name="">
+							                            
+							                        </div>
+							                        
+							                    </div>
+							                    
+							                    <div class="baseLine1 awardSettingLine theAwardPrice">
+						                            <span class="leftTitle2"><span class="flag">*</span><div class="awardTitle ng-binding">商品原价：</div></span>
+						                            <input ng-model="params[spindx].spyj"  class="awardPrice input input1 ng-valid ng-valid-maxlength ng-dirty ng-valid-parse ng-touched" maxlength="6" type="text">
+						                            <div class="tipsColor awardMg">活动发布后原价将无法更改</div>
+						                        </div>
+						                        <div class="baseLine1 awardSettingLine theCutDownPriceTarget">
+						                            <span class="leftTitle2"><span class="flag">*</span><div class="awardTitle">砍价目标：</div></span>
+						                            <input ng-model="params[spindx].spkjmb" class="awardTarget input input1 ng-pristine ng-untouched ng-valid ng-valid-maxlength" maxlength="6" type="text" >
+						                            <div class="tipsColor awardMg">活动发布后目标将无法更改</div>
+						                        </div>
+						                        
+						                        <div class="baseLine1 awardSettingLine clearfix">
+						                            <span class="leftTitle2"><span class="flag">*</span><div class="awardTitle">需砍次数：</div></span>
+						                            预计需要 <input ng-model="params[spindx].spxknb" class="needHelpPeople input input30 ng-pristine ng-untouched ng-valid ng-valid-maxlength" maxlength="3" type="text"> <span class="ng-binding">个好友帮忙砍价后才能领取商品</span>
+						                            <div class="tipsColor awardMg">发布后需砍价次数将无法修改</div>
+						                        </div>
+						                        
+						                        <div class="baseLine3 awardSettingLine clearfix ng-scope">
+						                            <div class="floatLeft leftTitle2"><span class="flag">*</span><div class="awardTitle ng-binding">商品图片：</div></div>
+						                            <div class="floatLeft boxShower">
+						                                <div class="comUploadWarp">
+						                                    <div class="comUploadImg showImgBox">
+						                                        <img ng-src="{{params[spindx].spimgs}}"  src="//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029" width="80" height="41" style="display: block;">
+						                                    </div>
+						                                    <div class="comUploadBox">
+						                                        <span id="selectPicHY{{$index}}" class=" selectPicHY main-Button"></span>
+						                                        <div class="comUploadExplain">图片像素建议为<span style="color:#64cea6">640px*330px</span></div>
+						                                        <div class="comUploadExplain">请上传jpg、png、gif格式的图片</div>
+						                                    </div>
+						                                </div>
+						                            </div>
+						                        </div>
+						                        
+						                        <p class="underLineWay ng-scope">
+							                        <span class="fontWeight">兑奖选项</span>
+							                    </p>
+							                    
+							                    <!--<div class="setCashTypeBox baseLine3 awardSettingLine">
+						                            <span class="leftTitle2"><span class="flag">*</span><div class="awardTitle">兑奖方式：</div></span>
+						                            
+						                            <input id="cashUnderline{{$index}}" ng-model="params[spindx].spdjfs" ng-click="spindex(1)" class="cashUnderline" ng-value="::1"   type="radio" name="cashType{{$index}}" value="1"><label for="cashUnderline{{$index}}">线下兑奖</label>
+						                           
+						                            <input id="cashWeb{{$index}}" ng-model="params[spindx].spdjfs" ng-click="spindex(2)" class="cashWeb" ng-value="::2"  type="radio" name="cashType{{$index}}" value="2"><label for="cashWeb{{$index}}">网页兑奖</label>    
+						                        </div>-->
+						                        
+						                        <div class="setAwardBox"  style="display: block;">
+						                            <div class="setAwardOptInfoBox baseLine3 awardSettingLine">
+						                                <span class="leftTitle2"><span class="flag">*</span><div class="awardTitle">操作提示：</div></span>
+						                                <input ed-check-sensit-word="" ng-model="params[spindx].spti" class="awardOptInfo input input1 blurCheck wxCardInput ng-pristine ng-untouched ng-valid" type="text">
+						                                
+						                            </div>
+						                            <div class="setAwardCashSiteBox baseLine3 awardSettingLine clearfix" >
+						                                <div class="leftTitle2" ng-show="params[spindx].spdjfs == 1"><span class="flag" style="display: inline-block;">*</span><div class="awardTitle ng-binding">兑奖地址：</div></div>
+						                                 <!--<div class="leftTitle2" ng-show="params[spindx].spdjfs == 2"><div class="awardTitle ng-binding">网页地址：</div></div>-->
+						                                <div class="rightBox">
+						                                    
+						                                    <div class="cashAddress" >
+						                                        <div class="cashSiteIpt" ng-show="params[spindx].spdjfs == 1" >
+						                                            <input ng-model="params[spindx].spdiz"  ed-check-sensit-word="" sensit-word-err-style="margin-left: 0;" class="awardCashSite input input1 blurCheck wxCardInput ng-pristine ng-untouched ng-valid" type="text">
+						                                        </div>
+						                                        <div class="cashUrlIpt ERR_lock ERR_lock_strict" ng-show="params[spindx].spdjfs == 2" >
+						                                            <input ng-model="params[spindx].splj"  class="awardCashSiteUrl input input6 blurCheck wxCardInput ng-pristine ng-untouched ng-valid" type="text">
+						                                        </div>
+						                                    </div>
+						                                    
+						                                    
+						                                </div>
+						                            </div>
+						                            
+						                            <div class="setCodeTimeBox baseLine baseLine3 awardSettingLine" >
+								                        <span class="leftTitle2"><span class="flag">*</span><div class="usePeriod awardTitle ng-binding">兑奖期限：</div></span>
+								                        <input ng-model="params[spindx].spqx" ng-click="sptimeindex(1)" ng-value="::1" value="1" id="timeRangeType{{$index}}" class="timeRangeType "  type="radio" name="timeType{{$index}}"><label for="timeRangeType{{$index}}">固定日期</label>
+								                        <input ng-model="params[spindx].spqx" ng-click="sptimeindex(2)" ng-value="::2" value="2" id="termType{{$index}}" class="termType"  type="radio" name="timeType{{$index}}"><label for="termType{{$index}}">固定时长</label>
+								                        <div class="codeTimeBox awardMg">
+								                            <div id="timeRangeBox0" class="timeRangeBox" ng-show="params[spindx].spqx == 1" >
+								                                <input ng-model="params[spindx].spstartime" ng-change="spstatimecod()"  style="width:202px" readonly="" type="text"   id="dp1{{$index}}"> 至 
+								                                <input ng-model="params[spindx].spendtime"  ng-change="spendtimecod()" style="width:202px" readonly="" type="text"  id="dp15{{$index}}">
+								                            </div>
+								                            <div id="termBox0" class="termBox ng-hide" ng-show="params[spindx].spqx == 2" >
+								                                领取后 <select ng-model="params[spindx].spsxday" ng-options="i as (i==0?'当天':i+'天') for i in daylist() track by i" ng-change="spstardaycod()" class="codeFixedBeginTerm input wxCardInput "></select> 生效，有效天数 
+								                                <select ng-model="params[spindx].spyxday" ng-options="i as (i+'天') for i in daylist() track by i" ng-change="spenddaycod()" class="codeFixedBeginTerm1 input wxCardInput "></select>
+								                            </div>
+								                            
+								                        </div>
+								                    </div>
+								                    
+								                    <p class="underLineWay ng-scope">
+								                        <span class="fontWeight">高级选项</span>
+								                    </p>
+								                    
+								                    <div class="setAwardSubTitleBox baseLine3 awardSettingLine">
+						                                <span class="leftTitle2"><div class="awardTitle">副标题：</div></span>
+						                                <input ng-model="params[spindx].sptitle" ed-check-sensit-word="" class="awardSubTile input input1 wxCardInput " type="text">
+						                            </div>
+						                            
+						                            <div class="setServicePhoneBox baseLine3 awardSettingLine">
+						                                <span class="leftTitle2"><div class="awardTitle">客服电话：</div></span>
+						                                <input ng-model="params[spindx].sptel" class="servicePhone input input1 wxCardInput" type="text">
+						                            </div>
+						                            
+						                            <div class="setCashInfoBox baseLine3 awardSettingLine ">
+							                            <span class="leftTitle2" style="vertical-align:top"><div class="awardTitle alignTop ng-binding">兑奖须知：</div></span>
+							                            <textarea ng-model="params[spindx].spjxz" ed-check-sensit-word="" ng-trim="false" class="cashInfoContent input awardTextArea wxCardInput "></textarea>               
+							                        </div>
+							                        
+							                        <div class="setAwardBtnBox baseLine3 awardSettingLine">
+							                            <span class="leftTitle2"><div class="awardTitle">自定义按钮：</div>
+							                            </span>
+							                            <input ng-model="params[spindx].spbutton" ng-value="::1" id="closeAwardBtn{{$index}}" ng-click="spbtnindex(1)" class="closeAwardBtn cusAwardBtn wxCardInput " type="radio" name="cusAwardBtn{{$index}}" value="1"><label for="closeAwardBtn{{$index}}">关闭</label>
+							                            <input ng-model="params[spindx].spbutton" ng-value="::2" ng-click="spbtnindex(2)" id="openAwardBtn{{$index}}" class="openAwardBtn cusAwardBtn wxCardInput " type="radio" name="cusAwardBtn{{$index}}" value="2"><label for="openAwardBtn{{$index}}">页面跳转</label>
+							                            <span ><input ng-model="params[spindx].spbutton" ng-value="::3" id="newAttention{{$index}}" ng-click="spbtnindex(3)" type="radio" name="cusAwardBtn{{$index}}" class="newAttention cusAwardBtn wxCardInput" value="3"><label for="newAttention{{$index}}">一键关注</label></span>
+							                            <div class="awardBtnBox awardMg ERR_lock ERR_lock_strict" >
+							                                <div class="setAwardCusBtnBox baseLine3" ng-hide="params[spindx].spbutton == 1">
+							                                    <span class="leftTitle2"><span class="flag">*</span>按钮名称：</span>
+							                                    <input ng-model="params[spindx].spbuttonname" sensit-word-err-style="margin-left: 120px;" class="awartBtnTitle input input6 wxCardInput " type="text">
+							                                </div>
+							                                <div class="baseLine3 uploadQrCode" >
+							                                    <span class="leftTitle2"><span class="AttentionName ng-binding" ng-show="params[spindx].spbutton == 3">微信公众号：</span><span ng-show="params[spindx].spbutton == 2" class="AttentionName ng-binding">按钮链接：</span></span>
+							                                    <input ng-model="params[spindx].spbuttonhtt" ng-show="params[spindx].spbutton == 2"  class="awardBtnLink input input6 wxCardInput ng-valid-maxlength ng-hide" maxlength="1000" type="text">
+							                                    <div id="AttentionBox0"  style="display:inline-block" ng-show="params[spindx].spbutton == 3" class="AttentionBox ng-hide">
+							                                        <div class="attentionImg comUploadImg">
+							                                            <img ng-src="{{params[spindx].spgcodimg}}"  src="//hd.faisys.com/image/qrcodeImg.jpg" width="52" height="52" style="display: block;">
+							                                        </div>
+							                                  
+							                                        <div class="QRloaBox comUploadBox chooseImg">
+							                                            <span id="AtentionBtn{{$index}}" class=" main-Button"></span>
+							                                            
+							                                        </div>
+							                                    </div>
+							                                </div>
+							                            </div>                                                      
+							                        </div>
+							                        
+							                        
+						                         <!--end-->   
+						                        </div>
+						                        
+							                </div>
+							        	</div>
+							        	
+							        </div>
+		                    	</div>
+		                    </div>
+		                    
+		                    <!--高级设置-->
+							<div id="moreSetting" class="settingBox" option="3"  style="display: none;">
+								<div class="hd_company_info">
+		                            <div class="seniorSetBoxOption underLineWay" ng-click="game.$setBaseBoxStatus('$base_compay_set')">
+		                                <span class="fontWeight">企业信息</span>
+		                                
+		                            </div>
+		                            <div id="companySetBox" class="subTabsettingBox">
+		                                
+		                               
+		                                
+		                                
+		                                <div id="menuBoxWrap" class="menuBoxWrap baseLine1">
+		                                    <div class="baseLine baseLine1">
+		                                        <span class="leftTitle"><span class="baseSettingTitle">功能按钮：</span></span>
+		                                        <input id="closeMenu" ng-model="gjconf.cndbtn" ng-click="conctns(1)" ng-value="::1" type="radio" name="menuStyle" value="1"><label for="closeMenu">隐藏</label>
+		                                        <input id="jumpPage" ng-model="gjconf.cndbtn" ng-click="conctns(2)" ng-value="::2" type="radio" name="menuStyle"  value="2"><label for="jumpPage">页面跳转</label>
+		                                        <input id="attention" ng-model="gjconf.cndbtn" ng-click="conctns(3)" ng-value="::3" type="radio" name="menuStyle"  value="3"><label for="attention">一键关注</label>
+		                                    </div>
+		                                    <div id="menuBox" class="menuBox commMg ERR_lock" ng-hide="gjconf.cndbtn == 1">
+		                                        <div class="baseLine" >
+		                                            <span class="leftTitle2"><span class="flag">*</span>按钮名称：</span>
+		                                            <input type="text" ng-model="gjconf.cndbtnname" id="menuName" class="menuName input input2 ng-pristine ng-untouched ng-valid" >
+		                                        </div>
+		                                        <div id="menuLinkBox1" ng-show="gjconf.cndbtn ==2" class="baseLine1 ERR_lock" >
+		                                            <span class="leftTitle2"><span>按钮链接：</span></span>
+		                                            <input type="text" ng-model="gjconf.cndbtnlj" id="menuLink" class="input input2 ng-pristine ng-untouched ng-valid"  value="">
+		                                        </div>
+		                                        <div id="menuLinkBox2" class="baseLine1 ERR_lock" ng-show="gjconf.cndbtn == 3" >
+		                                            <span class="leftTitle2"><span>微信公众号：</span></span>
+		                                            <div id="QRCodeBox" class="uploadQrCode" style="display: inline-block;">
+		                                                <div class="QRImg comUploadImg" style="margin-left: 150px;">
+		                                                    <img ng-src="{{gjconf.cndbtnimg}}"  myattr="//hd.faisys.com/image/qrcodeImg.jpg" src="//hd.faisys.com/image/qrcodeImg.jpg" width="52" height="52" style="display: block;">
+		                                                </div><div class="QRloaBox comUploadBox chooseImg" style="margin-left: 100px;" >
+		                                                    <span id="QRloadButton" class="main-Button"></span>
+		                                                    
+		                                                </div>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+								
+								
+							<!--end-->	
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<script type="text/javascript" src="js/newmain.js" ></script>
+		<script type="text/javascript" src="js/layui/layui.js" ></script>
+		<script>
+				var lcsess = sessionStorage.getItem("_reguser_id");
+				var userxx = JSON.parse(lcsess);
+				
+			function fscop(){
+				var a = $("#sda").scope();
+				return a;
+			}
+			
+			var app = angular.module('myApp', []);
+				app.controller('myCtrl', function($rootScope,$scope,$http) {
+//					$http({
+//			            method:'get', //get请求方式
+//			            url:'/index.php/Api/Add/web_create_activity'   //请求地址
+//			        }).then(function(response){
+//			            //成功时执行
+//			            console.log(response);
+//			            
+//			        },function(response){
+//			            //失败时执行 
+//			            console.log(response);
+//			        });
+					$scope.inpus = true;//商品循环次数
+
+					$scope.userid = userxx.user_id;
+					$scope.indx = 3;//商品循环次数
+					$scope.spindx = 0;//商品点击下标
+					
+					$scope.rsid = true;//虚拟参加人数控制
+					$scope.rsidnb = 0;//虚拟参加人数
+					$scope.xzrsid = true;//现在参加人数控制
+					$scope.xzrsidnb = 100;//参加人数
+					$scope.kjrsid = true;//砍价数控制
+					$scope.kjrsidnb = 3;//砍价商品数
+					$scope.hdjc = {"title":"参与活动赢大奖","startime":"2018-06-10 19:39","endtime":"2018-06-17 19:39","cont":"选择商品后进行砍价，自砍一刀后邀请好友帮忙砍，砍到目标价格后即可领取奖品。"};
+				
+				    $scope.params = [{"stab":"商品一","cont":"价值100元礼品","spnbr":"0","spyj":"10","spkjmb":"0","spxknb":"5","spimgs":"//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029","spdjfs":"1","spti":"凭券联系现场工作人员兑奖","spdiz":"请填写您的兑奖地址或者门店地址","splj":"http://","spqx":"1","spstartime":"2018-06-10","spendtime":"2018-06-17","spsxday":"0","spyxday":"30","sptitle":"","sptel":"","spjxz":"","spbutton":"1","spbuttonname":"","spbuttonhtt":"","spgcodimg":"//hd.faisys.com/image/qrcodeImg.jpg"},
+				    {"stab":"商品二","cont":"价值50元礼品","spnbr":"0","spyj":"10","spkjmb":"0","spxknb":"5","spimgs":"//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029","spdjfs":"1","spti":"凭券联系现场工作人员兑奖","spdiz":"请填写您的兑奖地址或者门店地址","splj":"http://","spqx":"1","spstartime":"2018-06-10","spendtime":"2018-06-17","spsxday":"0","spyxday":"30","sptitle":"","sptel":"","spjxz":"","spbutton":"1","spbuttonname":"","spbuttonhtt":"","spgcodimg":"//hd.faisys.com/image/qrcodeImg.jpg"},
+				    {"stab":"商品三","cont":"价值10元礼品","spnbr":"0","spyj":"10","spkjmb":"0","spxknb":"5","spimgs":"//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029","spdjfs":"1","spti":"凭券联系现场工作人员兑奖","spdiz":"请填写您的兑奖地址或者门店地址","splj":"http://","spqx":"1","spstartime":"2018-06-10","spendtime":"2018-06-17","spsxday":"0","spyxday":"30","sptitle":"","sptel":"","spjxz":"","spbutton":"1","spbuttonname":"","spbuttonhtt":"","spgcodimg":"//hd.faisys.com/image/qrcodeImg.jpg"},
+				    {"stab":"商品四","cont":"价值5元小礼品","spnbr":"0","spyj":"10","spkjmb":"0","spxknb":"5","spimgs":"//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029","spdjfs":"1","spti":"凭券联系现场工作人员兑奖","spdiz":"请填写您的兑奖地址或者门店地址","splj":"http://","spqx":"1","spstartime":"2018-06-10","spendtime":"2018-06-17","spsxday":"0","spyxday":"30","sptitle":"","sptel":"","spjxz":"","spbutton":"1","spbuttonname":"","spbuttonhtt":"","spgcodimg":"//hd.faisys.com/image/qrcodeImg.jpg"},
+				    {"stab":"商品五","cont":"价值5元小礼品","spnbr":"0","spyj":"10","spkjmb":"0","spxknb":"5","spimgs":"//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029","spdjfs":"1","spti":"凭券联系现场工作人员兑奖","spdiz":"请填写您的兑奖地址或者门店地址","splj":"http://","spqx":"1","spstartime":"2018-06-10","spendtime":"2018-06-17","spsxday":"0","spyxday":"30","sptitle":"","sptel":"","spjxz":"","spbutton":"1","spbuttonname":"","spbuttonhtt":"","spgcodimg":"//hd.faisys.com/image/qrcodeImg.jpg"},];
+				    
+          			$scope.gjconf = {"cndbtn":"1","cndbtnname":"企业官网","cndbtnlj":"","cndbtnimg":"//hd.faisys.com/image/qrcodeImg.jpg"};
+          			
+          			
+          			//控制循环
+          			$scope.getIntList = function(t, r) {
+						var q = [];
+						for(var s = t; s <= r; s++) {
+							q.push(s)
+						}
+						return q
+					};
+					//控制减
+					$scope.setadrj = function(a) {
+						$scope.indx += a;
+						var b = $scope.indx;
+						
+						$("#gamePreviewPage").contents().find('.unComfortLine').eq(b).hide();
+						$("#gamePreviewPage").contents().find('.showAwadListPage').eq(b).hide();
+						
+					};
+					//控制加
+					$scope.setadr = function(a) {
+						$scope.indx += a;
+						var b = $scope.indx;
+						
+						$("#gamePreviewPage").contents().find('.unComfortLine').eq(b-1).show();
+						$("#gamePreviewPage").contents().find('.showAwadListPage').eq(b-1).show();
+
+					};
+					
+					//切换
+					$scope.mindx = function(a) {
+						$scope.spindx = a;
+						$("#gamePreviewPage").contents().find('.theAwardDetail').html($scope.params[a].cont);
+						$("#gamePreviewPage").contents().find('.layerId-20').html($scope.params[a].cont);
+						$("#gamePreviewPage").contents().find('.theItemBox0').attr("src",$scope.params[a].spimgs);
+						
+						if($scope.params[a].spqx == 1){
+							$("#gamePreviewPage").contents().find('.spstarcodtime').html($scope.params[a].spstartime);
+							$("#gamePreviewPage").contents().find('.spendcodtime').html($scope.params[a].spendtime);
+							$("#gamePreviewPage").contents().find('.layerId-1').show();
+							$("#gamePreviewPage").contents().find('.layerId-2').hide();
+							$("#gamePreviewPage").contents().find('.layerId-3').show();
+							$("#gamePreviewPage").contents().find('.layerId-4').hide();
+						}else{
+							$("#gamePreviewPage").contents().find('.codeBgTimeday').html($scope.params[a].spsxday);
+							$("#gamePreviewPage").contents().find('.codeBgTimeyxday').html($scope.params[a].spyxday);
+							$("#gamePreviewPage").contents().find('.layerId-1').hide();
+							$("#gamePreviewPage").contents().find('.layerId-2').show();
+							$("#gamePreviewPage").contents().find('.layerId-3').hide();
+							$("#gamePreviewPage").contents().find('.layerId-4').show();
+						}
+						
+						if($scope.params[a].spdjfs == 1){
+							
+							$("#gamePreviewPage").contents().find('.layerId-23').show();
+							$("#gamePreviewPage").contents().find('.layerId-28').html($scope.params[a].spti);
+							$("#gamePreviewPage").contents().find('.address').html($scope.params[a].spdiz);
+						}else{
+							$("#gamePreviewPage").contents().find('.layerId-23').hide();
+							$("#gamePreviewPage").contents().find('.layerId-28').html($scope.params[a].spti);
+						}
+						
+						$("#gamePreviewPage").contents().find('.layerId-21').html($scope.params[a].sptitle);
+						$("#gamePreviewPage").contents().find('.phoneText').html($scope.params[a].sptel);
+						$("#gamePreviewPage").contents().find('.notice').children("pre").html($scope.params[a].spjxz);
+						
+						
+						if($scope.params[a].spbutton == 1){
+							$("#gamePreviewPage").contents().find('.textDef1').hide();
+							$("#gamePreviewPage").contents().find('.textDef').show();
+							 
+						}else if($scope.params[a].spbutton == 2){
+							$("#gamePreviewPage").contents().find('.textDef1').show();
+							$("#gamePreviewPage").contents().find('.textDef').hide();
+							$("#gamePreviewPage").contents().find('.textDef1').html($scope.params[a].spbuttonname);
+						}else{
+							$("#gamePreviewPage").contents().find('.textDef1').show();
+							$("#gamePreviewPage").contents().find('.textDef').hide();
+							$("#gamePreviewPage").contents().find('.textDef1').html($scope.params[a].spbuttonname);
+						}
+						
+					};
+					
+					
+					$scope.spindex = function(a) {
+						var b = $scope.spindx;
+						if(a == 1){
+							$scope.params[b].spti = "凭券联系现场工作人员兑奖";
+							$("#gamePreviewPage").contents().find('.codeOptInfo').html($scope.params[b].spti);
+							$("#gamePreviewPage").contents().find('.layerId-23').show();
+						}else{
+							$scope.params[b].spti = "点击“立即兑奖”跳转到兑奖界面";
+							$("#gamePreviewPage").contents().find('.codeOptInfo').html($scope.params[b].spti);
+							$("#gamePreviewPage").contents().find('.layerId-23').hide();
+						}
+					};
+					$scope.sptimeindex = function(a) {
+						var b = $scope.spindx;
+						if(a == 1){
+							
+							$("#gamePreviewPage").contents().find('.layerId-1').show();
+							$("#gamePreviewPage").contents().find('.layerId-2').hide();
+							$("#gamePreviewPage").contents().find('.layerId-3').show();
+							$("#gamePreviewPage").contents().find('.layerId-4').hide();
+							
+						}else{
+							
+							$("#gamePreviewPage").contents().find('.layerId-1').hide();
+							$("#gamePreviewPage").contents().find('.layerId-2').show();
+							$("#gamePreviewPage").contents().find('.layerId-3').hide();
+							$("#gamePreviewPage").contents().find('.layerId-4').show();
+							
+						}
+					};
+					$scope.spbtnindex = function(a) {
+						var b = $scope.spindx;
+						if(a == 1){
+							$("#gamePreviewPage").contents().find('.textDef1').hide();
+							$("#gamePreviewPage").contents().find('.textDef').show();
+						}else if(a == 2){
+							$scope.params[b].spbuttonname = "企业官网";
+							$("#gamePreviewPage").contents().find('.textDef1').html($scope.params[b].spbuttonname);
+							$("#gamePreviewPage").contents().find('.textDef1').show();
+							
+							$("#gamePreviewPage").contents().find('.textDef').hide();
+						}else{
+							$scope.params[b].spbuttonname = "关注我们";
+							$("#gamePreviewPage").contents().find('.textDef1').html($scope.params[b].spbuttonname);
+							$("#gamePreviewPage").contents().find('.textDef1').show();
+							$("#gamePreviewPage").contents().find('.textDef').hide();
+						}
+					};
+					$scope.daylist = function() {
+						var b = [];
+						for(var i = 0; i<109; i++){
+							b.push(i);
+						}
+						return b;	
+					};
+					
+					$scope.spstatimecod = function() {
+						var b = $scope.spindx;
+						$("#gamePreviewPage").contents().find('.spstarcodtime').html($scope.params[b].spstartime);
+					};
+					$scope.spendtimecod = function() {
+						var b = $scope.spindx;
+						$("#gamePreviewPage").contents().find('.spendcodtime').html($scope.params[b].spendtime);
+					};
+					
+					$scope.spstardaycod = function() {
+						var b = $scope.spindx;
+						
+						$("#gamePreviewPage").contents().find('.codeBgTimeday').html($scope.params[b].spsxday);
+					};
+					$scope.spenddaycod = function() {
+						var b = $scope.spindx;
+						alert($scope.params[b].spyxday)
+						$("#gamePreviewPage").contents().find('.codeBgTimeyxday').html($scope.params[b].spyxday);
+					};
+					
+					$scope.conctns = function(a) {
+						
+						if(a == 1){
+							
+							$("#gamePreviewPage").contents().find('.menuBtnBox').hide();
+						}else if(a == 2){
+							$scope.gjconf.cndbtnname = "企业官网";
+							$("#gamePreviewPage").contents().find('.menuName').html($scope.gjconf.cndbtnname);
+							$("#gamePreviewPage").contents().find('.menuBtnBox').show();
+							
+							
+						}else{
+							$scope.gjconf.cndbtnname  = "关注我们";
+							$("#gamePreviewPage").contents().find('.menuName').html($scope.gjconf.cndbtnname);
+							$("#gamePreviewPage").contents().find('.menuBtnBox').show();
+							
+						}
+					};
+					
+					
+//					
+					
+					$scope.mpost = function(){
+						var ipts = $scope.inpus;
+						if(ipts == false ){
+							return false;
+						}
+						var msj = [];
+						msj.push({
+							userid : $scope.userid,
+							indx : $scope.indx,
+							rsid : $scope.rsid,
+							rsidnb : $scope.rsidnb,
+							xzrsid : $scope.xzrsid,
+							xzrsidnb : $scope.xzrsidnb,
+							kjrsid : $scope.kjrsid,
+							kjrsidnb : $scope.kjrsidnb,
+							hdjc : $scope.hdjc,
+							params : $scope.params,
+							gjconf : $scope.gjconf
+							
+						});
+						$.ajax({
+					        type: "post",//使用post方法访问后台
+					        url: '/index.php/Api/Add/web_create_activity',
+					        data:{
+					        	mhd : msj
+					        },
+					        error: function(){
+					            alert("保存失败")
+					            //$("#validateCode").val('');
+					        },
+					        success: function(result){
+					        	console.log(result)
+					            if(result == 1){
+					            	 alert("保存成功");
+					            }
+					        }
+					    });
+						
+						
+						  console.log(msj);
+					}
+					
+					
+				});
+		</script>
+	
+		
+	</body>
+
+</html>

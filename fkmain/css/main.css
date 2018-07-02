@@ -1,0 +1,600 @@
+@charset "utf-8";
+#storeContainer {
+	margin: 28px
+}
+.headerRight {
+    height: 68px;
+    line-height: 68px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+}
+.headerRight .topTag {
+    float: right;
+    height: 68px;
+    line-height: 68px;
+    
+    width: 110px;
+    position: relative;
+}
+.headerRight .userNameWidth {
+    display: inline-block;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: right;
+    color: #666;
+}
+.headerRight .companySummary {
+    cursor: pointer;
+    margin-right: 0px;
+    width: 110px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.headerRight .serviceSupport {
+    cursor: pointer;
+}
+.headerRight .outImg {
+    background: url(../img/bz.png) -230px -70px no-repeat;
+    color: #fff;
+    width: 12px;
+    height: 11px;
+    margin: 29px 20px 0 5px;
+    float: right;
+}
+.headerRight .bottomImg {
+    background: url(../img/bz.png) -229px -40px no-repeat;
+    color: #fff;
+    width: 12px;
+    height: 5px;
+    margin: 32px 14px 0 5px;
+    float: right;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: rotate(0deg);
+}
+.sep {
+    float: left;
+    width: 1px;
+    height: 10px;
+    min-height: 10px;
+    background: #c5c5c5;
+    margin-top: 29px;
+}
+.headerRight .topTag a {
+    color: #3497db;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.companySummaryWindow {
+    position: absolute;
+    top: 67px;
+    z-index: 11;
+    width: 255px;
+    max-height: 100px;
+    padding-bottom: 10px;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    right: 89px;
+    display: none;
+}
+.headerRight .companySummary:hover{
+	margin-right: -1px;
+    width: 111px;
+    border-left: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+}
+.headerRight .companySummary:hover  .bottomImg {
+	transform: rotate(180deg);
+}
+
+
+.companySummaryWindow .row {
+    height: 30px;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: rgb(102, 102, 102);
+    line-height: 30px;
+    margin-left: 25px;
+}
+.row .corpTitle {
+    float: left;
+}
+.row .corpContent {
+    float: left;
+}
+
+
+#storeContainer .storeTitle {
+	position: relative;
+	line-height: 56px
+}
+
+#store_addStore_btn {
+	position: absolute;
+	right: 16px;
+	top: 10px
+}
+
+#store_addStore_btn .btn {
+	font-size: 14px;
+	padding: 0 12px
+}
+
+#store_addStore_btn .btn .icon {
+	width: 22px
+}
+
+#addStoreBtn .icon {
+	background-position: -355px -845px
+}
+
+.storeBar {
+	position: relative;
+	text-align: right;
+	height: 55px;
+	border-bottom: 1px solid #e7e7e7
+}
+
+.storeBar .searchBoxCont {
+	float: left;
+	margin: 12px 0 0 16px
+}
+
+.storeBar .recordBtn,
+.storeBar .exportBtn {
+	display: inline-block;
+	vertical-align: middle;
+	width: 72px;
+	height: 30px;
+	border: 1px solid #e7e7e7;
+	text-align: center;
+	line-height: 32px;
+	margin-top: -3px;
+	margin-right: 8px;
+	color: #787878;
+	cursor: pointer
+}
+
+.storeBar .exportBtn {
+	width: 100px;
+	margin-right: 16px
+}
+
+.storeBar .recordBtn .icon {
+	width: 24px;
+	height: 24px;
+	background-position: -554px -907px
+}
+
+.storeBar .exportBtn .icon {
+	width: 24px;
+	height: 24px;
+	background-position: -657px -907px
+}
+
+.storeBar .recordBtn:hover,
+.storeBar .exportBtn:hover,
+.storeBar .recordBtn.checked,
+.storeBar .exportBtn.checked {
+	background: #329fea;
+	color: #fff!important;
+	border-color: #329fea
+}
+
+.storeBar .recordBtn:hover .icon,
+.storeBar .recordBtn.checked .icon {
+	background-position: -606px -907px
+}
+
+.storeBar .exportBtn:hover .icon,
+.storeBar .exportBtn.checked .icon {
+	background-position: -704px -907px
+}
+
+.storeBar #barAddressSelect {
+	display: inline-block;
+	margin-top: 12px
+}
+
+.storeBar #barAddressSelect .selectBox {
+	display: inline-block;
+	position: relative;
+	width: 110px;
+	margin-right: 8px
+}
+
+#showStoreTable .faiTableWrap {
+	border: 0 none
+}
+
+#showStoreTable .faiTableWrap .center table.faiTable thead tr,
+#showStoreTable .faiTableWrap .center table.faiTable tbody tr,
+#showStoreTable .faiTableWrap .center table.faiTable tbody tr td {
+	height: 56px
+}
+
+#showStoreTable .faiTableWrap .center table.faiTable tbody tr td .noAuth {
+	color: #ccc
+}
+
+#showStoreTable .column1 {
+	width: 278px;
+}
+
+#showStoreTable .column4 {
+	width: 200px;
+}
+
+#showStoreTable .textCenter a {
+	color: #74b7e6;
+	padding: 0 8px
+}
+
+#showStoreTable .textCenter a:hover {
+	color: #329fea;
+	text-decoration: underline
+}
+
+#editStoreInfoTitle {
+	font-size: 16px;
+	line-height: 16px;
+	padding: 12px 0 20px 16px;
+	color: #949494
+}
+
+#editStoreInfoTitle .icon {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-top: solid 1px #585858;
+	border-left: solid 1px #585858;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	margin-top: -3px;
+	vertical-align: middle;
+	margin-right: 4px
+}
+
+#editStoreInfoBox {
+	margin: 28px
+}
+
+#editStoreInfoTitle a {
+	text-decoration: underline;
+	color: #585858;
+	display: inline-block;
+	margin-right: 8px
+}
+
+#editStoreInfoTitle .name {
+	display: inline-block;
+	margin-left: 8px
+}
+
+#storeInfoIframeContainer {
+	height: 800px
+}
+
+#storeInfoIframeContainer iframe {
+	width: 100%;
+	height: 100%;
+	border: 0
+}
+
+#storeEditContainer .storeTitle {
+	position: relative;
+	line-height: 56px
+}
+
+.addStoreContainer {
+	padding-top: 20px
+}
+
+#storeInfoButton {
+	position: absolute;
+	right: 16px;
+	height: 36px;
+	top: 10px
+}
+
+#storeInfoButton .poupBtn {
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 14px
+}
+
+#storeInfoButton #cancelButton {
+	border: solid 1px #e7e7e7;
+	width: 98px
+}
+
+#storeInfoButton #saveButon .icon {
+	background-position: -212px -617px
+}
+
+.addStoreContainer .baseSetting .line {
+	padding-bottom: 18px
+}
+
+.addStoreContainer .baseSetting .titleName {
+	width: 108px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 12px
+}
+
+.addStoreContainer .baseSetting .giftTitleName {
+	width: auto;
+	margin: 0 12px 11px 16px
+}
+
+.addStoreContainer .baseSetting .line input {
+	width: 424px;
+	height: 44px;
+	padding: 0 10px
+}
+
+.addStoreContainer .baseSetting .line .giftInput {
+	width: 510px;
+	height: 44px;
+	margin-left: 38px
+}
+
+.line input.error {
+	border: 1px solid red!important
+}
+
+.addStoreContainer .baseSetting .line p.tip {
+	margin-top: 6px;
+	padding-left: 124px;
+	display: none;
+	color: red
+}
+
+.addStoreContainer .baseSetting .line p.rbTip {
+	margin-top: 6px
+}
+
+.addStoreContainer .baseSetting .line p.rbTip span {
+	padding: 0 4px;
+	color: red
+}
+
+.addStoreContainer .baseSetting .line p.rbTip a {
+	text-decoration: underline;
+	color: #74b7e6;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 10px
+}
+
+.addStoreContainer .baseSetting .line p.rbTip a:hover {
+	color: #329fea
+}
+
+.addStoreContainer .baseSetting .line p.giftTip {
+	margin-top: 6px
+}
+
+.addStoreContainer .baseSetting .line p.giftTip span {
+	padding: 0 4px;
+	color: red
+}
+
+.addStoreContainer .baseSetting .line p.giftTip a {
+	text-decoration: underline;
+	color: #74b7e6;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 10px
+}
+
+.addStoreContainer .baseSetting .line p.giftTip a:hover {
+	color: #329fea
+}
+
+.addStoreContainer .baseSetting .line .selectBox {
+	display: inline-block;
+	position: relative
+}
+
+.addStoreContainer .baseSetting .line .selectBox.disabled {
+	background-color: #ebebe4
+}
+
+.addStoreContainer .baseSetting .line.address .selectBox {
+	width: 110px;
+	margin-right: 8px
+}
+
+.addStoreContainer .baseSetting .line.address #addressSelect {
+	display: inline-block
+}
+
+.addStoreContainer .baseSetting .line.address input {
+	width: 306px
+}
+
+.addStoreContainer .baseSetting .line.address .tip {
+	margin-left: 354px
+}
+
+#addressSelect .selectBox .dropDownBox_main .txt,
+#barAddressSelect .selectBox .dropDownBox_main .txt {
+	display: inline-block;
+	max-width: 70px;
+	line-height: 19px;
+	position: relative;
+	top: 4px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.addStoreContainer .baseSetting .line .selectBox .dropDownBox_main {
+	line-height: 44px
+}
+
+.addStoreContainer .baseSetting .line .selectBox .dropDownBox_sub {
+	top: 45px
+}
+
+#provinceSelect .dropDownBox_sub {
+	width: 138px
+}
+
+#citySelect .dropDownBox_sub {
+	width: 180px
+}
+
+#districtSelect .dropDownBox_sub {
+	width: 138px
+}
+
+.addStoreContainer .baseSetting .line.group .selectBox {
+	width: 533px
+}
+
+.addStoreContainer .line.group #ManageGroup {
+	text-decoration: underline;
+	color: #74b7e6;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 16px
+}
+
+.addStoreContainer .line.group #ManageGroup:hover {
+	color: #329fea
+}
+
+.addStoreContainer .baseSetting .address .mapLocation {
+	width: 72px;
+	height: 44px;
+	border: solid 1px #e7e7e7;
+	position: absolute;
+	margin-left: 336px;
+	text-align: center;
+	line-height: 44px;
+	color: #585858;
+	font-size: 14px
+}
+
+.addStoreContainer .baseSetting .address .mapLocation .icon {
+	width: 14px;
+	height: 17px;
+	background: url(../img/iconAll3.png) no-repeat;
+	background-position: -492px -848px;
+	margin-right: 5px
+}
+
+.addStoreContainer .baseSetting .address .mapLocation:hover {
+	background: #329fea;
+	color: #fff
+}
+
+.addStoreContainer .baseSetting .address .mapLocation:hover span {
+	background-position: -528px -848px
+}
+
+.addStoreContainer .baseSetting .address .storeMap {
+	width: 844px;
+	height: 380px;
+	border: 1px solid #eee;
+	margin: 16px 0 0 124px
+}
+
+.addStoreContainer .baseSetting .address .mapTip {
+	background: #fff;
+	position: absolute;
+	text-align: center;
+	width: 264px;
+	height: 120px
+}
+
+#index_poupBox_storeEdit_ManageGroup .option {
+	color: #74b7e6;
+	padding: 0 12px
+}
+
+#index_poupBox_storeEdit_ManageGroup .option:hover {
+	color: #329fea;
+	text-decoration: underline
+}
+
+#index_poupBox_storeEdit_ManageGroup .poupContent tbody {
+	display: inline-block;
+	width: 100%;
+	height: 216px;
+	overflow-y: auto
+}
+
+#index_poupBox_storeEdit_ManageGroup .poupContent tbody tr {
+	display: inline-block;
+	width: 100%;
+	height: 36px
+}
+
+#index_poupBox_storeEdit_ManageGroup .poupContent tbody tr.even {
+	background-color: #eff6fc
+}
+
+#index_poupBox_storeEdit_ManageGroup .poupContent tbody tr td:first-of-type {
+	width: 397px
+}
+
+#index_poupBox_storeEdit_ManageGroup .poupContent tbody tr td:last-of-type {
+	width: 219px
+}
+
+#index_poupBox_storeEdit_ManageGroup .poupContent tbody tr td {
+	height: 36px;
+	border: 0 none
+}
+
+#index_poupBox_storeEdit_ManageGroup .poupContent tbody tr.queryIngTr td {
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	line-height: 36px
+}
+
+#switchStoreContainer {
+	width: 1002px;
+	margin: 28px auto;
+	position: relative
+}
+
+#switchStoreContainer .storeTitle {
+	position: relative;
+	line-height: 56px
+}
+
+#enter_store_btn {
+	position: absolute;
+	right: 16px;
+	top: 10px
+}
+
+#enter_store_btn .btn {
+	font-size: 14px;
+	padding: 0 12px
+}
+
+#switchStoreContainer .storeBar #recordBtn {
+	margin-right: 16px
+}
+
+#storeSpacing {
+	height: 15px;
+	background: #f5f5f5
+}

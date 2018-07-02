@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html style="font-size: 20px;">
+
+	<head>
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title></title>
+		<link rel="stylesheet" href="css/qmbase.css" />
+		<link rel="stylesheet" href="css/qmpkj.css" />
+		<link rel="stylesheet" href="css/wui.css" />
+			
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+			
+		<script>
+			
+			
+		$(function(){
+			var scops = parent.fscop();  
+			 
+			 $("#joinNum").html(scops.rsidnb);
+			 if(scops.rsid == true){
+			 	$("#joinNumLine").show(); 
+			 }else{
+			 	$("#joinNumLine").hide(); 
+			 }
+			  $("#exlainInfo").html(scops.hdjc.cont);
+			  
+			  for(var i = 0; i<scops.indx; i++){
+			  	$(".showAwadListPage").eq(i).show(); 
+			  	$(".awardItem").eq(i).show(); 
+			  	$(".award").eq(i).html(scops.params[i].cont); 
+			  	
+			  	
+			  	$(".giftName").eq(i).html(scops.params[i].cont); 
+			  	$(".amtPrenm").eq(i).html(scops.params[i].spyj); 
+			  	$(".theCutnPre").eq(i).html(scops.params[i].spkjmb); 
+			  	$(".theEdtNms").eq(i).html(scops.params[i].spnbr); 
+			  	$(".theRelateImgBox").eq(i).css("background-image","url(http://"+scops.params[i].spimgs+")");
+			  }
+			  
+			 	$("#giftNames").html(scops.params[0].cont); 
+			 	$(".mamtPrenm").html(scops.params[0].spyj); 
+			 	$(".mtheCutnPre").html(scops.params[0].spkjmb); 
+			 	$("#mtheEditNums").html(scops.params[0].spnbr); 
+			  	$(".layerId-67").css("background-image","url(http://"+scops.params[0].spimgs+")");
+			  	
+			  	$(".theAwardDetail").html(scops.params[0].cont); 
+			  	$(".theItemBox0").css("background-image","url(http://"+scops.params[0].spimgs+")");
+			  	
+			  	$(".theAwardInfo").children("span").html(scops.params[0].cont); 
+			  	$(".theOriginalPrice").html(scops.params[0].spyj); 
+				$(".theTargetPrice").html(scops.params[0].spkjmb); 
+				$(".mtheLsNum").html(scops.params[0].spnbr); 
+				$(".autoFitBoxer").css("background-image","url(http://"+scops.params[0].spimgs+")");
+				
+				$("#startDate").html(scops.hdjc.startime); 
+				$("#endDate").html(scops.hdjc.endtime); 
+				
+				$(".layerId-20").html(scops.params[0].cont); 
+				$(".spstarcodtime").html(scops.params[0].spstartime); 
+				$(".spendcodtime").html(scops.params[0].spendtime); 
+				
+				$(".codeBgTimeday").html(scops.params[0].spsxday); 
+				$(".codeBgTimeyxday").html(scops.params[0].spyxday); 
+				  
+				if(scops.params[0].spqx == 1){
+					$(".layerId-1").show(); 
+					$(".layerId-2").hide(); 
+				}else{
+					$(".layerId-1").hide(); 
+					$(".layerId-2").show(); 
+				}
+				
+				$(".layerId-28").html(scops.params[0].spti); 
+				$(".address").html(scops.params[0].spdiz); 
+				
+				if(scops.params[0].spdjfs == 1){
+					$(".layerId-23").show(); 
+				}else{
+					$(".layerId-23").hide(); 
+				}
+				
+				$(".layerId-21").html(scops.params[0].sptitle); 
+				$(".phoneText").html(scops.params[0].sptel); 
+				if($.trim(scops.params[0].spjxz) == ""){
+					$(".notice").children("pre").html("<span style='color: #999;'>不填写则不显示</span>"); 
+				}else{
+					$(".notice").children("pre").html(scops.params[0].spjxz); 
+				}
+				
+				$(".textDef1").html(scops.params[0].spbuttonname); 
+				if(scops.params[0].spbutton == 1){
+					$(".textDef").show(); 
+					$(".textDef1").hide(); 
+					 
+				}else if(scops.params[0].spbutton == 2){
+					$(".textDef").hide(); 
+					$(".textDef1").show(); 
+				}else{
+					$(".textDef").hide(); 
+					$(".textDef1").show(); 
+				}
+				
+				$(".menuName").html(scops.gjconf.cndbtnname); 
+				if(scops.gjconf.cndbtn == 1){
+					$(".menuBtnBox").hide(); 
+				}else if(scops.gjconf.cndbtn == 2){
+					$(".menuBtnBox").show(); 
+				}else{
+					$(".menuBtnBox").show(); 
+				}
+				
+		})
+			
+			   
+			
+		</script>
+	</head>
+
+	<body >
+		<div class="body" style="width: 324px; overflow-x: hidden; overflow-y: auto;">
+			<div class="timeTipsShowBox" style="display: block;"><span class="tipsText" >距离活动开始还有：</span><span class="lessDay">0</span>天<span class="lessHour">0</span>小时<span class="lessMinute">0</span>分</div>
+
+			<div class="home editTarget-myDetailPage myDetailPage regPage hd-Special-bgImgInfo" style="min-height: 100%; background-color: rgb(247, 88, 152); display: block;" edit_store_src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
+				<div class="editTarget-banner theBannerEdit hd-game-theBg-fillAuto layerId-48 defBgColor" style="background-image: url(&quot;https://8171176.h40.faiusr.com/2/140/ACgIABACGAAgoKyM0gUop4XL3gUwgAU4-AI.jpg&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%; cursor: pointer; display: block;"></div>
+				<div id="joinNumLine"  class="joinNumLine absCenter layerId-6 defBgColor" style="top: 9.9rem; left: 3.5rem; color: rgb(183, 5, 63); font-size: 0.7rem; text-shadow: rgb(255, 255, 255) -1px -1px 0px, rgb(255, 255, 255) 0px -1px 0px, rgb(255, 255, 255) 1px -1px 0px, rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 1px 1px 0px, rgb(255, 255, 255) 0px 1px 0px, rgb(255, 255, 255) -1px 1px 0px, rgb(255, 255, 255) -1px 0px 0px; cursor: move; position: absolute; z-index: 76;">已有 <span id="joinNum" class="specil" style="color:rgb(183, 5, 63);font-size:0.7rem;text-shadow:rgb(255, 255, 255) -1px -1px 0px, rgb(255, 255, 255) 0px -1px 0px, rgb(255, 255, 255) 1px -1px 0px, rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 1px 1px 0px, rgb(255, 255, 255) 0px 1px 0px, rgb(255, 255, 255) -1px 1px 0px, rgb(255, 255, 255) -1px 0px 0px;">0</span> 人参与砍价
+				</div>
+				<div class="awardListBoxer" style="padding-bottom: 45px;">
+					<div class="awardListPage editTarget-awardListPage layerId-38 defBgColor" style="cursor: pointer; position: relative;">
+
+						<div class="showAwadListPage " index="0" style="display: none;">
+							<div class="innerBoxer">
+								<div class="theRelateImgBox isTheBestFix hd-game-theBg-fillAuto layerId-59 defBgColor" style="background-image: url(&quot;//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 93.3333%; cursor: pointer;">
+									<div class="shower">查看详情</div>
+								</div>
+								<div class="awardInfo" style="color: rgb(83, 82, 82);">
+									<div class="giftName" style="color: rgb(31, 31, 31);">价值100元礼品</div>
+									<div class="originalPrice"><span class="moveToLeft">原 价：￥</span><span class="theEditNum amoutPriceNum amtPrenm" style="color: rgb(83, 82, 82);">10</span></div>
+									<div class="originalPrice"><span class="moveToLeft">可砍至：￥</span><span class="theEditNum theCutdownPrice theCutnPre" style="color: rgb(83, 82, 82);">0</span></div>
+									<div class="originalPrice"><span class="moveToLeft">库 存：</span><span  class="theEditNum theLessNum theEdtNms" style="color: rgb(83, 82, 82);">0</span></div>
+								</div>
+								<div class="operateBtn editTarget-myprocess hd-game-theBg-fillAuto layerId-49 defBgColor" zlid="0" style="background-image: url(&quot;https://hdg.faisys.com/image/dspkj/checkProcess.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%; cursor: pointer;">
+								</div>
+							</div>
+						</div>
+
+						<div class="showAwadListPage " index="1" style="display: none;">
+							<div class="innerBoxer">
+								<div class="theRelateImgBox isTheBestFix hd-game-theBg-fillAuto layerId-60 defBgColor"  style="background-image: url(&quot;//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 93.3333%; cursor: pointer;">
+									<div class="shower">查看详情</div>
+								</div>
+								<div class="awardInfo" style="color: rgb(83, 82, 82);">
+									<div class="giftName" style="color: rgb(31, 31, 31);">价值50元礼品</div>
+									<div class="originalPrice"><span class="moveToLeft">原 价：￥</span><span class="theEditNum amoutPriceNum amtPrenm" style="color: rgb(83, 82, 82);">10</span></div>
+									<div class="originalPrice"><span class="moveToLeft">可砍至：￥</span><span class="theEditNum theCutdownPrice theCutnPre" style="color: rgb(83, 82, 82);">0</span></div>
+									<div class="originalPrice"><span class="moveToLeft">库 存：</span><span  class="theEditNum theLessNum theEdtNms" style="color: rgb(83, 82, 82);">0</span></div>
+								</div>
+								<div class="operateBtn editTarget-operateBtn hd-game-theBg-fillAuto layerId-40 defBgColor" style="background-image: url(&quot;https://hdg.faisys.com/image/dspkj/cutDownthis.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%; cursor: pointer;">
+								</div>
+							</div>
+						</div>
+
+						<div class="showAwadListPage " index="2" style="display: none;">
+							<div class="innerBoxer">
+								<div class="theRelateImgBox isTheBestFix hd-game-theBg-fillAuto layerId-61 defBgColor" style="background-image: url(&quot;//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 93.3333%;">
+									<div class="shower">查看详情</div>
+								</div>
+								<div class="awardInfo" style="color: rgb(83, 82, 82);">
+									<div class="giftName" style="color: rgb(31, 31, 31);">价值10元礼品</div>
+									<div class="originalPrice"><span class="moveToLeft">原 价：￥</span><span class="theEditNum amoutPriceNum amtPrenm" style="color: rgb(83, 82, 82);">10</span></div>
+									<div class="originalPrice"><span class="moveToLeft">可砍至：￥</span><span class="theEditNum theCutdownPrice theCutnPre" style="color: rgb(83, 82, 82);">0</span></div>
+									<div class="originalPrice"><span class="moveToLeft">库 存：</span><span  class="theEditNum theLessNum theEdtNms" style="color: rgb(83, 82, 82);">0</span></div>
+								</div>
+								<div class="operateBtn editTarget-operateBtn hd-game-theBg-fillAuto layerId-41 defBgColor" style="background-image: url(&quot;https://hdg.faisys.com/image/dspkj/cutDownthis.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%;">
+								</div>
+							</div>
+						</div>
+
+						<div class="showAwadListPage " index="3" style="display: none;">
+							<div class="innerBoxer">
+								<div class="theRelateImgBox isTheBestFix hd-game-theBg-fillAuto layerId-62 defBgColor" style="background-image: url(&quot;//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 93.3333%;">
+									<div class="shower">查看详情</div>
+								</div>
+								<div class="awardInfo" style="color: rgb(83, 82, 82);">
+									<div class="giftName" style="color: rgb(31, 31, 31);">价值5元小礼品</div>
+									<div class="originalPrice"><span class="moveToLeft">原 价：￥</span><span class="theEditNum amoutPriceNum amtPrenm" style="color: rgb(83, 82, 82);">10</span></div>
+									<div class="originalPrice"><span class="moveToLeft">可砍至：￥</span><span class="theEditNum theCutdownPrice theCutnPre" style="color: rgb(83, 82, 82);">0</span></div>
+									<div class="originalPrice"><span class="moveToLeft">库 存：</span><span  class="theEditNum theLessNum theEdtNms" style="color: rgb(83, 82, 82);">0</span></div>
+								</div>
+								<div class="operateBtn editTarget-operateBtn hd-game-theBg-fillAuto layerId-42 defBgColor" style="background-image: url(&quot;https://hdg.faisys.com/image/dspkj/cutDownthis.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%;">
+								</div>
+							</div>
+						</div>
+
+						<div class="showAwadListPage " index="4" style="display: none;">
+							<div class="innerBoxer">
+								<div class="theRelateImgBox isTheBestFix hd-game-theBg-fillAuto layerId-63 defBgColor"  style="background-image: url(&quot;//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 93.3333%;">
+									<div class="shower">查看详情</div>
+								</div>
+								<div class="awardInfo" style="color: rgb(83, 82, 82);">
+									<div class="giftName" style="color: rgb(31, 31, 31);">价值5元小礼品</div>
+									<div class="originalPrice"><span class="moveToLeft">原 价：￥</span><span class="theEditNum amoutPriceNum amtPrenm" style="color: rgb(83, 82, 82);">10</span></div>
+									<div class="originalPrice"><span class="moveToLeft">可砍至：￥</span><span class="theEditNum theCutdownPrice theCutnPre" style="color: rgb(83, 82, 82);">0</span></div>
+									<div class="originalPrice"><span class="moveToLeft">库 存：</span><span  class="theEditNum theLessNum theEdtNms" style="color: rgb(83, 82, 82);">0</span></div>
+								</div>
+								<div class="operateBtn editTarget-operateBtn hd-game-theBg-fillAuto layerId-43 defBgColor" style="background-image: url(&quot;https://hdg.faisys.com/image/dspkj/cutDownthis.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%;">
+								</div>
+							</div>
+						</div>
+
+						<div class="showAwadListPage " index="5" style="display: none;">
+							<div class="innerBoxer">
+								<div class="theRelateImgBox isTheBestFix hd-game-theBg-fillAuto layerId-64 defBgColor" style="background-image: url(&quot;//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 93.3333%;">
+									<div class="shower">查看详情</div>
+								</div>
+								<div class="awardInfo" style="color: rgb(83, 82, 82);">
+									<div class="giftName" style="color: rgb(31, 31, 31);">价值5元小礼品</div>
+									<div class="originalPrice"><span class="moveToLeft">原 价：￥</span><span class="theEditNum amoutPriceNum amtPrenm" style="color: rgb(83, 82, 82);">10</span></div>
+									<div class="originalPrice"><span class="moveToLeft">可砍至：￥</span><span class="theEditNum theCutdownPrice theCutnPre" style="color: rgb(83, 82, 82);">0</span></div>
+									<div class="originalPrice"><span class="moveToLeft">库 存：</span><span  class="theEditNum theLessNum theEdtNms" style="color: rgb(83, 82, 82);">0</span></div>
+								</div>
+								<div class="operateBtn editTarget-operateBtn hd-game-theBg-fillAuto layerId-44 defBgColor" style="background-image: url(&quot;https://hdg.faisys.com/image/dspkj/cutDownthis.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%;">
+								</div>
+							</div>
+						</div>
+
+						
+					</div>
+					<div class="attentionBox">
+						<div class="menuBtnBox layerId-15 defBgColor hide" >
+							<a class="menuName">企业官网</a>
+						</div>
+						<div class="hdskillInfo skillInfo theRunningAdClass">
+							<a class="theSpecialTarget" href="#">我也要创建活动</a><span class="gotoFlag"><i></i></span></div>
+						<div class="holdBox"></div>
+					</div>
+				</div>
+				<div id="logoImgBox" class="logoImgBox imgContainer absCenter hide" style="display: none;">
+					<div class="ui-wrapper ui-resizable-autohide" style="position: absolute; width: 40px; height: 40px; top: 70px; left: 15px; margin: 0px; float: none; z-index: 120; padding: 0px; cursor: move;" _from="logoImg"><img id="logoImg" class="slaveImg abs layerId-7 defBgColor ui-resizable" src="//hd.faisys.com/version2/image/nopic.jpg" style="width: 40px; height: 40px; top: 3.5rem; left: 0.75rem; margin: 0px; resize: none; position: static; zoom: 1; display: block;" >
+						<div class="ui-resizable-handle ui-resizable-n ui-resizable-imgTopTip" style="z-index: 9030; display: none;"></div>
+						<div class="ui-resizable-handle ui-resizable-e ui-resizable-imgRightTip" style="z-index: 9030; display: none;"></div>
+						<div class="ui-resizable-handle ui-resizable-s ui-resizable-imgBottomTip" style="z-index: 9030; display: none;"></div>
+						<div class="ui-resizable-handle ui-resizable-w ui-resizable-imgLeftTip" style="z-index: 9030; display: none;"></div>
+						<div class="ui-resizable-handle ui-resizable-ne ui-resizable-imgTopRightTip" style="z-index: 9030; display: none;"></div>
+						<div class="ui-resizable-handle ui-resizable-nw ui-resizable-imgTopLeftTip" style="z-index: 9030; display: none;"></div>
+						<div class="ui-resizable-handle ui-resizable-sw ui-resizable-imgBottomLeftTip" style="z-index: 9030; display: none;"></div>
+						<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-resizable-imgBottomRightTip" style="z-index: 9030; display: none;"></div>
+						<a class="recoverBtn" href="javascript:;" style="display: none;"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="myRealDetailPage hide editTarget-myRealDetailPage hd-Special-bgImgInfo" edit_store_src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" style="height: 459px; padding-bottom: 45px; background-color: rgb(247, 88, 152); display: none;">
+				<div class="myselfPage">
+					<div class="myAwardTit">
+						<div class="myIcone"></div>
+						<h2>我的商品</h2>
+					</div>
+					<div class="awardListPage editTarget-awardListPage layerId-39 defBgColor">
+
+						<div class="showAwadListPage " index="0">
+							<div class="innerBoxer">
+								<div class="theRelateImgBox isTheBestFix hd-game-theBg-fillAuto layerId-67 defBgColor" style="background-image: url(&quot;//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 93.3333%;">
+									<div class="shower">查看详情</div>
+								</div>
+								<div class="awardInfo" style="color: rgb(83, 82, 82);">
+									<div id="giftNames" class="giftName " style="color: rgb(31, 31, 31);">价值100元礼品</div>
+									<div class="originalPrice"><span class="moveToLeft">原 价：￥</span><span class="theEditNum amoutPriceNum mamtPrenm" style="color: rgb(83, 82, 82);">10</span></div>
+									<div class="originalPrice"><span class="moveToLeft">可砍至：￥</span><span class="theEditNum theCutdownPrice mtheCutnPre" style="color: rgb(83, 82, 82);">0</span></div>
+									<div class="originalPrice"><span class="moveToLeft">库 存：</span><span id="mtheEditNums" class="theEditNum theLessNum" style="color: rgb(83, 82, 82);">0</span></div>
+								</div>
+								<div class="operateBtn editTarget-myprocess hd-game-theBg-fillAuto layerId-50 defBgColor" zlid="0"  style="background-image: url(&quot;https://hdg.faisys.com/image/dspkj/checkProcess.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%;">
+								</div>
+							</div>
+						</div>
+
+						<p class="notList hide">你还没有在砍的商品，快去首页选择商品开始砍价吧！</p>
+					</div>
+				</div>
+				<div class="borderPar hideOnBottom" style="bottom: 45px;">
+					<div class="attentionBox">
+						<div class="menuBtnBox layerId-16 defBgColor hide" >
+							<a class="menuName">企业官网</a>
+						</div>
+						<div class="hdskillInfo skillInfo theRunningAdClass">
+							<a class="theSpecialTarget" href="#">我也要创建活动</a><span class="gotoFlag"><i></i></span></div>
+						<div class="holdBox"></div>
+					</div>
+				</div>
+			</div>
+			<div class="gameBox hide gameBgBox regPage" style="display: none;">
+				<div class="myCutDownPriceList editTarget-myCutDownPriceList hd-Special-bgImgInfo" edit_store_src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" style="background-color: rgb(250, 226, 214); display: none;">
+
+					<div class="theCutDownPriceInfo">
+						<div class="autoFitBoxer isTheBestFix hd-game-theBg-fillAuto" style="background-image: url(&quot;//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%;">
+							<div class="theAwardInfo">
+								<span>价值100元礼品</span>
+								<div class="theTargetX"></div>
+							</div>
+						</div>
+
+						<div class="cutNowInformation editTarget-cutNowInformation layerId-32 defBgColor"  style="color: rgb(255, 255, 255);">
+							<div class="theOriginalPriceBoxer theChild">
+								<div class="theInnerBoxer">
+									<div>原价</div>
+									<div>￥<span class="theOriginalPrice">10</span></div>
+								</div>
+								<span class="specialFixed"></span>
+							</div>
+							<div class="cutdownTarget theSpecialBorder theChild">
+								<div class="theInnerBoxer">
+									<div>可砍至</div>
+									<div>￥<span class="theTargetPrice">0</span></div>
+								</div>
+								<span class="specialFixed"></span>
+							</div>
+							<div class="lessAmout theChild">
+								<div class="theInnerBoxer">
+									<div>库存</div>
+									<div><span  class="theLessNum mtheLsNum">0</span></div>
+								</div>
+								<span class="specialFixed"></span>
+							</div>
+						</div>
+
+						<div class="processBar">
+							<div class="processBarInner" style="width: 20%;">
+								<div class="moneyPart"></div>
+							</div>
+							<div class="cutDownPriceInfo editTarget-cutDownPriceInfo layerId-34 defBgColor"  style="color: rgb(248, 15, 113);">
+								<div class="floatLeft">￥<span class="theRealOriginalPrice">10</span></div>
+								<div class="floatRight">￥<span class="theRealTargetPrice">0</span></div>
+							</div>
+						</div>
+						<div class="cutLessPriceInfo editTarget-cutLessPriceInfo layerId-36 defBgColor"  style="color: rgb(67, 65, 67);">
+							<div class="partOne">已经砍了<span class="hasCutHowMutchMoney" style="color: rgb(248, 15, 113);">999</span>元，离目标还有<span class="theLesserMoney" style="color: rgb(248, 15, 113);">222</span>元</div>
+							<div class="partTwo hide">成功砍下<span class="nowCutDownNum" style="color: rgb(248, 15, 113);"></span>元!</div>
+							<div class="partThree hide"></div>
+						</div>
+					</div>
+					<div class="imgContainer absCenter">
+						<div class="ui-wrapper ui-resizable-autohide" style="position: absolute; width: 290px; height: 44px; top: 326px; left: 15px; margin: 0px; float: none; z-index: 100; padding: 0px; cursor: move;"><img class="editTarget-cutMySelf cutMySelf abs layerId-52 defBgColor slaveImg ui-resizable" src="//hdg.faisys.com/image/dspkj/cutFirst.png"  style="top: 16.3rem; left: 0.75rem; width: 290px; height: 44px; margin: 0px; resize: none; position: static; zoom: 1; display: block;">
+							<div class="ui-resizable-handle ui-resizable-n ui-resizable-imgTopTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-e ui-resizable-imgRightTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-s ui-resizable-imgBottomTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-w ui-resizable-imgLeftTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-ne ui-resizable-imgTopRightTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-nw ui-resizable-imgTopLeftTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-sw ui-resizable-imgBottomLeftTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-resizable-imgBottomRightTip" style="z-index: 9030; display: none;"></div>
+							<a class="recoverBtn" href="javascript:;" style="display: none;"></a>
+						</div>
+					</div>
+					<div id="callHelpBtnTxt" class="hide"></div>
+					<div class="helpListBoxer">
+						<div class="theHeader editTarget-cutDownBest hd-game-theBg-fillAuto layerId-51 defBgColor"  style="background-image: url(&quot;https://hdg.faisys.com/image/dspkj/cutDownBest.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%;"></div>
+						<ul class="thehelpList">
+							<li class="children clearfix">
+								<div class="headImgBox"><img src="//hdg.faisys.com/image/manImg.jpg"></div>
+								<div class="timeAndMoney">
+									<div class="childrenName"><span>南笙</span>帮忙砍了</div>
+									<div class="helpTimer clearfix">
+										<div class="helpTime floatLeft"><span class="helpTimeaaa">2017/9/30 15:22</span> </div>
+										<div class="helpMoney floatRight"><span>100</span>元</div>
+									</div>
+								</div>
+								<div class="borderBoxer"></div>
+							</li>
+							<li class="children clearfix">
+								<div class="headImgBox"><img src="//hdg.faisys.com/image/manImg.jpg"></div>
+								<div class="timeAndMoney">
+									<div class="childrenName"><span>南笙</span>帮忙砍了</div>
+									<div class="helpTimer clearfix">
+										<div class="helpTime floatLeft"><span class="helpTimeaaa">2017/9/30 15:22</span> </div>
+										<div class="helpMoney floatRight"><span>100</span>元</div>
+									</div>
+								</div>
+								<div class="borderBoxer"></div>
+							</li>
+							<li class="children clearfix">
+								<div class="headImgBox"><img src="//hdg.faisys.com/image/manImg.jpg"></div>
+								<div class="timeAndMoney">
+									<div class="childrenName"><span>南笙</span>帮忙砍了</div>
+									<div class="helpTimer clearfix">
+										<div class="helpTime floatLeft"><span class="helpTimeaaa">2017/9/30 15:22</span> </div>
+										<div class="helpMoney floatRight"><span>100</span>元</div>
+									</div>
+								</div>
+								<div class="borderBoxer"></div>
+							</li>
+							<li class="children clearfix">
+								<div class="headImgBox"><img src="//hdg.faisys.com/image/manImg.jpg"></div>
+								<div class="timeAndMoney">
+									<div class="childrenName"><span>南笙</span>帮忙砍了</div>
+									<div class="helpTimer clearfix">
+										<div class="helpTime floatLeft"><span class="helpTimeaaa">2017/9/30 15:22</span> </div>
+										<div class="helpMoney floatRight"><span>100</span>元</div>
+									</div>
+								</div>
+								<div class="borderBoxer"></div>
+							</li>
+							<li class="children clearfix">
+								<div class="headImgBox"><img src="//hdg.faisys.com/image/manImg.jpg"></div>
+								<div class="timeAndMoney">
+									<div class="childrenName"><span>南笙</span>帮忙砍了</div>
+									<div class="helpTimer clearfix">
+										<div class="helpTime floatLeft"><span class="helpTimeaaa">2017/9/30 15:22</span> </div>
+										<div class="helpMoney floatRight"><span>100</span>元</div>
+									</div>
+								</div>
+								<div class="borderBoxer"></div>
+							</li>
+						</ul>
+						<div class="bottomControlBar">
+							<div class="floatLeft theFLoatDiv">共有<span class="hasHelpNum">60</span>名好友帮忙砍价</div>
+							<div class="floatRight theFLoatDiv">
+								<span class="previePage">上一页</span><span class="pageNum">1</span>/<span class="theneiborhound">60</span><span class="nextPage">下一页</span>
+							</div>
+						</div>
+					</div>
+					<div class="attentionBox">
+						<div class="menuBtnBox layerId-17 defBgColor hide" >
+							<a class="menuName">企业官网</a>
+						</div>
+						<div class="hdskillInfo skillInfo theRunningAdClass">
+							<a class="theSpecialTarget" href="#">我也要创建活动</a><span class="gotoFlag"><i></i></span></div>
+						<div class="holdBox"></div>
+					</div>
+					<div class="soundIcon layerId-27 defBgColor" style="z-index: 700; left: 0.75rem; top: 1rem; cursor: move; position: absolute;" ></div>
+				</div>
+				<div class="cutDownPricer hide">
+					<div class="imgBoxer"></div>
+				</div>
+
+				<div class="cutDownPriceHelperList editTarget-myCutDownPriceList hd-Special-bgImgInfo" edit_store_src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" style="background-color: rgb(250, 226, 214); display: none;">
+					<div class="editTarget-operateBtn hide hd-game-theBg-fillAuto layerId-47 defBgColor"  style="background-image: url(&quot;https://hdg.faisys.com/image/dspkj/cutDownthis.png&quot;); background-position: center center; background-repeat: no-repeat;"></div>
+					<div class="helpInfoBoxer">
+						<div class="theheadImgBoxer">
+							<img src="//hdg.faisys.com/image/manImg.jpg">
+						</div>
+						<div class="cutDownPriceResult">
+							<div class="theMessageBoxer"><span class="specialCriangle"></span><span class="cutDownTxt">奖品快到手了，快来帮我砍一刀吧！</span></div>
+						</div>
+					</div>
+					<div class="imgContainer absCenter">
+						<div class="ui-wrapper ui-resizable-autohide" style="position: absolute; width: 290px; height: 44px; top: 396px; left: 15px; margin: 0px; float: none; z-index: 100; padding: 0px; cursor: move;"><img class="editTarget-helpBtn helpBtn imgPreventDefault abs layerId-53 defBgColor slaveImg ui-resizable" src="//hdg.faisys.com/image/dspkj/helpCut.png" style="top: 19.8rem; left: 0.75rem; width: 290px; height: 44px; margin: 0px; resize: none; position: static; zoom: 1; display: block;">
+							<div class="ui-resizable-handle ui-resizable-n ui-resizable-imgTopTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-e ui-resizable-imgRightTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-s ui-resizable-imgBottomTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-w ui-resizable-imgLeftTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-ne ui-resizable-imgTopRightTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-nw ui-resizable-imgTopLeftTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-sw ui-resizable-imgBottomLeftTip" style="z-index: 9030; display: none;"></div>
+							<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-resizable-imgBottomRightTip" style="z-index: 9030; display: none;"></div>
+							<a class="recoverBtn" href="javascript:;" style="display: none;"></a>
+						</div>
+					</div>
+					<div class="theCutDownPriceInfo">
+						<div class="autoFitBoxer isTheBestFix hd-game-theBg-fillAuto" style="background-image: url(&quot;//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029&quot;); background-position: center center; background-repeat: no-repeat; background-size: 100% 100%;">
+							<div class="theAwardInfo">
+								<span>价值100元礼品</span>
+								<div class="theTargetX"></div>
+							</div>
+						</div>
+
+						<div class="cutNowInformation editTarget-cutNowInformation layerId-33 defBgColor" style="color: rgb(255, 255, 255);">
+							<div class="theOriginalPriceBoxer theChild">
+								<div class="theInnerBoxer">
+									<div>原价</div>
+									<div>￥<span class="theOriginalPrice">10</span></div>
+								</div>
+								<span class="specialFixed"></span>
+							</div>
+							<div class="cutdownTarget theSpecialBorder theChild">
+								<div class="theInnerBoxer">
+									<div>可砍至</div>
+									<div>￥<span class="theTargetPrice">0</span></div>
+								</div>
+								<span class="specialFixed"></span>
+							</div>
+							<div class="lessAmout theChild">
+								<div class="theInnerBoxer">
+									<div>库存</div>
+									<div><span  class="theLessNum mtheLsNum">0</span></div>
+								</div>
+								<span class="specialFixed"></span>
+							</div>
+						</div>
+
+						<div class="processBar">
+							<div class="processBarInner" style="width: 20%;">
+								<div class="moneyPart"></div>
+							</div>
+							<div class="cutDownPriceInfo editTarget-cutDownPriceInfo layerId-35 defBgColor"  style="color: rgb(248, 15, 113);">
+								<div class="floatLeft">￥<span class="theRealOriginalPrice">10</span></div>
+								<div class="floatRight">￥<span class="theRealTargetPrice">0</span></div>
+							</div>
+						</div>
+						<div class="cutLessPriceInfo editTarget-cutLessPriceInfo layerId-37 defBgColor"  style="color: rgb(67, 65, 67);">
+							<div class="partOne">已经砍了<span class="hasCutHowMutchMoney" style="color: rgb(248, 15, 113);">999</span>元，离目标还有<span class="theLesserMoney" style="color: rgb(248, 15, 113);">222</span>元</div>
+							<div class="partTwo hide">成功砍下<span class="nowCutDownNum" style="color: rgb(248, 15, 113);"></span>元!</div>
+							<div class="partThree hide"></div>
+						</div>
+					</div>
+					<div class="bottomSkill skillInfo">页面技术由 凡科互动 提供</div>
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="cutDownPriceDetail editTarget-cutDownPriceDetail hide" style="background-color: rgb(250, 226, 214); display: none;">
+	        <div class="cutDownInnerBoxer">
+	            <div class="priceIntroduceTit">
+	            	<span class="theAwardDetail">价值100元礼品</span> 
+	            	<span class="closeBtn"></span></div>
+	            <div class="awardInfoDetail">
+	                <div class="awardInfoDetailBoxer">
+	                	<img style="display:block; margin-bottom:0;" class="theItemBox0" src="//hdg.faisys.com/image/dspkj/theDefault.png?v=201710091900">
+	                
+	                	<pre class="theDescribeText0 hide"></pre>
+	                </div>
+	            </div>
+	            <div class="hasGotoBottom">
+	                <span class="theBorder"></span>
+	                <span class="theBorderIsNone">已经到底部了</span>
+	                <span class="theBorder"></span>
+	            </div>
+	        </div>
+	    <div class="bottomSkill skillInfo">页面技术由 凡科互动 提供</div></div>
+	    
+		<div class="ruleImg imgContainer absCenter share_assembly share_assembly_home" _mousein="0">
+		    <div id="ruleImg" class="slaveImg abs notNeedFatherChage outSpecialDivAutoFit layerId-31 defBgColor" style="width: 3rem; height: 3rem; top: 0.15rem; left: 12.85rem; cursor: move; position: absolute; z-index: 600; background-size: 60px 60px; background-image: url(&quot;https://hdg.faisys.com/image/dspkj/ruleImg_special.png&quot;); display: block;"  _src="https://hdg.faisys.com/image/dspkj/ruleImg_special.png"></div>
+		</div>
+	
+	<div id="poupInfoBox" class="regPage retrans" style="transform-origin: 287px 33px 0px; display: none;"> 
+	    <div class="poupHead">
+	        <div class="poupTitleBox">
+	            <div id="actionExpBtn" class="poupTitleMune checked" _flag="2" style="width: 6.625rem;">
+	                <div class="item">活动说明</div>
+	            </div>
+	            
+	            <div id="prizeBtn" class="poupTitleMune" _flag="3" style="width: 6.625rem;">
+	                <div class="item">我的奖品<span id="Award_Round_Dot" class="redDot hide" style="display: inline;"></span></div>
+	            </div>   
+	            <div id="winnerBtn" class="poupTitleMune hide" _flag="4" style="width: 6.625rem; display: none;">
+	                <div class="item">获奖名单</div>
+	            </div>
+	            <div class="poupSlideBar">
+	                <div class="slideBarTip transitionPanel" style="width: 6.625rem; left: 1.7rem;"></div>
+	            </div>
+	        </div>
+	        <div class="poupClose"></div>
+	        <div style="clear:both; height:0"></div>
+	    </div>
+	    <div id="popTabBox" class="popTabBox transitionPanel" style="left: 0px; width: 640px;">
+	        
+	        <div id="ruleBox" class="poupMain" _flag="2" style="width: 320px; height: 434px;">
+				<div class="poupMainInfo" style="height: 376px;">
+					      
+					<!--<div id="" style="font-size: 0.6rem; position: relative;" class="noMove">投诉</div>-->
+				<div id="awardLine" class="poupLine layerId-8 defBgColor" data-sortkey="a"  style="cursor: pointer;">
+						<div class="mainTitle">活动奖品</div>
+						<div id="awardLineBox">
+						<div class="unComfortLine awardItem "  style="display: none;"><span class="awardStyle">商品一</span> : <span class="award">价值100元礼品</span></div>
+						<div class="unComfortLine awardItem "  style="display: none;"><span class="awardStyle">商品二</span> : <span class="award">价值50元礼品</span></div>
+						<div class="unComfortLine awardItem "  style="display: none;"><span class="awardStyle">商品三</span> : <span class="award">价值10元礼品</span></div>
+						<div class="unComfortLine awardItem hide" style="display: none;"><span class="awardStyle">商品四</span> : <span class="award">价值5元小礼品</span></div>
+						<div class="unComfortLine awardItem hide" style="display: none;"><span class="awardStyle">商品五</span> : <span class="award">价值5元小礼品</span></div>
+						
+						
+						
+						</div>  
+						<div id="selfAwardLine" class="hide layerId-9 defBgColor" style="word-wrap: break-word; display: none;" ></div>
+					</div><div id="gameDateTime" class="poupLine layerId-10 defBgColor" data-sortkey="b" style="cursor: pointer;">
+						<div class="mainTitle">活动时间</div>
+						<p><span id="startDate">2018年6月7日 14:01</span>&nbsp;-&nbsp;<span id="endDate">2018年6月14日 14:01</span></p>
+					</div>
+					<!--<div class="hostLine poupLine layerId-12 defBgColor" data-sortkey="c" >
+						<div class="mainTitle">主办单位</div>
+						<p>本次活动主办单位为 <a class="hostName" onclick="return false" href="#" style="text-decoration: none;">-就是</a></p>
+					</div>-->
+					<div id="skillLine" class="skillLine poupLine layerId-13 defBgColor" data-sortkey="d"  style="min-height: 1rem;">
+						<div class="skillCont">
+							<div class="mainTitle">技术支持</div>
+							
+							<p>页面技术由 <a class="skillName" onclick="return false" href="#">凡科互动</a> 提供，技术支持方仅提供页面技术，不承担由活动引起的相关法律责任</p>
+						</div>
+					</div><div id="explainBox" class="poupLine layerId-11 defBgColor" data-sortkey="e" >
+						<div class="mainTitle">活动说明</div>
+						
+						            
+						<div id="exlainInfo">选择商品后进行砍价，自砍一刀后邀请好友帮忙砍，砍到目标价格后即可领取奖品。<br></div>
+					</div><div id="informLine" class="noMove"><div id="newInformBtn" ontouchend="HdGame.changePoup(5,'',true);" class="noMove">投诉</div></div></div>
+				<div class="attentionBox">
+					<div class="hdskillInfo skillInfo theRunningAdClass"><a class="theSpecialTarget" href="#">我也要创建活动</a><span class="gotoFlag"><i></i></span></div> 
+					<div class="holdBox"></div>
+				</div>
+	        </div>
+	        
+	        <div id="rankBox" class="poupMain layerId-14 defBgColor" _flag="1" style="width: 320px; display: none; height: 434px;">
+	        <div class="poupMainInfo" style="height: 416px;">
+	            <div id="noRank" class="hide">暂无排名</div>
+	            <div id="rankMain" class="getRankHeight hide">
+	                <div style="margin-top:0.7rem;margin-left: 0.25rem;">当前排名：<span id="rank"></span> （只显示前<span id="showRankNum">100</span>名）</div>
+	                <div style="padding:0rem 0.5rem">                   
+	                    <table class="rankTable" cellspacing="0" cellpadding="0">
+	                    <thead>
+	                        <tr style="line-height: 1rem;">
+	                        <th>排行</th>
+	                        <th>头像</th>
+	                        <th>昵称</th>
+	                        <th>成绩</th>
+	                        </tr>
+	                    </thead>        
+	                    </table>
+	                </div>
+	            </div>      
+	            <div id="rankHeight">
+	            <table id="rankInfoBox" class="rankTable" cellspacing="0" cellpadding="0" style="margin-top: 0;"></table>
+	            </div>
+	        </div>
+	            <div class="attentionBox">
+	                <div class="hdskillInfo skillInfo theRunningAdClass"><a class="theSpecialTarget" href="#">我也要创建活动</a><span class="gotoFlag"><i></i></span></div> 
+	                <div class="holdBox"></div>
+	            </div>
+	            </div>
+	        
+	        <div id="awardBox" class="poupMain" _flag="3" style="height: 434px; width: 320px;">
+	            <div id="awardInfoBox">
+	                <div id="awardInfo"><div style="line-height: 2.6rem">暂无中奖记录</div></div> 
+	                
+	                <div id="awardContactInfo" class="" style="display: none;">
+	                    <div class="titleLine"><span class="title">联系信息</span></div>
+	                    <div class="contactGroup"><div class="contactItem">姓名： <span>monica</span></div><div class="contactItem">联系电话： <span>13800000000</span></div></div>
+	                    <div class="updateBtn abs">修改</div>
+	                </div>
+	            </div>
+	            <div class="attentionBox">
+	                <div class="menuBtnBox layerId-18 defBgColor" >
+	                    <a class="menuName">关注我们</a>
+	                </div>
+	                <div class="hdskillInfo skillInfo theRunningAdClass"><a class="theSpecialTarget" href="">我也要创建活动</a><span class="gotoFlag"><i></i></span></div> 
+	                <div class="holdBox"></div>
+	            </div>
+	        </div>
+	        
+	        <div id="regAwardBox" class="poupMain" _flag="4" style="width: 320px; display: none; height: 449px;">
+			<div class="poupMainInfo">
+			    <div id="noRegAward" class="hide" style="margin-left:3px;">尚未公布获奖名单，详情请查看活动说明</div>
+			    <div id="regAwardMain">         
+				      
+					<div class="regAwardList">
+					    <div class="mainTitle">商品一</div>
+					    <div class="playerName" style="margin-bottom:12px;"></div>
+					</div>  
+				      
+					<div class="regAwardList">
+					    <div class="mainTitle">商品二</div>
+					    <div class="playerName" style="margin-bottom:12px;"></div>
+					</div>  
+				      
+					<div class="regAwardList">
+					    <div class="mainTitle">商品三</div>
+					    <div class="playerName" style="margin-bottom:12px;"></div>
+					</div>  
+				
+				  </div> 
+			</div>
+			<div class="attentionBox">
+				<div class="hdskillInfo skillInfo theRunningAdClass"><a class="theSpecialTarget" href="#">我也要创建活动</a><span class="gotoFlag"><i></i></span></div> 
+				<div class="holdBox"></div>
+			</div>
+	        </div>  
+	    </div>
+	</div>
+	
+	<div id="awardDetailBox" class="poupMain bg hide isAngular" style="display: none;">
+	    <div id="forJZCouponBg" style="display: none;">
+	        <div class="tipsBox">
+	            <div class="contain">建站商城优惠券无奖品详情页<br><a href="#" onclick="window.open('http://hd.fkw.com/news/11181')">了解更多</a></div>    
+	        </div>
+	    </div>
+	    <div id="awardDetailScrollBox">
+	        <div id="awardDeailBg" class="bgfix hide"></div>
+	        <div class="awardCloseIcon" onclick="hg.fire('scrollEvent',true);"></div>
+	        <div class="awardDetail">
+	            <div class="hostName" style="padding: 0.7rem 2.2rem 1rem 0.7rem; text-align: left; color: rgb(255, 255, 255); word-break: break-word; text-decoration: none;">-就是</div>
+	            <div class="awardName layerId-20 defBgColor" >价值100元礼品</div>
+	            <div class="awardSubTitle layerId-21 defBgColor" ></div>
+	            <div class="awardCodeTime codeTimeFixedRange layerId-1 defBgColor" ><em>兑奖期限</em>：<span  class="codeBgTime spstarcodtime">2018.06.07</span> - <span  class="codeEndTime spendcodtime">2018.06.14</span></div>
+	            <div class="codeTimeFixedTerm hide layerId-2 defBgColor"  style="display: none;">中奖后<span class="codeBgTime codeBgTimeday">当</span>天生效，有效天数<span class="codeEndTime codeBgTimeyxday">30</span>天</div>
+	            <div id="awardCollectionBtn" ontouchend="HdGame.favorite();">收藏兑奖券</div>
+	            <div class="awardDetailWarp"></div>
+	        </div>
+	        <div class="codeImgBox">
+	            <div id="codeStatusBox" class="hide" style="padding-top:1.25rem;color:#777">
+	                <div id="codeStatusBtn"></div>
+	                <div id="codeStatusInfo">商家已将该兑奖码设置为作废<br>详情请联系商家</div>
+	                <div id="codeStatusTips" class="hide"><em style="font-style: normal;">请先<span class="giftNameA">兑奖券</span>，<span class="targetDateMin">1</span>天后可用</em></div>
+	            </div>
+	            
+	            <div id="codeDetailInfoBox">
+	                <img class="codeImg" src="http://hd.faisco.cn/manage/qrCode.jsp?cmd=qrurl&amp;siteUrl=888888" style="display: none;">
+	                <div class="codeLine"><span id="codeName">兑奖码</span>：<span style=" max-width: 8.7rem;word-wrap: break-word;display: inline-block; vertical-align: middle;" class="code selectText">888888</span><span class="copy">复制券码</span></div>
+	                <div class="codeOptInfo layerId-28 defBgColor">凭券联系现场工作人员兑奖</div>
+	                <div class="codeOptInfo_Gift" style="display: none;">凭券联系现场工作人员兑奖</div>
+	                <div class="redPacketTip hide"></div>
+	            </div>  
+	            
+	        </div>
+	        <div class="awardBtnList">
+	            
+	            <div style="height:0.4rem;"></div>
+	            <!--兑奖券详情弹出层 -->
+	            <div id="ticketDetailBox">
+	                <p class="ticketitle"><span class="text">兑奖券详情</span></p>
+	                <div class="ticketInfo">
+	                    <div class="itemList dateLine codeTimeFixedRange layerId-3 defBgColor" >
+	                        <div class="title">有效日期</div>
+	                        <div class="box">
+	                            <span class="beginTime spstarcodtime">2018-06-07</span>至<span class="endTime spendcodtime">2018-06-14</span>
+	                        </div>
+	                    </div>
+	                    <div class="itemList dateLine codeTimeFixedTerm hide layerId-4 defBgColor" style="display: none;">
+	                        <div class="title">有效日期</div>
+	                        <div class="box">
+	                            中奖后<span class="codeBgTime codeBgTimeday">当</span>天生效，有效天数<span class="codeEndTime codeBgTimeyxday">30</span>天
+	                        </div>
+	                    </div>
+	                    <div class="itemList timelimitLine layerId-22 defBgColor" >
+	                        <div class="title">可用时段</div>
+	                        <div class="box">
+	                            <div class="timelimit">周一至周日</div>
+	                        </div>
+	                    </div>
+	                    <div class="itemList addressLine layerId-23 defBgColor" >
+	                        <div class="title titleAdress">兑奖地址</div>
+	                        <div class="box">
+	                            <div class="address">请填写您的兑奖地址或者门店地址</div>
+	                        </div>
+	                    </div>
+	                    <div class="itemList noticeLine layerId-24 defBgColor" >
+	                        <div class="title titleNotice">兑奖须知</div>
+	                        <div class="box">
+	                            <div class="notice"><pre style="word-wrap: break-word;"><span style="color: #999;">不填写则不显示</span></pre></div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            
+	            <form action=""></form>
+	            <div id="useStoreBox" class="initHide" style="display: none;">
+	                <div class="storeTitle">
+	                    <span class="text">适用门店</span><span class="storeNumText">（<span id="storeNum">5</span>个）</span>
+	                    <span class="moreBtn">更多</span>
+	                </div>
+	                <div class="storeInfoBox">
+	                    <div class="locationBtn" onclick="HdGame.openStoreLocation(this)"></div>
+	                    <div class="info">
+	                        <div class="storeNameBox"><span id="storeName"></span><span id="distance"></span></div>
+	                        <div class="storeAdress"></div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div style="height:0.4rem;"></div>
+	            <a style="text-decoration:none;"><div class="servicePhone awardDetailBtn layerId-29 defBgColor"><span class="text">客服电话</span><span class="phoneIcon"></span><span class="phoneText"></span></div></a>
+	            <a id="awardCusBtnInfo" href="###" style="text-decoration:none;"><div class="awardCusBtn awardDetailBtn weui-cell__bd layerId-25 defBgColor" style="border-top:none;" ><span class="text textDef1" style="display: none;">了解更多</span><span class="textDef hide" style="display: inline;">自定义按钮(未开启)</span><div class="cell__ft"></div></div></a>
+	            <div style="height:3.15rem;"></div>
+	        </div>
+	    </div>
+	    <div class="hide homePoupMask codeCopyDetailMask">
+	        <div class="codeCopyDetailPoup">
+	            长按以下文字复制券码<br>
+	            <div class="copyCode selectText"></div>
+	        </div>
+	    </div>
+	    <div class="hide bgfix codeDetailImgBox" style="display: none;">
+	        <div class="absCenter imgBox">
+	            <img class="codeImg" style="width: 9rem; height: 9rem; display: none;" src="http://hd.faisco.cn/manage/qrCode.jsp?cmd=qrurl&amp;siteUrl=888888">
+	        </div>
+	    </div>
+	    
+	    <div id="bottomCusBtnBox">
+	        <a id="bottomCusBtnInfo" href="###" style="text-decoration:none;"><div class="bottomCusBtn cusBtn disableBtn layerId-26 defBgColor" style="border-top:none;" ><span class="text">立即兑奖</span></div></a>
+	        <!--<a id="WxCusBtnInfo" href="###" style="text-decoration:none;" class="hide"><div class="awardCusBtn cusBtn" style="border-top:none;"><span class="text">自定义按钮（未开启）</span><span class="textDef hide">自定义按钮（未开启）</span><div class="cell__ft"></div></div></a>-->
+	        <!--<a id="WxCusBtnInfo" href="###" style="text-decoration:none;"><div class="cusBtn" style="border-top:none;"><span class="text">领取微信卡券</span><div class="cell__ft"></div></div></a>-->
+	    </div>
+	    
+	</div>
+</body>
+</html>

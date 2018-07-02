@@ -1,0 +1,3672 @@
+	@charset "utf-8";
+	body {
+		background: #f5f5f5
+	}
+	
+	#hdContainer {
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: none repeat scroll 0 0 #f5f5f5;
+		overflow-x: hidden
+	}
+	
+	.redDot {
+		color: #f33;
+		vertical-align: -2px;
+		margin-right: 5px
+	}
+	
+	.hdCompanyGoal input[type='radio']+label:before,
+	.formMSG input[type='radio']+label:before {
+		border: 0
+	}
+	
+	.hdCompanyGoal input[type='radio']:checked+label:after,
+	.formMSG input[type='radio']:checked+label:after {
+		display: none
+	}
+	
+	#hdManageTop {
+		position: relative;
+		width: 100%;
+		top: 0;
+		height: 67px;
+		line-height: 68px;
+		background: #fff;
+		border-bottom: 1px solid #e7e7e7;
+		left: 0;
+		z-index: 10
+	}
+	
+	#hdCompanyGoalErr {
+		font-size: 14px;
+		color: #f33;
+		background: url('/image/warm.png?v=201705081747') 0 8px no-repeat;
+		padding-left: 20px;
+		display: none
+	}
+	
+	#hdManageTop .chanToOldVer {
+		display: inline-block;
+		border-left: solid 1px #e7e7e7;
+		height: 26px;
+		line-height: 26px;
+		vertical-align: top;
+		margin-top: 19px;
+		margin-left: 6px;
+		padding-left: 14px;
+		cursor: pointer
+	}
+	
+	#hdManageTop .chanToOldVer a {
+		color: #b1b1b1
+	}
+	
+	#hdManageTop .chanToOldVer a:hover {
+		color: #74b7e6
+	}
+	
+	#hdManageTop .chanToOldVer:hover {
+		color: #329fea
+	}
+	
+	#hdManageTop .switchStoreBox {
+		display: inline-block;
+		height: 20px;
+		line-height: 20px;
+		vertical-align: top;
+		margin-top: 22px;
+		margin-left: 6px;
+		padding-left: 14px
+	}
+	
+	#hdManageTop .switchStoreBox span {
+		display: inline-block;
+		color: #b1b1b1
+	}
+	
+	#hdManageTop .switchStoreBox a {
+		display: inline-block;
+		margin-left: 10px;
+		padding-left: 10px;
+		color: #74b7e6;
+		border-left: solid 1px #e7e7e7
+	}
+	
+	#hdManageTop .switchStoreBox a:hover {
+		text-decoration: underline
+	}
+	
+	#hdManageTop .logo {
+		height: 100%;
+		display: inline-block;
+		vertical-align: top
+	}
+	
+	.logoImg {
+		background: url('/image/logo.png?v=201607281150')
+	}
+	
+	.oemLogoImg {
+		background: url('/image/fxlogo.png?v=201607281150');
+		background-repeat: no-repeat;
+		background-position: 20px 2px
+	}
+	
+	#hdManageTop #lineCashInfoBox {
+		width: 360px;
+		height: 230px;
+		padding: 10px;
+		border: 1px solid #cfcfcf;
+		background-color: #fff;
+		position: absolute;
+		z-index: 10;
+		top: 55px;
+		left: 20px;
+		border-radius: 4px;
+		line-height: 17px
+	}
+	
+	#hdManageTop #lineCashInfoBox p {
+		line-height: 16px
+	}
+	
+	#hdManageTop .manageInfoBox {
+		position: absolute;
+		text-align: center;
+		height: 100%;
+		top: 0;
+		right: 0
+	}
+	
+	#hdManageTop .new_manageInfoBox {
+		width: 280px
+	}
+	
+	#isOem #hdManageTop .manageInfoBox {
+		right: 22px
+	}
+	
+	#oem_manageInfoBox .manageInfoBox {
+		min-width: 550px
+	}
+	
+	#hdManageTop .manageInfo.manageInfoMin {
+		width: 120px;
+		height: 69px;
+		position: relative
+	}
+	
+	#hdManageTop .topBarIcon {
+		width: 36px;
+		height: 36px;
+		background: url(../img/iconAll3.png) -95px -84px no-repeat;
+		position: relative;
+		margin: 16px auto;
+		z-index: 10;
+		cursor: pointer
+	}
+	
+	#hdManageTop .topBarIcon1 {
+		width: 58px;
+		height: 69px;
+		background: url(../image/iconAll2.png?v=201801222017) -706px -1132px no-repeat;
+		position: relative;
+		margin: 16px auto;
+		z-index: 10;
+		cursor: pointer
+	}
+	
+	#hdManageTop .topBarIcon2 {
+		width: 50px;
+		height: 71px;
+		background: url(../image/iconAll2.png?v=201801222017) -839px -1132px no-repeat;
+		position: relative;
+		margin: -94px auto;
+		z-index: 10;
+		cursor: pointer
+	}
+	
+	#hdManageTop .moreBarIcon {
+		width: 63px;
+		height: 47px;
+		background: url(../image/iconAll2.png?v=201801222017) -776px -1132px no-repeat;
+		position: relative;
+		margin: 16px auto;
+		z-index: 10;
+		cursor: pointer
+	}
+	
+	#hdManageTop .topBarHome {
+		background: url(../img/iconAll3.png) -95px -88px no-repeat
+	}
+	
+	#hdManageTop .manageInfo {
+		float: left;
+		box-sizing: border-box;
+		height: 67px;
+		color: #333;
+		width: 96px;
+		line-height: 68px;
+		position: relative;
+		z-index: 15
+	}
+	
+	#hdManageTop .manageInfo112 {
+		width: 112px;
+		border-left: solid 1px transparent;
+		border-right: solid 1px transparent
+	}
+	
+	#hdManageTop .manageInfo112>.headerRedDot {
+		top: 14px;
+		right: 8px
+	}
+	
+	#hdManageTop .manageInfo181 {
+		width: 181px;
+		float: left;
+		border-left: solid 1px #e7e7e7
+	}
+	
+	#hdManageTop .manageInfo181 .icon {
+		display: inline-block;
+		vertical-align: middle;
+		width: 22px;
+		height: 22px;
+		background: url(../img/iconAll3.png) -54px -224px no-repeat
+	}
+	
+	#hdManageTop .manageInfo181 .icon:hover {
+		background-position: -94px -224px
+	}
+	
+	#hdManageTop .manageInfo:hover,
+	#hdManageTop .hoverChecked {
+		border-left: solid 1px #e7e7e7;
+		border-right: solid 1px #e7e7e7
+	}
+	
+	#hdManageTop .topBarBulletin:hover {
+		height: 69px
+	}
+	
+	#hdManageTop .hoverShadow:hover {
+		background: #fff;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.15)
+	}
+	
+	#hdManageTop .manageInfo.hoverChecked {
+		background: #fff;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+		height: 70px
+	}
+	
+	#hdManageTop .manageInfo:hover:after,
+	#hdManageTop .hoverChecked:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: -1px;
+		right: -1px;
+		border-top: solid 4px #329fea
+	}
+	
+	#hdManageTop .manageInfo #hotGif {
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: -10px;
+		padding-right: 8px;
+		width: 20px;
+		height: 24px;
+		background: url(/image/hotGif.gif?v=201701061755) no-repeat
+	}
+	
+	#hdManageTop .manageInfo a,
+	#hdManageTop .manageInfoMin a {
+		display: block;
+		cursor: pointer
+	}
+	
+	#nav_helpAddServer {
+		position: relative
+	}
+	
+	#hdManageTop .manageInfo181 #index_closeSlideBar_btn {
+		position: absolute;
+		background-position: -585px -219px;
+		right: 5px;
+		height: 28px;
+		width: 28px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		display: none;
+		z-index: 20
+	}
+	
+	#hdManageTop .manageInfo181 #index_closeSlideBar_btn:hover {
+		background-position: -653px -220px
+	}
+	
+	.promImgBox {
+		float: left;
+		width: 280px;
+		height: 100px;
+		overflow: hidden;
+		position: relative
+	}
+	
+	.promImgBoxInner {
+		width: 855px;
+		height: 100%;
+		position: relative
+	}
+	
+	.promImgBoxInner a {
+		float: left;
+		width: 285px;
+		height: 100px
+	}
+	
+	.promImgBoxInner a img {
+		display: inline-block;
+		width: 100%;
+		height: 100%
+	}
+	
+	.littleBtn {
+		width: 25px;
+		height: 10px;
+		position: absolute;
+		right: 0;
+		bottom: 5px;
+		text-align: center
+	}
+	
+	.littleBtn span {
+		float: left;
+		margin: 0 2px;
+		width: 7px;
+		height: 7px;
+		cursor: pointer
+	}
+	
+	.promUpdateBox {
+		float: left;
+		padding: 0 0 6px 9px
+	}
+	
+	.promSkillBox {
+		float: left;
+		padding: 7px 8px 6px 9px
+	}
+	
+	.promSkillBox .qrcodeImg {
+		width: 280px;
+		height: 120px
+	}
+	
+	.promSkillBox .tabLink {
+		margin-top: 6px
+	}
+	
+	.showNow {
+		background: url(/image/1.png?v=201608301815) no-repeat;
+		background-position: 0 -13px;
+		background-size: 7px 20px
+	}
+	
+	.notShow {
+		background: url(/image/1.png?v=201608301815) no-repeat;
+		background-position: 0 0;
+		background-size: 7px 20px
+	}
+	
+	#hdManageTop .manageWrap {
+		float: left;
+		width: 1px;
+		height: 100%;
+		background-image: url(/image/manageWrap.jpg?v=201607281150);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain
+	}
+	
+	#hdManageTop .userInfoBox {
+		float: right;
+		margin-right: 22px;
+		height: 100%
+	}
+	
+	#hdManageTop .userInfoBox .userInfo {
+		height: 100%;
+		padding: 0 10px;
+		text-align: center
+	}
+	
+	#hdManageTop .userInfoBox .userName {
+		display: inline-block;
+		font-size: 12px
+	}
+	
+	#hdManageTop .topBarServeBox {
+		width: 100%;
+		margin: auto;
+		margin-top: 16px;
+		position: relative;
+		z-index: 10;
+		cursor: pointer;
+		text-align: center;
+		color: #333
+	}
+	
+	#hdManageTop .topBarServe {
+		width: 108px;
+		height: 50px;
+		line-height: 36px;
+		position: relative;
+		z-index: 10;
+		background: #fff
+	}
+	
+	#hdManageTop .topBarServeMenuBox {
+		border: solid 1px #e7e7e7;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+		background: #fff;
+		width: 110px;
+		border-top: 0;
+		left: -1px;
+		position: absolute;
+		top: 65px;
+		z-index: 2;
+		display: none
+	}
+	
+	#hdManageTop .topBarServeMenuBox a {
+		color: #949494
+	}
+	
+	#hdManageTop .topBarServeContent {
+		width: 100%;
+		height: 36px;
+		line-height: 36px
+	}
+	
+	#hdManageTop .topBarServeIcon {
+		width: 12px;
+		height: 12px;
+		display: inline-block;
+		background: url(../img/iconAll3.png) no-repeat -39px -95px;
+		margin-left: 3px
+	}
+	
+	#hdManageTop .topBarServeBox:hover .topBarServeIcon {
+		background-position: -63px -95px
+	}
+	
+	#hdManageTop .topBarServeContent:hover {
+		background-color: #f8f8f8;
+		color: #329fea
+	}
+	
+	#hdManageTop .topBarContent_new {
+		position: absolute;
+		right: -1px;
+		width: 298px!important;
+		top: 68px;
+		height: auto;
+		display: none;
+		background-color: #fff;
+		border: 1px solid #e7e7e7;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+		z-index: 1;
+		padding: 0;
+		border-top: 0
+	}
+	
+	#hdManageTop .topBarContent {
+		position: absolute;
+		right: -1px;
+		width: 368px;
+		top: 68px;
+		height: auto;
+		display: none;
+		background-color: #fff;
+		border: 1px solid #e7e7e7;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+		z-index: 1;
+		padding: 0;
+		border-top: 0
+	}
+	
+	.topBarBulletinContent .menuDiv {
+		line-height: 20px;
+		text-align: center;
+		background-color: #fff;
+		border-bottom: solid 1px #e7e7e7;
+		padding: 10px 0
+	}
+	
+	.topBarBulletinContent .menuDiv-single {
+		height: 20px;
+		line-height: 32px
+	}
+	
+	.topBarBulletinContent .menuDiv .menu {
+		width: 142px;
+		cursor: pointer;
+		display: inline-block
+	}
+	
+	.topBarBulletinContent .menuDiv #menuMessage .icon {
+		background-position: -296px -56px
+	}
+	
+	.topBarBulletinContent .menuDiv #menuMessage.menu-check .icon,
+	.topBarBulletinContent .menuDiv #menuMessage:hover .icon {
+		background-position: -324px -56px
+	}
+	
+	.topBarBulletinContent .menuDiv #menuUpdate .icon {
+		background-position: -354px -56px
+	}
+	
+	.topBarBulletinContent .menuDiv #menuUpdate.menu-check .icon,
+	.topBarBulletinContent .menuDiv #menuUpdate:hover .icon {
+		background-position: -382px -56px
+	}
+	
+	.topBarBulletinContent .menuDiv .menu-single {
+		height: 25px
+	}
+	
+	.topBarBulletinContent .menuDiv #menuUpdate {
+		position: relative
+	}
+	
+	.topBarBulletinContent .menuDiv #menuUpdate .redPoint {
+		display: none;
+		position: absolute;
+		top: 10px;
+		right: 35px;
+		width: 7px;
+		height: 7px;
+		background: url(/image/bg02.png?v=201607281150) -695px -33px no-repeat
+	}
+	
+	.topBarBulletinContent .menuDiv .line {
+		float: left;
+		border-left: 1px solid #e1e1e1;
+		font-size: 0;
+		height: 100%
+	}
+	
+	.topBarBulletinContent .menuDiv .menu-check,
+	.topBarBulletinContent .menuDiv .menu:hover {
+		color: #74b7e6
+	}
+	
+	.topBarBulletinContent .listDiv {
+		padding: 8px 8px 8px;
+		overflow: hidden
+	}
+	
+	.topBarBulletinContent #message {
+		padding: 7px 0 7px 9px;
+		float: left
+	}
+	
+	.topBarBulletinContent .listDiv .list,
+	.moreBarContentBox .listDiv .list {
+		height: 25px;
+		line-height: 30px;
+		color: #585858;
+		text-align: left;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden
+	}
+	
+	.topBarBulletinContent .listDiv .list a,
+	.moreBarContentBox .listDiv .list a {
+		color: #585858;
+		text-decoration: none;
+		margin: 0
+	}
+	
+	.topBarBulletinContent .listDiv .list a:hover,
+	.moreBarContentBox .listDiv .list a:hover {
+		color: #74b7e6;
+		text-decoration: underline
+	}
+	
+	.topBarBulletinContent .listDiv .list a .iconPoint,
+	.moreBarContentBox .listDiv .list a .iconPoint {
+		width: 4px;
+		height: 4px;
+		display: inline-block;
+		background: #b1b1b1;
+		border-radius: 100%;
+		vertical-align: middle;
+		margin: -3px 8px 0 4px
+	}
+	
+	.topBarBulletinContent .listDiv .list a:hover .iconPoint,
+	.moreBarContentBox .listDiv .list a:hover .iconPoint {
+		background: #74b7e6
+	}
+	
+	.topBarBulletinContent #leftAside .leftAsideTab,
+	.topBarBulletinContent #leftAside_new .leftAsideTab {
+		line-height: 7px;
+		padding: 12px 6px;
+		cursor: pointer
+	}
+	
+	.topBarBulletinContent #leftAside .leftAsideTab a,
+	.topBarBulletinContent #leftAside_new .leftAsideTab a {
+		display: inline-block
+	}
+	
+	.topBarBulletinContent #leftAside {
+		float: left;
+		width: 70px;
+		background-color: #f5f5f5
+	}
+	
+	.topBarBulletinContent #leftAside .leftAsideTab a:active {
+		background-color: #fff
+	}
+	
+	.topBarBulletinContent #leftAside .leftAsideTab:hover,
+	.topBarBulletinContent #leftAside .leftAsideTab.active {
+		background-color: #fff
+	}
+	
+	.topBarBulletinContent #leftAside .leftAsideTab:hover a,
+	.topBarBulletinContent #leftAside .leftAsideTab.active a {
+		color: #329fea
+	}
+	
+	.topBarBulletinContent #leftAside_new {
+		width: 280px;
+		height: 40px;
+		padding: 10px 10px 0 10px
+	}
+	
+	.topBarBulletinContent #leftAside_new .leftAsideTab a:hover,
+	.topBarBulletinContent #leftAside_new .leftAsideTab a:active {
+		color: white
+	}
+	
+	.topBarBulletinContent #leftAside_new .leftAsideTab:hover,
+	.topBarBulletinContent #leftAside_new .leftAsideTab.active {
+		background-color: #329fea
+	}
+	
+	.topBarBulletinContent .listDiv .promUpdateBox .list a,
+	.topBarBulletinContent .listDiv .promSkillBox .list a {
+		color: #949494
+	}
+	
+	.topBarBulletinContent .listDiv .promUpdateBox .list a:hover,
+	.topBarBulletinContent .listDiv .promSkillBox .list a:hover {
+		color: #74b7e6;
+		text-decoration: none
+	}
+	
+	#hdManageTop .topBarVer {
+		background-repeat: no-repeat;
+		position: relative;
+		z-index: 20
+	}
+	
+	#hdManageTop .topBarVerContent {
+		box-sizing: border-box;
+		padding: 8px;
+		width: 292px;
+		right: -1px;
+		z-index: 12;
+		text-align: left;
+		line-height: 12px
+	}
+	
+	#hdManageTop .topBarVerContent:after {
+		content: '';
+		display: block;
+		position: absolute;
+		right: 0;
+		height: 3px;
+		background: #fff;
+		top: -3px
+	}
+	
+	#hdManageTop .topBarVerContent .verBg {
+		width: 100%;
+		height: 100px;
+		position: relative;
+		background: url('../image/verBg.jpg') no-repeat center transparent;
+		color: #fff
+	}
+	
+	#hdManageTop .topBarVerContent .verBg .op_btn {
+		position: absolute;
+		right: 12px;
+		top: 16px;
+		width: 64px;
+		height: 32px;
+		border-radius: 4px;
+		line-height: 32px;
+		color: #fff
+	}
+	
+	#hdManageTop .topBarVerContent .verBg .imgBtn {
+		position: absolute;
+		right: 12px;
+		top: 16px;
+		width: 86px;
+		height: 28px
+	}
+	
+	#hdManageTop .topBarVerContent .verIconImg {
+		width: 60px;
+		height: 60px;
+		float: left;
+		margin: 20px 8px 0 12px
+	}
+	
+	#hdManageTop .topBarVerContent .verTime {
+		padding-top: 24px;
+		margin-left: 80px
+	}
+	
+	#hdManageTop .topBarVerContent .ver_free {
+		background: url('../image/verFREE.png') no-repeat center!important
+	}
+	
+	#hdManageTop .topBarVerContent .ver_by {
+		background: url('../image/verBY.png') no-repeat center!important
+	}
+	
+	#hdManageTop .topBarVerContent .ver_biz {
+		background: url('../image/verBJ.png') no-repeat center!important
+	}
+	
+	#hdManageTop .topBarVerContent .ver_zs {
+		background: url('../image/verZS.png') no-repeat center!important
+	}
+	
+	#hdManageTop .topBarVerContent .ver_md {
+		background: url('../image/verMD.png?v=201706051916') no-repeat center!important
+	}
+	
+	#hdManageTop .topBarVerContent .ver_o_tri {
+		background: url('../image/verFREE.png') no-repeat center!important
+	}
+	
+	#hdManageTop .topBarVerContent .ver_o_low {
+		background: url('../image/verBY.png') no-repeat center!important
+	}
+	
+	#hdManageTop .topBarVerContent .ver_o_adv {
+		background: url('../image/verBJ.png') no-repeat center!important
+	}
+	
+	#hdManageTop .topBarVerContent .ver_o_hon {
+		background: url('../image/verZS.png') no-repeat center!important
+	}
+	
+	#hdManageTop .topBarVerContent .title {
+		height: 20px;
+		line-height: 18px;
+		background: #ff4e1f;
+		width: 55px;
+		margin-bottom: 14px;
+		text-align: center
+	}
+	
+	#hdManageTop .topBarVerContent .overTime {
+		font-size: 12px
+	}
+	
+	#hdManageTop .topBarVerContent .linkBtnRow {
+		width: 100%;
+		height: 40px;
+		line-height: 20px
+	}
+	
+	#hdManageTop .topBarVerContent .linkBtnRow a {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		color: #585858;
+		width: 49%;
+		display: inline-block;
+		text-align: center;
+		margin: 10px 0
+	}
+	
+	#hdManageTop .topBarVerContent .icon {
+		display: inline-block;
+		vertical-align: middle;
+		width: 22px;
+		height: 22px;
+		background: url(../img/iconAll3.png) no-repeat -302px -92px
+	}
+	
+	#hdManageTop .topBarVerContent a:hover {
+		color: #329fea
+	}
+	
+	#hdManageTop .topBarVerContent .linkBtnRow a:hover .icon {
+		background-position: -342px -92px
+	}
+	
+	#hdManageTop .topBarVerContent .linkBtnRow .detailLink:hover .icon {
+		background-position: -420px -92px
+	}
+	
+	#hdManageTop .topBarVerContent .linkBtnRow .detailLink .icon {
+		background: url(../img/iconAll3.png) no-repeat -380px -92px
+	}
+	
+	#hdManageTop .topBarVerContent .linkBtnRow a:first-child {
+		border-right: solid 1px #e7e7e7
+	}
+	
+	#hdManageTop .topBarVerContent .userInfo {
+		padding: 11px 8px 4px 8px;
+		border-top: 1px solid #e7e7e7;
+		color: #585858;
+		position: relative
+	}
+	
+	#hdManageTop .topBarVerContent>p>a {
+		color: #247bff;
+		text-decoration: underline
+	}
+	
+	#hdManageTop .topBarVerContent .userInfo a {
+		position: absolute;
+		right: 12px;
+		top: 8px
+	}
+	
+	#hdManageTop .topBarVerContent .userInfo a .icon {
+		background-position: -462px -92px
+	}
+	
+	#hdManageTop .topBarVerContent .userInfo a:hover .icon {
+		background-position: -502px -92px
+	}
+	
+	#hdContainer #detectActiveBox {
+		padding: 0 16px 102px
+	}
+	
+	#hdContainer #detectActiveTableHead {
+		width: 100%;
+		height: 77px;
+		border-bottom: solid 1px #e7e7e7;
+		margin-bottom: 8px
+	}
+	
+	#hdContainer #detectActiveTableBody {
+		width: 100%;
+		height: 100%;
+		overflow: auto
+	}
+	
+	#hdContainer #detectActiveTableBody table {
+		table-layout: fixed;
+		width: 100%;
+		padding-right: 16px;
+		font-size: 14px
+	}
+	
+	#hdContainer #detectActiveTableBody tr {
+		background-color: #f5f5f5;
+		margin-bottom: 8px;
+		line-height: 68px;
+		height: 68px;
+		display: inline-block;
+		width: 100%
+	}
+	
+	#hdContainer #detectActiveTableBody tr td {
+		height: 68px
+	}
+	
+	#hdContainer #detectActiveTableBody tr td.column1 {
+		text-align: left
+	}
+	
+	#hdContainer #detectActiveTableHead tr th {
+		line-height: 78px;
+		font-size: 14px;
+		font-weight: bold;
+		color: #585858
+	}
+	
+	#hdContainer #detectActiveBox .column1 {
+		width: 322px
+	}
+	
+	#hdContainer #detectActiveTableBody .column1 .imgBox {
+		display: inline-block;
+		vertical-align: middle;
+		width: 80px;
+		height: 44px;
+		margin: 12px 10px 12px 8px;
+		position: relative
+	}
+	
+	#hdContainer #detectActiveTableBody .column1 .imgBox img {
+		width: 100%;
+		height: 100%
+	}
+	
+	#hdContainer #detectActiveTableBody .column1 .imgBox .fxtop {
+		width: 56px;
+		height: 48px;
+		position: absolute;
+		top: -13px;
+		left: -10px;
+		background-image: url(../img/iconAll3.png);
+		background-repeat: no-repeat
+	}
+	
+	#hdContainer #detectActiveTableBody .column1 .imgBox .fxtop0 {
+		background-position: -683px -80px
+	}
+	
+	#hdContainer #detectActiveTableBody .column1 .imgBox .fxtop1 {
+		background-position: -748px -80px
+	}
+	
+	#hdContainer #detectActiveTableBody .column1 .imgBox .fxtop2 {
+		background-position: -816px -80px
+	}
+	
+	#hdContainer #detectActiveTableBody .column1 .imgBox .actNum {
+		width: 100%;
+		font-size: 12px;
+		line-height: 16px;
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.65);
+		position: absolute;
+		bottom: -2px;
+		left: 0;
+		text-align: center;
+		z-index: 50;
+		display: none
+	}
+	
+	#hdContainer #detectActiveTableBody .column1 .textBox {
+		display: inline-block;
+		vertical-align: middle;
+		height: 68px;
+		line-height: 68px;
+		text-align: left;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		-o-text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 210px
+	}
+	
+	#hdContainer #detectActiveBox .column2 {
+		width: 250px
+	}
+	
+	#hdContainer #detectActiveBox td .column2 {
+		color: #ff5502;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		-o-text-overflow: ellipsis;
+		white-space: nowrap
+	}
+	
+	#hdContainer #detectActiveBox .column3 {
+		width: 142px
+	}
+	
+	#hdContainer #detectActiveBox .column4 {
+		width: 152px
+	}
+	
+	#hdContainer #detectActiveBox .column5 {
+		width: 114px
+	}
+	
+	#hdContainer #detectActiveTableBody .column5 .qrcodeIcon {
+		width: 22px;
+		height: 22px;
+		background-image: url(../img/iconAll3.png);
+		background-repeat: no-repeat;
+		background-position: -884px -91px;
+		margin: 23px auto
+	}
+	
+	#hdContainer #detectActiveBox .qrcodeBox {
+		border: 1px solid #e7e7e7;
+		padding: 9px;
+		width: 142px;
+		height: 142px;
+		border-radius: 4px;
+		position: absolute;
+		z-index: 200;
+		background-color: #fff;
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+		display: none
+	}
+	
+	#hdContainer #detectActiveBox .qrcodeBox img {
+		width: 100%;
+		height: 100%
+	}
+	
+	#hdContainer #detectActiveBox .qrcodeBox .inIcon {
+		width: 8px;
+		height: 12px;
+		position: absolute;
+		right: -7px;
+		top: 22px;
+		background-image: url(../img/iconAll3.png);
+		background-position: -943px -96px
+	}
+	
+	#hdContainer #detectActiveTableBody .transition {
+		animation: fadeIn .4s ease 1;
+		-moz-animation: fadeIn .4s ease 1;
+		-webkit-animation: fadeIn .4s ease 1;
+		-o-animation: fadeIn .4s ease 1
+	}
+	
+	#hdContainer #hdManageLeft {
+		width: 7%;
+		height: 100%;
+		float: left;
+		background-color: #329fea;
+		overflow: hidden
+	}
+	
+	#hdManageLeft .leftUtil {
+		position: relative;
+		height: 56px;
+		width: 100%;
+		cursor: pointer;
+		line-height: 56px;
+		text-align: center;
+		color: #ceebff
+	}
+	
+	#hdManageLeft .leftUtil:hover,
+	#hdManageLeft .leftUtil.hoverChecked {
+		background: #1184d3;
+		color: #fff
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconHolder {
+		background-position: -85px -355px
+	}
+	
+	#hdManageLeft .leftUtil .iconHolder {
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+		width: 22px;
+		height: 22px;
+		background: url(../img/iconAll3.png) no-repeat -49px -355px;
+		margin-top: -2px
+	}
+	
+	#hdManageLeft .leftUtil.checked:after {
+		content: '';
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 22px;
+		border-top: 7px solid transparent;
+		border-bottom: 7px solid transparent;
+		border-left: 7px solid transparent;
+		border-right: 7px solid #f5f5f5
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconActList {
+		background-position: -175px -355px
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconHexiao {
+		background-position: -256px -355px
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconMyinfo {
+		background-position: -332px -355px
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconGiftCenter {
+		background-position: -792px -355px
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconPermis {
+		background-position: -497px -355px
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconDaris {
+		background-position: -580px -355px
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconMendian {
+		background-position: -648px -355px
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconArea {
+		background-position: -717px -355px
+	}
+	
+	#hdManageLeft .leftUtil.hoverChecked .iconPayService {
+		background-image: url("../image/leftbar_fffw.png?v=201805211724");
+		background-position: center
+	}
+	
+	#hdManageLeft .leftUtil .iconActList {
+		background-position: -131px -355px
+	}
+	
+	#hdManageLeft .leftUtil .iconHexiao {
+		background-position: -220px -355px
+	}
+	
+	#hdManageLeft .leftUtil .iconMyinfo {
+		background-position: -296px -355px
+	}
+	
+	#hdManageLeft .leftUtil .iconGiftCenter {
+		background-position: -754px -355px
+	}
+	
+	#hdManageLeft .leftUtil .iconPermis {
+		background-position: -457px -355px
+	}
+	
+	#hdManageLeft .leftUtil .iconDaris {
+		background-position: -540px -355px
+	}
+	
+	#hdManageLeft .leftUtil .iconMendian {
+		background-position: -616px -355px
+	}
+	
+	#hdManageLeft .leftUtil .iconArea {
+		background-position: -682px -355px
+	}
+	
+	#hdManageLeft .leftUtil .iconPayService {
+		background: url("../image/leftbar_fffw_hover.png?v=201805211724") no-repeat;
+		background-position: center
+	}
+	
+	#hdManageLeft .leftUtil .iconHolder>div {
+		width: 100%;
+		height: 100%
+	}
+	
+	#hdManageLeft .leftUtil .icon {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		vertical-align: middle
+	}
+	
+	
+	
+	#hdManageLeft .leftUtil .leftUtildescr {
+		display: inline-block
+	}
+	
+	#hdManageLeft .leftUtil.checked .leftUtildescr {
+		border-color: transparent
+	}
+	
+	#hdManageLeft .wxImgBox {
+		text-align: center;
+		margin-top: 20px;
+		border-right: 1px solid #e1e1e1;
+		height: 100%
+	}
+	
+	#hdManageLeft .wxImgBox img {
+		width: 128px;
+		height: 128px
+	}
+	
+	#hdManageLeft .wxImgBox p {
+		line-height: 20px;
+		font-size: 12px;
+		margin-top: 5px;
+		color: #333
+	}
+	
+	#hdContainer #manageFrame {
+		height: 100%;
+		position: absolute;
+		left: 144px;
+		right: 0;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		width: 1400px;
+		overflow-y: hidden;
+		overflow-x: auto
+	}
+	
+	#manageFrame .manageFramePage {
+		width: 100%;
+		height: 100%;
+		min-width: 1200px
+	}
+	
+	#manageFrame .manageFramePage.payService {
+		min-width: auto
+	}
+	
+	#manageFrame .manageFramePage.manageFrameMyAct {
+		border: solid 1px #e7e7e7
+	}
+	
+	.popWin {
+		width: 100%;
+		height: 100%;
+		z-index: 999;
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.6)
+	}
+	
+	.popWinContent {
+		position: relative;
+		display: inline-block;
+		width: 983px;
+		margin-top: 5%
+	}
+	
+	.popWinContent .kthd {
+		display: block;
+		border-radius: 10px;
+		width: 100%
+	}
+	
+	.bottomLine {
+		height: 96px;
+		position: absolute;
+		top: 400px;
+		right: 110px;
+		text-align: left;
+		line-height: 96px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		display: table
+	}
+	
+	.bottomLine .button {
+		height: 48px;
+		width: 150px;
+		color: #fff;
+		border-radius: 6px;
+		font-size: 18px;
+		font-family: 微软雅黑;
+		line-height: 48px;
+		cursor: pointer
+	}
+	
+	.bottomLine .leftArea {
+		display: table-cell;
+		width: 50%;
+		text-align: right
+	}
+	
+	.bottomLine .rightArea {
+		display: table-cell;
+		text-align: center
+	}
+	
+	.bottomLine .leftArea .button {
+		background-color: #ef7d22;
+		display: inline-block;
+		text-align: center;
+		margin-right: 12px
+	}
+	
+	.bottomLine .leftArea .button:hover {
+		background-color: #f78e39
+	}
+	
+	.bottomLine .rightArea .button {
+		background-color: #a1a1a1;
+		margin-left: 12px
+	}
+	
+	.bottomLine .rightArea .button:hover {
+		background-color: #b6b6b6
+	}
+	
+	#hdManageTop #operateSkillBox p {
+		font-size: 12px;
+		color: #666;
+		line-height: 20px;
+		text-align: center
+	}
+	
+	#hdManageTop #operateSkillBox {
+		width: 136px;
+		box-sizing: border-box;
+		padding: 10px 10px 5px 10px;
+		border: 1px solid #e7e7e7;
+		background-color: #fff;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+		position: absolute;
+		z-index: 1;
+		top: 67px;
+		right: -1px;
+		line-height: 0
+	}
+	
+	#hdManageTop #operateSkillBox:before {
+		content: '';
+		display: block;
+		width: 94px;
+		height: 4px;
+		position: absolute;
+		background: #fff;
+		z-index: 1;
+		right: 0;
+		top: -3px;
+		bottom: 10px
+	}
+	
+	#editActContainer #editActive .editContent .menuBox_1 {
+		margin-left: 80px;
+		border: 0
+	}
+	
+	.base_overflow,
+	.qrcode_1 {
+		overflow: hidden
+	}
+	
+	.qrcode_1 {
+		position: relative;
+		z-index: 9999999999999;
+		height: 60px;
+		overflow: hidden
+	}
+	
+	#menuLinkSpan_1,
+	.qrcode_1 .QRImg_1,
+	.qrcode_1 .QRloaBox {
+		float: left
+	}
+	
+	#QRCodeBox_1 {
+		padding-left: 13px;
+		float: left
+	}
+	
+	.qrcode_1 {
+		padding-left: 13px
+	}
+	
+	.topBarBulletinContent .listDiv .newsList {
+		display: block;
+		font-family: "微软雅黑";
+		width: 280px;
+		height: 100px;
+		line-height: 100%
+	}
+	
+	.topBarBulletinContent .listDiv .newsList.vipExp-bj {
+		background: url(/image/bg_expire_bj.png?v=201609191747) 0 0 no-repeat
+	}
+	
+	.topBarBulletinContent .listDiv .newsList.vipExp-by {
+		background: url(/image/bg_expire_by.png?v=201609191747) 0 0 no-repeat
+	}
+	
+	.topBarBulletinContent .listDiv .newsList.couponUse {
+		background: url(/image/bg_couponUse.jpg?v=201608291758) 0 0 no-repeat;
+		cursor: default
+	}
+	
+	.topBarBulletinContent .listDiv .newsList.couponExp {
+		background: url(/image/bg_couponExp.jpg?v=201608291758) 0 0 no-repeat;
+		cursor: default
+	}
+	
+	.topBarBulletinContent .listDiv .newsTitle {
+		float: right;
+		font-size: 15px;
+		margin: 20px 20px 0 0;
+		color: #fff
+	}
+	
+	.topBarBulletinContent .listDiv .newsTitle.vipBY {
+		color: #fff
+	}
+	
+	.topBarBulletinContent .listDiv .newsTitle.vipBJ {
+		color: #51492b
+	}
+	
+	.topBarBulletinContent .listDiv .newsTitle-sp {
+		display: inline-block;
+		width: 34px;
+		font-weight: bold
+	}
+	
+	.topBarBulletinContent .listDiv .newsTitle-sp.vipBY {
+		color: #fff10f
+	}
+	
+	.topBarBulletinContent .listDiv .newsTitle-sp.vipBJ {
+		color: #ff4901
+	}
+	
+	.topBarBulletinContent .listDiv .newsText {
+		float: right;
+		font-size: 13px;
+		margin: 8px 20px 0 0;
+		letter-spacing: 1.2px
+	}
+	
+	.topBarBulletinContent .listDiv .newsText.vipBY {
+		color: #eee4e0
+	}
+	
+	.topBarBulletinContent .listDiv .newsText.vipBJ {
+		color: #77725d
+	}
+	
+	.topBarBulletinContent .listDiv .newsBtn {
+		float: left;
+		width: 102px;
+		height: 26px;
+		font-size: 14px;
+		text-decoration: none;
+		margin-top: 10px;
+		margin-left: 119px;
+		text-align: center;
+		line-height: 25px
+	}
+	
+	.topBarBulletinContent .listDiv .newsBtn.vipBY {
+		background-color: #f8ea06;
+		color: #cd6805
+	}
+	
+	.topBarBulletinContent .listDiv .newsBtn.vipBY:hover {
+		background-color: #fdda0a
+	}
+	
+	.topBarBulletinContent .listDiv .newsBtn.vipBJ {
+		background-color: #ff6000;
+		color: #fff
+	}
+	
+	.topBarBulletinContent .listDiv .newsBtn.vipBJ:hover {
+		background-color: #fc7320
+	}
+	
+	.topBarBulletinContent .listDiv .newsCouponText {
+		display: inline-block;
+		font-size: 18px;
+		margin: 18px 0;
+		line-height: normal
+	}
+	
+	.topBarBulletinContent .listDiv .newsCouponText.use {
+		color: #fff
+	}
+	
+	.topBarBulletinContent .listDiv .newsCouponText.exp {
+		color: #f4fcff
+	}
+	
+	.topBarBulletinContent .listDiv .newsTips {
+		float: right;
+		height: 18px;
+		font-size: 12px;
+		text-align: center;
+		line-height: 18px
+	}
+	
+	.topBarBulletinContent .listDiv .newsTips.use {
+		color: #fff;
+		padding-right: 4px;
+		min-width: 90px
+	}
+	
+	.topBarBulletinContent .listDiv .newsTips.exp {
+		padding: 0 3.5px;
+		color: #fefefe;
+		background-color: #8f77e5
+	}
+	
+	#hdAdImg {
+		width: 148px;
+		height: 148px;
+		margin-top: 54px;
+		position: absolute;
+		display: none;
+		margin-left: 10px;
+		bottom: 100px;
+		z-index: 999
+	}
+	
+	#hdAdImg .hdAdBg {
+		width: 148px;
+		height: 148px;
+		cursor: pointer
+	}
+	
+	#hdAdImg .hdAdClose {
+		height: 17px;
+		width: 17px;
+		position: absolute;
+		top: 2px;
+		right: -7px;
+		cursor: pointer
+	}
+	
+	#flyerAdContainer {
+		position: relative;
+		width: 149px;
+		height: 213px;
+		margin-top: 40px;
+		background: url(/image/flyerAd.gif?v=201608301815) 0 0 no-repeat;
+		display: none;
+		margin-left: 7px
+	}
+	
+	#flyerAdContainer .closeFlyerAd {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		top: 10px;
+		right: 7px;
+		cursor: pointer
+	}
+	
+	#flyerAdContainer .FlyerAd_hover {
+		position: absolute;
+		left: 18px;
+		top: 10px;
+		width: 103px;
+		height: 186px;
+		cursor: pointer
+	}
+	
+	#flyerAdContainer .FlyerAd_hover:hover {
+		background: url(/image/flyerAd_hover.png?v=201608301815) 5px 20px no-repeat
+	}
+	
+	#faiscoHdComBox {
+		position: absolute;
+		width: 300px;
+		z-index: 10;
+		top: 55px;
+		border: 1px solid #cfcfcf;
+		border-radius: 4px
+	}
+	
+	.clearFix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden
+	}
+	
+	.clearFix {
+		*+height: 1%
+	}
+	
+	.floatLeft {
+		float: left
+	}
+	
+	.floatRight {
+		float: right
+	}
+	
+	.fHCboxBig {
+		padding: 12px 10px;
+		color: #999;
+		background-color: #fff;
+		font-size: 12px;
+		border-radius: 4px;
+		overflow: hidden
+	}
+	
+	.cutOffLine {
+		margin: 0 4px
+	}
+	
+	.theNameOfFKHD {
+		color: #333
+	}
+	
+	.fHCboxOne {
+		padding-bottom: 12px;
+		border-bottom: 1px solid #ececec;
+		height: 22px;
+		line-height: 22px
+	}
+	
+	.fHCboxTwo {
+		line-height: 17px;
+		text-align: left;
+		margin-top: 10px
+	}
+	
+	#faiscoHdComBox .sanjiao {
+		left: 44px
+	}
+	
+	.hd-searchInputBox {
+		position: fixed;
+		top: 70px;
+		right: 70px;
+		height: 32px;
+		width: 170px
+	}
+	
+	.hd-searchInputBox .innerBox {
+		width: 168px;
+		height: 30px;
+		border: 1px solid #c8c8c8;
+		padding-left: 8px
+	}
+	
+	.clearBtn {
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		right: 5px;
+		top: 8px;
+		background: url('../image/inputClear.png?v=201608291758');
+		background-position: 0 0;
+		cursor: pointer
+	}
+	
+	.clearActive {
+		background-position: 0 -60px
+	}
+	
+	::-ms-clear {
+		display: none
+	}
+	
+	.hd-theSiganUp-Bclass-UserGuide {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 10000;
+		overflow: hidden
+	}
+	
+	.hd_hg_grey {
+		background: rgba(0, 0, 0, 0.8)
+	}
+	
+	.hd-NewSiganUp-boxer .theLittleBaby {
+		width: 100%
+	}
+	
+	.hd-NewSiganUp-boxer-second div {
+		height: 100%
+	}
+	
+	.eventBox {
+		cursor: pointer;
+		width: 100%;
+		text-align: center
+	}
+	
+	.hd-NewSiganUp-EventBox {
+		position: absolute
+	}
+	
+	.eventBox img {
+		display: block;
+		margin: 0 auto;
+		margin-top: 30px
+	}
+	
+	.abs img {
+		display: block;
+		margin: 0 auto;
+		margin-top: 173px!important
+	}
+	
+	.theSHowerBorder {
+		position: absolute;
+		border: 2px dashed white;
+		border-radius: 6px
+	}
+	
+	.theShowerImgerBoxer {
+		position: relative;
+		width: 650px;
+		text-align: center
+	}
+	
+	.theNowEventBoxer {
+		position: absolute;
+		right: 0;
+		top: 50px
+	}
+	
+	.hd-NewSiganUp-shower-detail {
+		background-color: white;
+		opacity: 0
+	}
+	
+	#openHdPanel {
+		font-family: "微软雅黑"
+	}
+	
+	#openHdPanel .openHdTxt {
+		position: absolute;
+		width: 350px;
+		top: 160px;
+		right: 91px;
+		font-size: 30px;
+		color: #0c7da5
+	}
+	
+	#openHdPanel .openHdTxt .title {
+		margin-top: 10px;
+		font-size: 20px
+	}
+	
+
+	
+	#slideBar_qrCode {
+		width: 120px;
+		height: 120px;
+		margin: 0 auto;
+		line-height: 20px;
+		color: #969696
+	}
+	
+	#slideBar_qrCode img {
+		width: 100%;
+		display: block;
+		margin: 24px 0 5px
+	}
+	
+	#slideBar_qrCode .txt {
+		width: 110px;
+		margin: -9px auto 0;
+		text-align: center
+	}
+	
+	#setAwardContent {
+		max-height: 692px
+	}
+	
+	#drawalBox {
+		padding-bottom: 45px
+	}
+	
+	#cav_title .backBtn {
+		cursor: pointer
+	}
+	
+	.redPacketTopUpBox .poupContent {
+		text-align: left;
+		padding: 20px 36px
+	}
+	
+	
+	
+	#index_poupBox_setAwardContent .poupContent {
+		padding: 0!important
+	}
+	
+	.poupWindow {
+		width: 800px;
+		height: 474px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -400px;
+		margin-top: -237px;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-radius: 5px;
+		overflow: hidden;
+		z-index: 9999
+	}
+	
+	.poupWindowBoxer {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		overflow: hidden
+	}
+	
+	
+	
+	
+	.theRedTypeBoxer .theRedType {
+		display: inline-block;
+		width: 140px;
+		height: 125px;
+		background: url('/version2/image/tipsForPoupWin/drawLottery3.png?v=201706262039');
+		background-repeat: no-repeat;
+		background-position: -10px 0;
+		margin-left: 30px
+	}
+	
+	.theRedType .boxerKeeper {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		text-align: center
+	}
+	
+	.boxerKeeper .MoneyShower {
+		width: 80px;
+		height: 40px;
+		display: inline-block;
+		margin-top: 60px;
+		background: url('/version2/image/tipsForPoupWin/drawLottery3.png?v=201706262039');
+		background-repeat: no-repeat;
+		background-position: -185px -10px
+	}
+	
+	.theRedType2 .MoneyShower {
+		background-position: -265px -10px
+	}
+	
+	.theRedType3 .MoneyShower {
+		background-position: -185px -58px
+	}
+	
+	.theRedType4 .MoneyShower {
+		background-position: -275px -58px
+	}
+	
+	.boxerKeeper .goingTips {
+		position: absolute;
+		left: 50%;
+		bottom: -27px;
+		width: 40px;
+		height: 11px;
+		margin-left: -17px;
+		background: url('/version2/image/tipsForPoupWin/drawLottery3.png?v=201706262039');
+		background-repeat: no-repeat;
+		background-position: -60px -310px;
+		border-radius: 5px;
+		overflow: hidden
+	}
+	
+	.boxerKeeper .brightTips {
+		background-position: 0 -310px
+	}
+	
+	.getRedPackage .clickBtn {
+		width: 170px;
+		height: 50px;
+		margin: 0 auto;
+		margin-top: 25px;
+		background: url('/version2/image/tipsForPoupWin/drawLottery3.png?v=201706262039');
+		background-position: -4px -162px;
+		background-repeat: no-repeat;
+		border-radius: 5px;
+		overflow: hidden;
+		cursor: pointer
+	}
+	
+	.theOutSideBoxer .theShowerForOcoup {
+		margin-left: 406px;
+		font-size: 18px
+	}
+	
+	.theShowerForOcoup .oneBaby {
+		margin-top: 170px;
+		font-size: 16px;
+		font-weight: bold
+	}
+	
+	.theShowerForOcoup .twoBaby {
+		margin-top: 25px;
+		font-size: 14px
+	}
+	
+	.theShowerForOcoup .useClickBtn {
+		margin-top: 35px
+	}
+	
+	.getRedPackage .hoverBtn {
+		background-position: -222px -162px
+	}
+	
+	.getRedPackage .tipsWord {
+		width: 100%;
+		position: absolute;
+		bottom: 20px;
+		text-align: center
+	}
+	
+	.theTipsWord {
+		font-size: 12px;
+		color: #fff;
+		font-family: "微软雅黑"
+	}
+	
+	.getRedPackage .tipsWordRight {
+		position: absolute;
+		right: 10px;
+		bottom: 12px
+	}
+	
+	.getRedPackage2 {
+		background: url('/version2/image/tipsForPoupWin/drawLottery2.jpg?v=201706262039')
+	}
+	
+	.getRedPackage2 .theOutSideBoxer {
+		width: 100%
+	}
+	
+	.theOutSideBoxer .leftSide {
+		margin-left: 42px;
+		margin-top: 116px;
+		width: 281px;
+		height: 310px;
+		background-size: 100% 100%;
+		background-repeat: no-repeat
+	}
+	
+	.theOutSideBoxer .get100 {
+		background: url('/image/tipsForPoupWin/theRedPackage100.png?v=201704171752')
+	}
+	
+	.theOutSideBoxer .rightSide {
+		width: 426px
+	}
+	
+	.rightSide .cuxiaoTimer {
+		height: 185px
+	}
+	
+	.cuxiaoTimer .cuxiaoBoxer {
+		width: 162px;
+		height: 185px;
+		margin-right: 35px;
+		background: url('/image/tipsForPoupWin/tipsPai.png?v=201704171752') no-repeat;
+		background-size: 100% 100%;
+		text-align: center
+	}
+	
+	.cuxiaoBoxer .cuxiaoBar {
+		margin-top: 40px;
+		font-size: 18px
+	}
+	
+	.cuxiaoBoxer .distanceEnd {
+		margin-top: 16px;
+		font-size: 12px
+	}
+	
+	.cuxiaoBoxer .distanceTimer {
+		margin-top: 8px;
+		font-size: 14px
+	}
+	
+	.distanceTimer .distanceBoxerNow {
+		display: inline-block;
+		background: red
+	}
+	
+	.cuxiaoBoxer .cuxiaoInfo,
+	.cuxiaoBoxer .cuxiaoSay {
+		margin-top: 9px;
+		font-size: 12px
+	}
+	
+	.cuxiaoBoxer .fontSet {
+		font-family: "微软雅黑";
+		color: #fff
+	}
+	
+	.cuxiaoBoxer .cuxiaoSay {
+		margin-top: 5px
+	}
+	
+	.rightSide .theFontLeftSay {
+		width: 330px;
+		height: 36px;
+		line-height: 36px;
+		background: rgba(0, 0, 0, 0.3);
+		color: #fff;
+		padding-left: 8px;
+		border-radius: 18px
+	}
+	
+	.rightSide .useInforMation {
+		margin-top: 47px
+	}
+	
+	.rightSide .useTimeLimit {
+		margin-top: 8px
+	}
+	
+	.getRedPackage2 .useClickBtn {
+		margin-top: 26px;
+		background: url('/version2/image/tipsForPoupWin/drawLottery3.png?v=201706262039') no-repeat;
+		width: 195px;
+		height: 50px;
+		background-position: -5px -239px
+	}
+	
+	.useClickBtn {
+		cursor: pointer
+	}
+	
+	.getRedPackage2 .hoverBtn {
+		background-position: -223px -239px
+	}
+	
+	.packAgeEnd,
+	.gotToLose {
+		height: 470px
+	}
+	
+	.packAgeEnd {
+		background: url('/image/tipsForPoupWin/packAgeEnd.png?v=201704171752');
+		text-align: center
+	}
+	
+	.packAgeEnd .fontSet {
+		font-family: "微软雅黑";
+		font-weight: bold
+	}
+	
+	.packAgeEnd .willEndSoon {
+		margin-top: 36px;
+		font-size: 36px;
+		color: #fff
+	}
+	
+	.willEndSoon .specialTips {
+		color: #ffec4f
+	}
+	
+	.packAgeEnd .moreInfluence {
+		font-size: 22px;
+		color: #fff;
+		margin-top: 18px
+	}
+	
+	.packAgeEnd .bojin {
+		width: 179px;
+		height: 99px;
+		background: url('/image/tipsForPoupWin/bojinDarmond.png?v=201704171752') no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		margin-top: 24px
+	}
+	
+	.packAgeEnd .theWord {
+		margin-top: 3px;
+		font-size: 20px;
+		color: #fff
+	}
+	
+	.packAgeEnd .theInfoMation {
+		width: 500px;
+		margin: 0 auto
+	}
+	
+	.theInfoMation .theBoxer {
+		width: 70px;
+		height: 78px;
+		background: url('/image/tipsForPoupWin/theIconNow.png?v=201704171752') no-repeat;
+		background-size: cover;
+		background-position: 0 0
+	}
+	
+	.theInfoMation .theBoxer2 {
+		background-position: -120px 0;
+		margin-left: 69px
+	}
+	
+	.theInfoMation .theBoxer3 {
+		background-position: -240px 0;
+		margin-left: 69px
+	}
+	
+	.theInfoMation .theBoxer4 {
+		width: 80px;
+		background-position: -364px 0;
+		margin-left: 69px
+	}
+	
+	.packAgeEnd .useClickBtn {
+		margin: 0 auto;
+		margin-top: 26px;
+		background: url('/version2/image/tipsForPoupWin/gotToknow.png?v=201707101858') no-repeat;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 190px;
+		height: 51px
+	}
+	
+	.packAgeEnd .hoverBtn {
+		background: url('/version2/image/tipsForPoupWin/gotToknowHover.png?v=201707101858') no-repeat
+	}
+	
+	.gotToLose {
+		background: url('/image/tipsForPoupWin/gotToLose.png?v=201704171752')
+	}
+	
+	.gotToLose .gotToLoseBoxer {
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden
+	}
+	
+	.gotToLoseBoxer .theTipsBow {
+		margin-top: 132px;
+		font-size: 34px
+	}
+	
+	.gotToLoseBoxer .theSpecial {
+		color: #ffec4f
+	}
+	
+	.gotToLoseBoxer .fontset {
+		color: #fff;
+		font-family: "微软雅黑";
+		font-weight: bold
+	}
+	
+	.gotToLoseBoxer .hasDay {
+		margin-top: 10px;
+		font-size: 60px
+	}
+	
+	.gotToLoseBoxer .limitOne {
+		margin-top: 16px;
+		font-size: 26px
+	}
+	
+	.theTipsBow,
+	.limitOne,
+	.hasDay {
+		text-align: center
+	}
+	
+	.gotToLoseBoxer .tipsLeft {
+		position: absolute;
+		left: 106px;
+		top: 350px;
+		font-size: 14px;
+		color: #fff;
+		font-family: "微软雅黑"
+	}
+	
+	.gotToLoseBoxer .useClickBtn {
+		margin-top: 0;
+		position: absolute;
+		right: 116px;
+		top: 344px;
+		background: url('/version2/image/tipsForPoupWin/gotToknow.png?v=201707101858');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 190px;
+		height: 51px
+	}
+	
+	.gotToLose .hoverBtn {
+		background: url('/version2/image/tipsForPoupWin/gotToknowHover.png?v=201707101858')
+	}
+	
+	.useClickBtn a {
+		display: block;
+		width: 100%;
+		height: 100%
+	}
+	
+	.theRealBoxer {
+		width: 100%;
+		height: 100%
+	}
+	
+	.activePoupMask {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		background: rgba(0, 0, 0, 0.7);
+		z-index: 100;
+		overflow: hidden;
+		display: none
+	}
+	
+	.activePoupBox {
+		width: 1000px;
+		min-height: 320px;
+		background: #FFF;
+		position: absolute;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		top: 80px;
+		bottom: 80px;
+		text-align: center
+	}
+	
+	.activePoupBox2 {
+		background: #FFF;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center
+	}
+	
+	.activePoupMask .activeClose {
+		position: absolute;
+		background: url(../img/iconAll3.png) -546px -75px no-repeat;
+		width: 40px;
+		height: 55px;
+		right: 20px;
+		top: -52px;
+		cursor: pointer
+	}
+	
+	.activePoupMask .activeClose:hover {
+		background-position: -610px -75px
+	}
+	
+	#index_poupBox_showPlayerList_modifyAward .poupContent .titleName {
+		float: left;
+		line-height: 44px
+	}
+	
+	#index_poupBox_showPlayerList_modifyAward .poupContent #awardList {
+		float: left;
+		width: 516px;
+		margin-left: 10px
+	}
+	
+	#index_poupBox_showPlayerList_modifyAward .poupContent #awardList .awardItem,
+	#index_poupBox_showPlayerList_modifyAward .poupContent #awardList #addAwardItem {
+		display: inline-block;
+		width: 210px;
+		height: 42px;
+		line-height: 44px;
+		padding-left: 14px;
+		margin: 0 32px 24px 0;
+		background-color: #e6f4fd;
+		border: 1px solid #add9f7;
+		cursor: default;
+		position: relative
+	}
+	
+	#index_poupBox_showPlayerList_modifyAward .poupContent #awardList #addAwardItem {
+		width: 224px;
+		height: 42px;
+		color: #74b7e6;
+		padding: 0;
+		text-align: center;
+		cursor: pointer
+	}
+	
+	#index_poupBox_showPlayerList_modifyAward .poupContent #awardList .awardItem .icon {
+		background-position: -906px -988px;
+		position: absolute;
+		top: -7px;
+		right: -10px;
+		cursor: pointer
+	}
+	
+	#index_poupBox_showPlayerList_modifyAward .poupContent #awardList #addAwardItem .icon {
+		background-position: -828px -988px
+	}
+	
+	#index_poupBox_showPlayerList_addAward .poupContent .awardPrice {
+		display: inline-block;
+		width: 112px;
+		height: 44px;
+		border: 1px solid #dcdcdc;
+		text-align: center;
+		margin: 0 14px 14px 0;
+		cursor: pointer;
+		overflow: hidden
+	}
+	
+	#index_poupBox_showPlayerList_addAward .poupContent .awardPrice.selected {
+		color: #fff!important;
+		background-color: #329fea!important;
+		border: 1px solid #329fea!important
+	}
+	
+	#index_poupBox_showPlayerList_addAward .poupContent .awardPrice.unselectable {
+		color: #a6a6a6;
+		background-color: #dcdcdc
+	}
+	
+	#index_poupBox_showPlayerList_addAward .poupContent #errTip {
+		color: #fe896a;
+		position: absolute;
+		top: 3px;
+		left: 78px
+	}
+	
+	#index_poupBox_showPlayerList_addAward .poupContent #errTip .icon {
+		background-position: -92px -223px
+	}
+	
+	.submitBox {
+		height: 470px;
+		width: 670px;
+		display: none
+	}
+	
+	.submitBox_head {
+		width: 100%;
+		height: 54px;
+		font-size: 17px;
+		line-height: 54px;
+		color: white;
+		background-color: #31a0ea;
+		cursor: pointer
+	}
+	
+	.submitBox_head .closeBtn {
+		display: inline-block;
+		background: url(../image/iconAll2.png?v=201801222017) -282px -480px no-repeat;
+		width: 25px;
+		height: 25px;
+		margin-right: 8px;
+		margin-bottom: -1px;
+		margin-left: 492px
+	}
+	
+	.submitBox_head .title {
+		margin-left: 26px;
+		font-weight: bold
+	}
+	
+	.submitBox_body {
+		height: 360px
+	}
+	
+	.submitBox_body .banner {
+		margin: 25px;
+		cursor: pointer
+	}
+	
+	.submitBox_body .textBox {
+		text-align: left;
+		margin: 27px;
+		width: 93%;
+		font-size: 14px;
+		font-color: #585858;
+		line-height: 24px
+	}
+	
+	.submitBox_body .textBox .activeName {
+		margin-bottom: 30px
+	}
+	
+	.submitBox_body .textBox .activeNum {
+		margin-bottom: 24px
+	}
+	
+	.submitBox_body .textBox .authorName {
+		margin-bottom: 12px
+	}
+	
+	.submitBox_body .textBox .authorPhone {
+		margin-bottom: 12px
+	}
+	
+	.submitBox_body .textBox .authorName input,
+	.submitBox_body .textBox .authorPhone input {
+		border: 1px solid #e7e7e7;
+		width: 300px;
+		height: 42px;
+		padding-left: 10px
+	}
+	
+	.submitBox_foot {
+		width: 66.9%;
+		height: 66px;
+		background-color: #e7e7e7;
+		padding-left: 222px
+	}
+	
+	.submitBox_foot input {
+		margin: 5px;
+		margin-top: 15px;
+		background-color: #31a0ea;
+		color: white;
+		width: 100px;
+		height: 36px;
+		border: 0 solid;
+		cursor: pointer
+	}
+	
+	.example .exampleClose {
+		position: absolute;
+		background: url(../image/iconAll.png) -546px -75px no-repeat;
+		width: 40px;
+		height: 52px;
+		z-index: 7000;
+		left: 50%;
+		top: 50%;
+		margin-left: 214px;
+		margin-top: -277px;
+		cursor: pointer
+	}
+	
+	.closeBtnOver {
+		display: inline-block;
+		background: url(../image/iconAll2.png?v=201801222017) -598px -694px no-repeat;
+		width: 25px;
+		height: 25px;
+		margin-right: 20px;
+		margin-bottom: -6px;
+		margin-left: 492px
+	}
+	
+	.popBoxBgMask {
+		position: fixed;
+		z-index: 6999;
+		opacity: .8;
+		background-color: #4d4d4d;
+		width: 100%;
+		height: 100%
+	}
+	
+	.left_myMessage {
+		float: left;
+		border: 1px solid #329fea;
+		border-radius: 6px 0 0 6px
+	}
+	
+	.right_updateFunction {
+		float: left;
+		border: 1px solid #329fea;
+		border-radius: 0 6px 6px 0
+	}
+	
+	.moreBarContent {
+		position: absolute;
+		width: 303px;
+		top: 68px;
+		height: auto;
+		background-color: #fff;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+		z-index: 1;
+		padding: 0;
+		border-top: 0;
+		text-align: left
+	}
+	
+	.moreBarTextBox {
+		border-bottom: 1px solid #e9e9e9;
+		border-right: 1px solid #e9e9e9;
+		width: 100px;
+		background-color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		text-align: center
+	}
+	
+	.moreBarName {
+		margin-top: -8px
+	}
+	
+	.moreBarTextBox1 {
+		border-top: 1px solid #fff
+	}
+	
+	.moreBarTextBox .moreBarTextBoxIcon {
+		width: 31px;
+		height: 37px;
+		margin: 0 auto;
+		margin-top: 26px
+	}
+	
+	.headerTips {
+		width: 300px;
+		padding: 0 10px;
+		height: 52px;
+		line-height: 52px;
+		text-align: left;
+		background: #fff;
+		position: absolute;
+		top: -34px;
+		right: 10px;
+		border-radius: 4px;
+		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+		z-index: 999;
+		color: #7d7d7d
+	}
+	
+	.headerTips::after {
+		content: ' ';
+		position: absolute;
+		bottom: -6px;
+		right: 35px;
+		border-style: solid;
+		border-width: 0 1px 1px 0;
+		border-color: #e7e7e7;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		width: 8px;
+		height: 8px;
+		background: #fff
+	}
+	
+	.headerTips .icon {
+		background-position: -93px -224px
+	}
+	
+	.oemExportCenterBtn {
+		position: relative
+	}
+	
+	.oemExportCenterBtn .headerTips {
+		top: 45px
+	}
+	
+	.oemExportCenterBtn .headerTips::after {
+		bottom: 0;
+		top: -6px;
+		border-width: 1px 0 0 1px
+	}
+	
+	.oemExportCenterBtn .headerRedDot {
+		top: 5px;
+		right: 10px
+	}
+	
+	.defaultPointer {
+		cursor: default
+	}
+	
+	.moreBarTextBox_fxhd {
+		background: url(../image/iconAll2.png?v=201801222017) -152px -1137px no-repeat
+	}
+	
+	.moreBarTextBox_yyjq {
+		background: url(../image/iconAll2.png?v=201801222017) -361px -1137px no-repeat
+	}
+	
+	.moreBarTextBox_gzhd {
+		background: url(../image/iconAll2.png?v=201801222017) -572px -1137px no-repeat
+	}
+	
+	.moreBarTextBox_cjwt {
+		background: url(../image/iconAll2.png?v=201801222017) -221px -1137px no-repeat
+	}
+	
+	.moreBarTextBox_dlzx {
+		background: url(../image/iconAll2.png?v=201801222017) -430px -1137px no-repeat
+	}
+	
+	.moreBarTextBox_hdgl {
+		background: url(../image/iconAll2.png?v=201801222017) -641px -1137px no-repeat
+	}
+	
+	.moreBarTextBox_rgzx {
+		background: url(../image/iconAll2.png?v=201801222017) -286px -1137px no-repeat
+	}
+	
+	.moreBarTextBox_gnjy {
+		background: url(../image/iconAll2.png?v=201801222017) -496px -1137px no-repeat
+	}
+	
+	.moreBarTextBox_wjjf {
+		background: url(../image/iconAll2.png?v=201801222017) -20px -1195px no-repeat
+	}
+	
+	.moreBarTextBox.yyxz_Class {
+		position: relative;
+		z-index: 21
+	}
+	
+	.moreBarTextBox_yyxz {
+		background: url(../image/iconAll2.png?v=201801222017) -952px -1137px no-repeat
+	}
+	
+	.moreBarContentBox .promSkillBoxInner {
+		background-color: #fff
+	}
+	
+	.moreBarContentBox .hdQrCode .hdQrCodeImg {
+		background: url(../image/hdQrcodeImg.jpg?v=201712081425) 17px 17px no-repeat;
+		width: 144px;
+		height: 191px;
+		box-shadow: rgba(0, 0, 0, 0.3) 0 0 6px;
+		margin-left: -144px;
+		margin-top: -124px;
+		background-color: #fff
+	}
+	
+	.moreBarContentBox .hdQrCode .hdQrCodeText {
+		margin-left: -144px;
+		margin-top: -50px;
+		line-height: 20px;
+		color: #949494
+	}
+	
+	.headerRedDot {
+		position: absolute;
+		width: 9px;
+		height: 9px;
+		background-color: #fe896a;
+		top: -2px;
+		right: -2px;
+		border-radius: 50%;
+		z-index: 999
+	}
+	
+	.promUpdateBoxInner .list .updateText {
+		text-overflow: ellipsis;
+		-o-text-overflow: ellipsis;
+		-moz-text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden
+	}
+	
+	.theBoxContolerNewRegister {
+		position: absolute;
+		width: 408px;
+		height: 470px;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background: -webkit-linear-gradient(#e24861, #f76269);
+		background: -o-linear-gradient(#e24861, #f76269);
+		background: -moz-linear-gradient(#e24861, #f76269);
+		background: linear-gradient(#e24861, #f76269);
+		border-radius: 10px;
+		z-index: 100
+	}
+	
+	.leadUserTopcRegister,
+	#hdFasterGetGame {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: 1001
+	}
+	
+	.hd-Lead-New-register {
+		opacity: .7;
+		z-index: 90!important
+	}
+	
+	.closeImgBtn {
+		position: absolute;
+		width: 64px;
+		height: 88px;
+		right: 0;
+		top: -88px;
+		cursor: pointer
+	}
+	
+	.theOneShowPoup {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 10;
+		width: 100%;
+		height: 100%
+	}
+	
+	.theTopImg {
+		display: block;
+		margin: 0 auto;
+		margin-top: 34px;
+		width: 124px
+	}
+	
+	.theControlBox {
+		position: relative;
+		width: 100%;
+		height: 100%
+	}
+	
+	.firstIntroduce {
+		font-size: 20px;
+		color: #fff;
+		text-align: center;
+		margin-top: 8px
+	}
+	
+	.coupBoxer {
+		width: 394px;
+		height: 250px;
+		margin: 0 auto;
+		margin-top: 26px;
+		background: url("/version2/image/leadToPc/coupon_pc.png?v=201801021532") no-repeat;
+		background-size: contain
+	}
+	
+	.letHerGotoPC {
+		width: 300px;
+		font-size: 14px;
+		color: #c32843;
+		margin: 0 auto;
+		transform: translateY(40px)
+	}
+	
+	.letHerGotoPC .theTips {
+		color: #e87f92
+	}
+	
+	.coupInfoIntroduce {
+		width: 330px;
+		margin: 0 auto;
+		margin-top: 66px;
+		height: 150px
+	}
+	
+	.theLeftOne {
+		width: 130px;
+		margin-top: 43px
+	}
+	
+	.theLeftTwo {
+		width: 200px;
+		height: 86px;
+		margin-top: 30px;
+		background: url("/version2/image/leadToPc/line_pc.png?v=201801021532") no-repeat;
+		background: contain
+	}
+	
+	.redParInfo,
+	.limitInfo {
+		margin-left: 12px
+	}
+	
+	.redParInfo {
+		color: #c32843
+	}
+	
+	.infoOne {
+		font-size: 22px
+	}
+	
+	.infoTwo {
+		font-size: 16px;
+		margin: 5px 0
+	}
+	
+	.limitInfo {
+		font-size: 14px;
+		color: #959595
+	}
+	
+	.moneyNumber {
+		font-size: 52px;
+		color: #c32843;
+		height: 52px;
+		line-height: 52px;
+		margin-right: 12px;
+		text-align: right;
+		position: relative
+	}
+	
+	.moneyPointer {
+		font-size: 22px;
+		height: 22px;
+		line-height: 22px;
+		position: absolute;
+		top: 6px;
+		left: 10px
+	}
+	
+	.TheBtn {
+		margin: 0 auto;
+		width: 266px;
+		height: 74px;
+		background: url("/version2/image/leadToPc/btn.png?v=201801021532") no-repeat;
+		cursor: pointer
+	}
+	
+	.btnWasHover {
+		background: url("/version2/image/leadToPc/btn_hover.png?v=201801021532") no-repeat
+	}
+	
+	#index_poupBox_exportTaskCenter .poupContent {
+		padding-top: 0
+	}
+	
+	#finishPublishBox {
+		width: 800px
+	}
+	
+	#finishPublishBox .finishPublishTitle {
+		height: 194px
+	}
+	
+	#finishPublishBox .extensionType {
+		height: 336px;
+		background-color: #fafafa
+	}
+	
+	#finishPublishBox .finishPublishTitle .textArea {
+		margin: 0 auto;
+		text-align: left;
+		width: 425px;
+		height: 64px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -198px;
+		margin-left: -215px
+	}
+	
+	#finishPublishBox .finishPublishTitle .textArea .mainTitle {
+		font-size: 30px;
+		color: #585858
+	}
+	
+	#finishPublishBox .finishPublishTitle .textArea .subtitle {
+		font-size: 14px;
+		color: #787878
+	}
+	
+	#finishPublishBox .finishPublishTitle .textArea .successImg {
+		background: url(/version2/image/successsImg.png?v=201803051046) no-repeat;
+		float: left;
+		margin-right: 16px;
+		margin-top: -4px;
+		width: 53px;
+		height: 68px
+	}
+	
+	#finishPublishBox .extensionType .extensionTypeImg {
+		background: url("/version2/image/extensionTypeImg.png?v=201803051046") no-repeat;
+		width: 110px;
+		height: 26px
+	}
+	
+	#finishPublishBox .extensionType .jumpToStrategy a {
+		color: #74b7e6
+	}
+	
+	#finishPublishBox .extensionType .jumpToStrategy :hover {
+		color: #329fea
+	}
+	
+	.extensionExp1,
+	.extensionExp2,
+	.extensionExp3,
+	.extensionExp4 {
+		width: 110px;
+		height: 68px;
+		margin: 0 auto;
+		margin-top: 15px
+	}
+	
+	#finishPublishBox .extensionType .extensionExp .extensionExp1 {
+		background: url("/version2/image/extensionExpImg1.png?v=201803051046") no-repeat center
+	}
+	
+	#finishPublishBox .extensionType .extensionExp .extensionExp2 {
+		background: url("/version2/image/extensionExpImg2.png?v=201803051046") no-repeat center
+	}
+	
+	#finishPublishBox .extensionType .extensionExp .extensionExp3 {
+		background: url("/version2/image/extensionExpImg3.png?v=201803051046") no-repeat center
+	}
+	
+	#finishPublishBox .extensionType .extensionExp .extensionExp4 {
+		background: url("/version2/image/extensionExpImg4.png?v=201803051046") no-repeat center
+	}
+	
+	#finishPublishBox .extensionType .extensionExp {
+		margin: 0 auto;
+		margin-top: 15px;
+		width: 620px;
+		text-align: center
+	}
+	
+	#finishPublishBox .extensionType .extensionExp .extensChild {
+		width: 140px;
+		height: 174px;
+		position: relative
+	}
+	
+	.marginLeftSet {
+		margin-left: 20px
+	}
+	
+	.hd-mostBacK {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 4px;
+		transition: all .3s;
+		opacity: 0;
+		background: rgba(50, 66, 75, 0.8)
+	}
+	
+	.hoverThisPage {
+		opacity: 1
+	}
+	
+	.hover_extendsBox {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+		padding: 2px 0;
+		z-index: 20
+	}
+	
+	.hd-mostBacK .theSecond {
+		background-position: -75px 0
+	}
+	
+	.hover_extendsBox .actImgBoxer {
+		width: 102px;
+		height: 102px;
+		margin: 0 auto;
+		position: relative;
+		background: #fff
+	}
+	
+	.hover_extendsBox .activeImg {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: 94px;
+		height: 94px
+	}
+	
+	.hover_extendsBox p {
+		text-align: center;
+		color: #fff;
+		width: 100%;
+		margin-top: 8px;
+		font-size: 14px
+	}
+	
+	.hover_extendBiger {
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		margin: 0 auto;
+		overflow: hidden;
+		background-color: rgba(255, 255, 255, 0.2);
+		background-image: url("/version2/image/hover_icon.png?v=20180316");
+		background-size: 400% 100%;
+		background-position: -10px 0
+	}
+	
+	.zeroclipboard-is-hover .hover_extendBiger,
+	.mouseOver .hover_extendBiger {
+		background-color: rgba(255, 255, 255, 1);
+		background-position: -138px 0
+	}
+	
+	.zeroclipboard-is-hover .theSecond,
+	.mouseOver .theSecond {
+		background-color: rgba(255, 255, 255, 1);
+		background-position: -202px 0
+	}
+	
+	.extensionExpDiv {
+		width: 110px;
+		margin: 0 auto;
+		white-space: pre-wrap;
+		font-size: 12px;
+		color: #787878;
+		text-align: left
+	}
+	
+	.extensionExpTitle {
+		font-size: 14px;
+		color: #585858
+	}
+	
+	.extensionCloseBtn {
+		width: 120px;
+		height: 36px;
+		line-height: 36px;
+		text-align: center;
+		color: #fff;
+		background-color: #2f9fe9;
+		cursor: pointer;
+		margin: 0 auto;
+		margin-top: 15px
+	}
+	
+	.extensionCloseBtnHover {
+		background-color: #1184d3!important
+	}
+	
+	#finishPublishBox .closeBtn {
+		display: inline-block;
+		background: url(../image/iconAll2.png?v=201802281731) -354px -906px no-repeat;
+		width: 20px;
+		height: 24px;
+		position: absolute;
+		right: 50%;
+		margin-right: -385px;
+		margin-top: 10px;
+		cursor: pointer
+	}
+	
+	#finishPublishBox .closeBtnOver {
+		display: inline-block;
+		background: url(../image/iconAll2.png?v=201802281731) -598px -693px no-repeat!important;
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		right: 50%;
+		margin-right: -385px;
+		margin-top: 10px;
+		cursor: pointer
+	}
+	
+	#popBoxForBuy {
+		width: 740px;
+		height: 275px;
+		margin: 0 auto;
+		padding: 30px;
+		z-index: 1000
+	}
+	
+	#popBoxForBuy .boxTitle {
+		font-size: 16px;
+		color: #585858;
+		margin: -6px 0 24px;
+		line-height: 22px
+	}
+	
+	#popBoxForBuy .boxTitle .closeGiftBox {
+		background: url(../img/iconAll3.png) no-repeat -588px -224px;
+		width: 22px;
+		height: 22px;
+		float: right;
+		cursor: pointer
+	}
+	
+	#popBoxForBuy .boxTitle .closeGiftBoxOver {
+		background: url(../img/iconAll3.png) no-repeat -656px -224px;
+		width: 22px;
+		height: 22px;
+		float: right;
+		cursor: pointer
+	}
+	
+	#popBoxForBuy .boxTop {
+		width: 740px;
+		height: 46px;
+		line-height: 46px;
+		background-color: #f7f7f7;
+		font-size: 14px;
+		color: #585858
+	}
+	
+	#popBoxForBuy .boxTop .boxTopTitle_name {
+		width: 260px;
+		display: inline-block;
+		text-align: center
+	}
+	
+	#popBoxForBuy .boxTop .boxTopTitle_price {
+		width: 178px;
+		display: inline-block;
+		text-align: center
+	}
+	
+	#popBoxForBuy .boxTop .boxTopTitle_num {
+		width: 117px;
+		display: inline-block;
+		text-align: center
+	}
+	
+	#popBoxForBuy .boxTop .boxTopTitle_total {
+		width: 172px;
+		display: inline-block;
+		text-align: center
+	}
+	
+	#popBoxForBuy .boxInfo {
+		height: 90px;
+		border-bottom: 1px solid #dcdcdc;
+		margin-bottom: 28px;
+		font-size: 14px;
+		color: #787878
+	}
+	
+	#popBoxForBuy .boxInfo .giftImg_small {
+		margin: 20px 10px 20px 20px;
+		display: inline-block;
+		float: left
+	}
+	
+	#popBoxForBuy .boxInfo .giftImg_small img {
+		height: 54px;
+		width: 54px
+	}
+	
+	#popBoxForBuy .boxInfo .giftText_small {
+		display: inline-block;
+		width: 241px;
+		line-height: 90px;
+		float: left
+	}
+	
+	#popBoxForBuy .boxInfo .price {
+		display: inline-block;
+		line-height: 90px;
+		width: 121px;
+		float: left
+	}
+	
+	#popBoxForBuy .boxInfo .number {
+		display: inline-block;
+		border: 1px solid #dcdcdc;
+		float: left;
+		margin: 31px 0 0 0
+	}
+	
+	#popBoxForBuy .boxInfo .number .subNum {
+		width: 27px;
+		height: 27px;
+		line-height: 27px;
+		display: inline-block;
+		float: left;
+		text-align: center;
+		cursor: pointer
+	}
+	
+	#popBoxForBuy .boxInfo .number .nowNum {
+		width: 58px;
+		height: 27px;
+		line-height: 27px;
+		border-left: 1px solid #dcdcdc;
+		border-right: 1px solid #dcdcdc;
+		display: inline-block;
+		float: left;
+		text-align: center;
+		border-top: 0;
+		border-bottom: 0
+	}
+	
+	#popBoxForBuy .boxInfo .number .addNum {
+		width: 27px;
+		height: 27px;
+		line-height: 27px;
+		display: inline-block;
+		float: left;
+		text-align: center;
+		cursor: pointer
+	}
+	
+	#popBoxForBuy .boxInfo .total {
+		color: #ff4e1f;
+		line-height: 90px;
+		float: left;
+		margin-left: 61px
+	}
+	
+	#popBoxForBuy .boxBottom {
+		height: 60px;
+		line-height: 60px;
+		background-color: #f7f7f7;
+		font-size: 14px;
+		color: #585858
+	}
+	
+	#popBoxForBuy .boxBottom .totalText {
+		float: right
+	}
+	
+	#popBoxForBuy .boxBottom .total {
+		font-size: 18px;
+		color: #ff4e1f;
+		margin-right: 30px;
+		float: right
+	}
+	
+	#popBoxForBuy .boxBottom .settlementBtn {
+		width: 200px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		font-size: 18px;
+		background-color: #ff4e1f;
+		color: #fff;
+		float: right;
+		cursor: pointer
+	}
+	
+	#popBoxForBuy .boxBottom .settlementBtnOver {
+		background-color: #ed3a0a!important
+	}
+	
+	.boldFont {
+		font-weight: 900;
+		display: inline-block
+	}
+	
+	#hdFasterGetGame .bg-mask {
+		opacity: .7;
+		z-index: 90!important
+	}
+	
+	.hd_faster_get_game {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 99;
+		background: #fff;
+		width: 800px;
+		border-radius: 8px;
+		overflow: hidden;
+		height: 400px
+	}
+	
+	.theTopFixer {
+		padding-top: 54px;
+		text-align: center;
+		color: #313131;
+		font-size: 28px;
+		font-weight: bold
+	}
+	
+	.theTopFixer span {
+		display: inline-block;
+		margin: 0 12px
+	}
+	
+	.theTopFixer img {
+		width: 18px;
+		height: 22px
+	}
+	
+	.mainBoxer {
+		margin-top: 30px;
+		text-align: center
+	}
+	
+	.faster_marginLeft {
+		margin-right: 16px
+	}
+	
+	.theTopFixer * {
+		vertical-align: middle
+	}
+	
+	.faster_Boxer {
+		display: inline-block;
+		width: 160px;
+		height: 188px;
+		border: 2px solid #eee;
+		border-radius: 8px;
+		overflow: hidden;
+		cursor: pointer
+	}
+	
+	.faster_Boxer:hover {
+		border: 2px solid #c3cbf2
+	}
+	
+	.faster_Boxer img {
+		display: block;
+		width: 128px;
+		height: 103px;
+		margin: 0 auto;
+		margin-top: 28px
+	}
+	
+	.faster_Boxer .hd_inforMsg {
+		margin-top: 10px;
+		font-size: 16px;
+		color: #626262
+	}
+	
+	.notCreate {
+		margin-top: 26px;
+		font-size: 16px;
+		text-align: center
+	}
+	
+	.notCreate a {
+		text-decoration: none;
+		color: #b5b5b5
+	}
+	
+	.notCreate a:hover {
+		text-decoration: underline
+	}
+	
+	.extensionTitle {
+		width: 603px;
+		margin: 0 auto;
+		padding-top: 34px
+	}
+	
+	.isPointer {
+		cursor: pointer
+	}
+	
+	#guideShareBox.pub {
+		width: 700px;
+		height: 590px
+	}
+	
+	#guideShareBox.share {
+		width: 520px;
+		height: 528px
+	}
+	
+	#guideShareBox .closeBtn {
+		display: inline-block;
+		background: url(../image/iconAll2.png?v=201802281731) -354px -906px no-repeat;
+		width: 20px;
+		height: 24px;
+		position: absolute;
+		right: 15px;
+		top: 5px;
+		cursor: pointer
+	}
+	
+	#guideShareBox .closeBtn:hover {
+		width: 24px;
+		height: 24px;
+		background-position: -598px -693px
+	}
+	
+	#guideShareBox.share .closeBtn {
+		top: 19px;
+		right: 13px
+	}
+	
+	#guideShareBox.share .g_title {
+		display: none
+	}
+	
+	#guideShareBox.share .g_header {
+		height: 66px;
+		line-height: 66px;
+		padding-left: 24px;
+		color: #585858;
+		font-size: 20px
+	}
+	
+	#guideShareBox.pub .g_header {
+		display: none
+	}
+	
+	#guideShareBox.pub .g_title {
+		height: 129px;
+		padding-top: 65px
+	}
+	
+	#guideShareBox .g_title .textArea {
+		margin: 0 auto;
+		text-align: left;
+		width: 425px;
+		height: 64px;
+		padding-left: 94px
+	}
+	
+	#guideShareBox .g_title .textArea .mainTitle {
+		font-size: 30px;
+		color: #585858
+	}
+	
+	#guideShareBox .g_title .textArea .subtitle {
+		font-size: 14px;
+		color: #787878
+	}
+	
+	#guideShareBox .g_title .textArea .successImg {
+		background: url(/version2/image/successsImg.png?v=201803051046) no-repeat;
+		float: left;
+		margin-right: 16px;
+		margin-top: -4px;
+		width: 53px;
+		height: 68px
+	}
+	
+	#guideShareBox .g_content {
+		background: #fafafa
+	}
+	
+	#guideShareBox .g_content .pic {
+		height: 250px
+	}
+	
+	#guideShareBox .g_content .pic .qrcode {
+		width: 200px;
+		height: 200px;
+		border: 1px solid #ccc;
+		padding: 24px
+	}
+	
+	#guideShareBox .g_content .pic .qrcode .qrcodeImg {
+		width: 200px;
+		height: 200px
+	}
+	
+	#guideShareBox .g_content .pic .share .shareImg {
+		width: 160px;
+		height: 250px;
+		box-shadow: 0 0 18px 6px rgba(227, 225, 225, 0.75)
+	}
+	
+	#guideShareBox.pub .g_content {
+		height: 334px;
+		padding: 32px 130px 30px
+	}
+	
+	#guideShareBox.pub .g_content .shareText {
+		display: none
+	}
+	
+	#guideShareBox.share .g_content {
+		height: 416px;
+		padding: 46px 40px 0
+	}
+	
+	#guideShareBox.share .g_content .shareText {
+		margin-top: 24px;
+		clear: both;
+		color: #787878
+	}
+	
+	#guideShareBox .confirmButton {
+		width: 120px;
+		height: 36px;
+		line-height: 36px;
+		text-align: center;
+		color: #fff;
+		background-color: #2f9fe9;
+		cursor: pointer;
+		margin: 0 auto
+	}
+	
+	#guideShareBox.pub .confirmButton {
+		margin-top: 46px
+	}
+	
+	#guideShareBox .confirmButton:before {
+		content: "完成"
+	}
+	
+	#guideShareBox.share .confirmButton {
+		margin-top: 50px
+	}
+	
+	#guideShareBox .confirmButton:hover {
+		background-color: #1184d3!important
+	}
+	
+	#giftCenterTab .new_Icon {
+		position: absolute;
+		width: 23px;
+		height: 14px;
+		margin-left: 113px;
+		margin-top: -42px;
+		background: url(../image/giftCenter_NewIcon.png?v=201804231756) no-repeat;
+		background-position: center
+	}
+	
+	
+	
+	
+	#hdManageTop .topBarVer .topBarVerMain {
+		position: relative;
+		margin: 16% 20px 6px 19px
+	}
+	
+	#hdManageTop .topBarVer:hover .topBarVerMain {
+		margin: 16% 19px 11px 18px
+	}
+	
+	#hdManageTop .topBarVer .badge {
+		position: absolute;
+		z-index: 1;
+		right: -17px;
+		top: -11px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent.strong {
+		padding: 20px 20px 12px;
+		user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-webkit-user-select: none
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerTitle {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-moz-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerTitle+.bizPowerList li {
+		margin-top: 24px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerTitle span {
+		margin: 0 10px;
+		color: #484848;
+		font-weight: normal;
+		font-size: 14px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerTitle:before,
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerTitle:after {
+		content: " ";
+		-webkit-box-flex: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+		background: #e7e7e7;
+		height: 1px;
+		display: inline-block
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerMore {
+		margin-top: 20px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerMore a {
+		display: inline-block;
+		font-size: 12px;
+		color: #329fea
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerList {
+		margin: 0 2px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerList li {
+		text-align: center;
+		width: 33.33%;
+		margin-top: 20px;
+		font-size: 12px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerList li a {
+		display: inline-block;
+		cursor: pointer
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerList li img {
+		display: block;
+		margin: 0 auto 8px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .promotionText {
+		color: #ff4e96
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .promotionText+.promotionBtn {
+		margin-top: 6px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .promotionBtn+.bizPowerTitle {
+		margin-top: 28px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .promotionBtn {
+		width: 180px;
+		height: 36px;
+		line-height: 36px;
+		display: block;
+		margin: 0 auto;
+		background: #ff4e96;
+		font-size: 14px;
+		color: #fff;
+		border-radius: 18px;
+		margin-top: 32px;
+		position: relative;
+		z-index: 1
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .promotionBtn img {
+		position: absolute;
+		z-index: 1;
+		right: 18px;
+		top: -13px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .promotionBtn:hover {
+		background: #ff408e
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .clearfix+.bizPowerMore {
+		margin-top: 22px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .bizPowerMore+.topBarVerFooterLink {
+		margin-top: 18px
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .topBarVerFooterLink {
+		border-top: 1px solid #e7e7e7;
+		margin-top: 20px;
+		height: auto
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .topBarVerFooterLink a {
+		margin-bottom: 0
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .topBarVerFooterLink .logout {
+		color: #000
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .topBarVerFooterLink .logout:hover {
+		color: #329fea
+	}
+	
+	#hdManageTop .topBarVer .topBarVerContent .topBarVerFooterLink .logout .icon {
+		background-position: -462px -92px
+	}

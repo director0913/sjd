@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="css/rmb.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/indx.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+	</head>
+
+	<body>
+		<div id="hdContainer" class="container">
+
+			<!--<div class="mask" style="position: absolute; left: 0; top: 0;width: 100%; height: 68px; display: none; background:rgba(0,0,0,0.7); z-index: 100;"></div>-->
+			<div id="hdManageTop" style="min-width: 492px;">
+
+				<a href="#" target="_blank">
+
+					<div class="logo">
+						<img src="//hd.faisys.com/version2/image/hdNewLogo.png?v=555" style="width:200px;height:60px; margin:3px 0 0 12px">
+					</div>
+
+				</a>
+
+				<div class="headerRight">
+
+					<div class="topTag" style="width:90px;">
+						<span style=" margin-left:1px;">
+							<div class="sep sep1" style="visibility: visible;"></div>
+							<a href="javascript:ext();">退出</a>
+						</span>
+						<span class="outImg"></span>
+					</div>
+
+					<div class="topTag companySummary" >
+						<span style=" margin-left:1px;">
+							<div class="redPoint" style="display: none;"></div>
+							<a href="javaScript:void(0)" target="blank">企业概括</a>
+						</span>
+						<span class="bottomImg"></span>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="content" style="overflow: hidden;">
+
+				<!-- 指导页的指引 -->
+				<div class="hd-theSiganUp-Bclass-UserGuide hide" style="width: 100%; height: 100%; display: none;">
+					<!-- 遮罩层 -->
+					<div class="hd-NewSiganUp-boxer">
+						<div class="hd-NewSiganUp-boxer-first hd_hg_grey theLittleBaby">
+							<div id="special1" class="hd-NewSiganUp-boxer-special1 hide hd_hg_grey theLittleBaby" style="margin-top: 0px;height: 255px;position: absolute;opacity: 1;"></div>
+							<div id="special2" class="hd-NewSiganUp-boxer-special2 hide hd_hg_grey theLittleBaby" style="margin-top: 0px;height: 255px;position: absolute;opacity: 1;"></div>
+							<div id="special3" class="hd-NewSiganUp-boxer-special3 hide hd_hg_grey theLittleBaby" style="margin-top: 0px;margin-top: 0px;height: 225px;position: absolute;width: 39px;margin-left: 1601px;opacity: 1;"></div>
+						</div>
+						<div class="hd-NewSiganUp-boxer-second theLittleBaby clearFix">
+							<!-- 控制显示白色透明效果 -->
+							<div class="hd-NewSiganUp-shower-maskOne hd_hg_grey floatLeft"></div>
+							<div class="hd-NewSiganUp-shower-detail floatLeft"></div>
+							<div class="hd-NewSiganUp-shower-maskTwo hd_hg_grey floatLeft"></div>
+						</div>
+						<div class="hd-NewSiganUp-boxer-third hd_hg_grey theLittleBaby"></div>
+					</div>
+					<!-- 处理盒子 -->
+					<div class="hd-NewSiganUp-EventBox hide">
+						<div class="theShowerImgerBoxer">
+							<img class="theShowerImger">
+							<div class="eventBox">
+								<img class="theNormalImg hide">
+								<img class="theHoverImg hide">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="hd-shoTheActBar" style="position:absolute;top:68px;bottom:0px;left:0px;right:0px;">
+					<div id="hdManageLeft">
+
+						<div id="newActiveTab" class="leftUtil hoverChecked checked" data-page="newActive" data-index="0">
+							<div class="iconHolder"></div>
+							<div class="leftUtildescr">创建活动</div>
+						</div>
+
+						<div id="myActiveTab" class="leftUtil" data-page="myActive" data-index="1">
+							<div class="iconHolder iconActList"></div>
+							<div class="leftUtildescr">我的活动</div>
+						</div>
+						<div id="cavIndexTab" class="leftUtil" data-page="cavIndex" data-index="2">
+		                    <div class="iconHolder iconHexiao"></div>  
+		                    <div class="leftUtildescr">核销管理</div>
+		                </div>
+						
+						
+
+					</div>
+
+					<div id="manageFrame" class="scrollBox" style="width: 93%;"> 
+						<iframe id="manageFramePage" class="manageFramePage" name="framePage" frameborder="0" scrolling="auto"  style="width:100%;height:100%;" src="/fkmain/newprj.html"></iframe>
+					</div>
+
+				</div>
+			</div>
+			<div id="setAwardPageBox"></div>
+			<div class="companySummaryWindow">
+
+				<div class="fix" style=" position:absolute; right: 0px; z-index: 999; width:111px;height:5px; background:#fff; margin-left:0px; margin-top:-1px;"></div>
+
+				<div class="row">
+					<div class="corpTitle">
+						帐号：
+					</div>
+					<div class="corpContent corpAccount" style="text-align:left; width:155px; overflow:hidden;white-space:nowrap;text-overflow:ellipsis;">
+						 
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="corpTitle">城市：</div>
+
+					<div class="corpContent cityName" style="text-align:left; width:160px; overflow:hidden;white-space:nowrap;text-overflow:ellipsis;">
+						-</div>
+				</div>
+				<div class="row">
+					<div class="corpTitle">性别：</div>
+
+					<div class="corpContent sexName" style="text-align:left; width:160px; overflow:hidden;white-space:nowrap;text-overflow:ellipsis;">
+						-</div>
+				</div>
+
+
+			</div>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+		<div class="bg-mask bg-mask-animate" style="display: none;"></div>
+		<div id="yl" style="width: 400px; display: none; height: 600px; background-color: white; position: absolute; top: 10%; z-index: 999;left: 50%; margin-left: -200px;">
+			
+			<div style="width: 400px; height: 300px; position: relative;" >
+				<div id="clos" style="cursor: pointer; width: 32px;  height: 32px; background-color: black; position: absolute; right: 0;background: url(img/clos.png) no-repeat;"></div>
+				<div style="position: absolute; width: 220px; height: 220px; top: 30px; left: 50%; margin-left: -110px;"> 
+					<img id="ylimg" src="" style="width: 100%;" />
+				</div>
+			</div>
+			<div id="yldz" style="width: 350px;  position: relative; margin: auto;">
+				地址：
+			</div>
+			
+			<div style="width: 200px; padding-top: 50px;  position: relative; margin: auto;">
+				您可以将活动链接复制到您的公众号菜单或自定义回复中
+			</div>
+		</div>
+		<script>
+			$(function(){
+				$(".bg-mask").click(function(){
+					$(this).hide();
+					$("#yl").hide();
+				})
+				$("#clos").click(function(){
+					$(".bg-mask").hide();
+					$("#yl").hide();
+				})
+			})
+		</script>
+	</body>
+
+</html>

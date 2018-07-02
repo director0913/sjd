@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/myhd.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+	</head>
+
+	<body>
+		<div id="myActContainer" class="container" style="padding:28px 28px 0 28px;">
+			<div class="banner hide"><span class="icon" id="closeIcon"></span></div>
+
+			<div id="activityListTitle" class="hide"><span class="icon"></span>
+				<a href="javascript:;" onclick="showTab(2)">我的活动</a>
+			</div>
+			<div id="tableContent" class="tableContent">
+				<div class="myActContainTitle">
+					<div class="tableTitleName">我的活动</div>
+
+				</div>
+				<div id="showActiveTable" class="showActiveTable" style="min-width: 880px;">
+					<div class="faiTableWrap">
+						<div class="center">
+							<table class="faiTable" cellpadding="0" cellspacing="0">
+								<thead>
+									<tr class="scrollFixedTr">
+										<th data-key="name" class="column1 textLeft  sep" style="">
+											<div class="padding">活动名称</div>
+										</th>
+										<th data-key="startTime" class="column2 textCenter sep" style="">
+											<div class="padding">创建时间</div>
+										</th>
+										<th data-key="startTime" class="column3 textCenter sep" style="">
+											<div class="padding">活动时间</div>
+										</th>
+										<th data-key="status" class="column4 textCenter sep dropDown pointer" style="">
+											<div class="padding">全部状态</div>
+
+										</th>
+										<th data-key="setting" class="column3  textCenter sep" style="">
+											<div class="padding">最大限制</div>
+										</th>
+
+										<th data-key="operate" class="column7 textRight" style="">
+											<div class="padding">操作</div>
+										</th>
+									</tr>
+
+								</thead>
+								<tbody id="mhds">
+
+								</tbody>
+								<tfoot></tfoot>
+							</table>
+						</div>
+						<div class="bottom">
+							<div class="total"><span class="allTotal">每页显示</span>
+								<div class="dropDownBox">
+
+									<select class="dropDownArea">
+										<option value="10">10</option>
+										<option value="50">50</option>
+										<option value="100">100</option>
+									</select>
+
+								</div>
+							</div>
+							<div class="pageBox">
+								<div class="page">
+									<a href="javascript:prvpag();" hidefocus="true" class="prevPage"></a><span class="currentPage">1 / 1</span>
+									<a href="javascript:nextpag();" hidefocus="true" class="nextPage"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div id="showPrizeList" class="showPrizeListBox slidShowBox" style="display: none;">
+				<iframe id="editPrizeFramePage" class="editPrizeFramePage" frameborder="0" scrolling="auto" style="width:100%;height:100%;"></iframe>
+			</div>
+			<div id="showBg" class="showBg"></div>
+		</div>
+		<script type="text/javascript" src="js/mhd.js"></script>
+		
+	</body>
+
+</html>

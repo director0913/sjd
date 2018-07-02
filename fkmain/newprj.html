@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/newprj.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	</head>
+	<style>  
+	
+	</style>  
+	<body>
+		<div id="newActContainer" class="container">
+			<div id="hdcontent" class="scrollBox" style="display: block;">
+				<div class="ActiveBox new_activeBox">
+					<div class="activeContent new_activeContent not_hd_newActive">
+						<div index="0" class="active modActive " rstyle="0">
+		                    <div class="actPic">
+		                        <img class="hide showPic" index="0" src="img/AAEIABACGAAg-qyM0gUo_eqN7QIwwgM4_gE.jpg" style="display: inline;">
+		                    </div>
+		                        
+	                       	<div class="hotScorePic ng-scope"></div><!-- end ngIf: hdModel.isHot -->
+	                        
+	                        <div class="actDescripe">
+	                            <div class="actName ng-binding">全民砍价</div>
+	                            <div class="actCreateImg"></div>
+	                        </div>
+		                </div>
+		                <div index="0" class="active modActive " id="mengwa" rstyle="0">
+		                    <div class="actPic">
+		                        <img class="hide showPic" index="0" src="img/mengwa.jpg" style="display: inline;">
+		                    </div>
+		                        
+	                       	<div class="hotScorePic ng-scope"></div><!-- end ngIf: hdModel.isHot -->
+	                        
+	                        <div class="actDescripe">
+	                            <div class="actName ng-binding">萌娃投票</div>
+	                            <div class="actCreateImg"></div>
+	                        </div>
+		                </div>
+						<div id="gameAdviceBox">
+		                    <div class="divider"><img class="dividerImg" src="img/end_icon.png"></div>
+		                   
+		                </div>
+					</div>
+				</div>
+			</div>
+			<div id="editActive" class="scrollBox editActBox slidShowBox " style="display: none;">
+				<iframe id="editActFramePage" class="editActFramePage" frameborder="0" scrolling="auto" src="" style="width:100%;height:100%;" ></iframe>
+			</div>
+		</div>
+		
+		<script>
+		  	$(function(){
+		  		$(".modActive").click(function(){
+		  			
+		  			$("#hdcontent").hide();
+		  			$("#editActive").show();
+		  			$("#editActFramePage").attr("src","newsmain.html");
+		  		})
+		  		$("#mengwa").click(function(){
+		  			
+		  			$("#hdcontent").hide();
+		  			$("#editActive").show();
+		  			$("#editActFramePage").attr("src","/index.php/Admin/Sprout/index");
+		  		})
+		  	})
+		</script>
+	  
+	</body>
+</html>

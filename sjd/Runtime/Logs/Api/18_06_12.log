@@ -1,0 +1,3220 @@
+[ 2018-06-12T08:55:59+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '5ba8bb5ab17539c16dc5dcc24be3be91d51b5198' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-06-12T08:56:31+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '4ceda62e9684efc5700061b405027729998e8615' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T08:56:42+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '00aaac5465fa35104efc7ba763cbef4d485d8aad' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T08:56:48+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '42e3744b72fe825e04b610de538c355dbdf15cbd' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-06-12T08:56:53+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = 'ba3da472cb1a59f523b87f74c4e42c860c2aa5d0' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T08:57:03+08:00 ] 127.0.0.1 /index.php/Api/Add/ifcz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-06-12T08:57:03+08:00 ] 127.0.0.1 /index.php/Api/Add/ifcz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T08:58:13+08:00 ] 127.0.0.1 /index.php/Api/Add/ifcz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-12T08:58:19+08:00 ] 127.0.0.1 /index.php/Api/Add/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T08:58:37+08:00 ] 127.0.0.1 /index.php/Api/Add/add_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0430s ]
+SQL: INSERT INTO `sj_customer` (`phone`,`password`,`create_time`) VALUES ('18230851423','7c4a8d09ca3762af61e59520943dc26494f8941b','1528765117') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T08:58:50+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1520s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T09:04:32+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1410s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T09:04:38+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0740s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T09:04:54+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1380s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T09:05:09+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1540s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T09:05:32+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T09:12:51+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1330s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T09:29:36+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1&user_id=49&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1350s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1680s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1530s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1670s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1660s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 52 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 53 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 54 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T09:29:36+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-06-12T09:34:45+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1400s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T09:35:21+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1&user_id=49&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1590s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1680s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1850s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1520s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1500s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 52 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 53 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 54 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T09:35:21+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T09:42:59+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+NOTIC: [8] Undefined index: com_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 12 行.
+NOTIC: [8] Undefined index: or_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T09:49:07+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+NOTIC: [8] Undefined index: com_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 12 行.
+NOTIC: [8] Undefined index: or_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T09:50:06+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-06-12T09:50:41+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T09:51:13+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T09:57:41+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-12T09:59:37+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T10:19:15+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:19:46+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:20:02+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:20:39+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:20:48+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:21:06+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:22:52+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:23:54+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:26:51+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:27:37+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:27:55+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:28:17+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:30:23+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:31:25+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:34:52+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:36:27+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:38:01+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:41:00+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:41:33+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:42:48+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:43:17+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:44:48+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1390s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T10:58:23+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T10:58:53+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T10:58:57+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-06-12T10:59:00+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_rtuser.html?code=081YkW8b1x9Qav0Vgf7b1IGX8b1YkW8u&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T10:59:21+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T10:59:22+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T10:59:30+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_rtuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: code D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 84 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 88 行.
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 89 行.
+
+[ 2018-06-12T10:59:33+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1370s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:59:35+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1560s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T10:59:53+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T11:22:56+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1390s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T11:41:06+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1470s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T11:42:44+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1480s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T11:44:14+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T11:44:35+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1310s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T11:55:39+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T11:56:24+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1170s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T11:57:33+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1160s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T13:44:26+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1420s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T13:44:37+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1520s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T13:46:14+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1370s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T13:47:17+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1360s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T13:47:38+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1380s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T13:48:45+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1530s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T13:50:15+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1380s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T13:55:53+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1540s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 216 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 217 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 218 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 216 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 217 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 218 行.
+
+[ 2018-06-12T14:00:55+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1600s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T14:05:32+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1310s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T14:06:26+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1530s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18230851423' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T14:06:28+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T14:06:52+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1370s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T14:06:53+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1120s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T14:07:54+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1410s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T14:43:20+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1270s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T14:43:33+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1870s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T15:48:00+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T15:48:02+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T15:48:05+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_rtuser.html?code=021pH6e41NV2tM1AJ3h41CUwe41pH6ef&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T15:53:55+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T15:59:12+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T15:59:17+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_rtuser.html?code=081p42Zk0Pxpkl1iq6Xk0ff2Zk0p42Zv&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-06-12T16:00:28+08:00 ] 127.0.0.1 /index.php/Api/Add/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '15023448139' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T16:00:49+08:00 ] 127.0.0.1 /index.php/Api/Add/add_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = 'oKwcK0jftSooFu7YMAcon850Xv64' LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `sj_customer` (`phone`,`password`,`create_time`,`user_name`,`openid`,`user_img`,`city`) VALUES ('15023448139','7c4a8d09ca3762af61e59520943dc26494f8941b','1528790449','洋儿','oKwcK0jftSooFu7YMAcon850Xv64','http://thirdwx.qlogo.cn/mmopen/vi_32/crPfj3icZB3XMonKWnK7OvTLF9Vslr27VUywCgHsNGO96h7lty1PkSNEfPNiaxQrzWoWWXNoFjV6AC0MygRZ6Vbw/132','奉节') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T16:03:28+08:00 ] 127.0.0.1 /index.php/Api/Add/wx_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T16:03:29+08:00 ] 127.0.0.1 /index.php/Api/Add/wx_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T16:03:29+08:00 ] 127.0.0.1 /index.php/Api/Add/wx_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-06-12T16:03:49+08:00 ] 127.0.0.1 /index.php/Api/Add/wx_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T16:03:58+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_rtuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: code D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 84 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 88 行.
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T16:04:10+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_rtuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: code D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 84 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 88 行.
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T16:04:27+08:00 ] 127.0.0.1 /index.php/Api/Add/wx_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T16:14:13+08:00 ] 127.0.0.1 /index.php/Api/Add/wx_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T16:14:29+08:00 ] 127.0.0.1 /index.php/Api/Add/wx_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-12T16:20:35+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-06-12T16:20:58+08:00 ] 127.0.0.1 /index.php/Api/Add/wx_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-12T16:23:03+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-12T16:25:41+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T16:26:18+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-12T16:26:49+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T16:28:21+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T16:28:39+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T16:30:34+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T16:31:23+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-06-12T16:32:53+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T16:32:54+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T16:34:32+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T16:34:37+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-06-12T16:37:13+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:03:39+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:04:55+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:06:58+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:24:49+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:25:45+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:26:41+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:29:10+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=null&or_id=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-06-12T17:30:10+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=null&or_id=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:30:25+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=null&or_id=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T17:30:26+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/rtuser.html?code=071eLgLI1INAM50dCtNI15CiLI1eLgLM&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `user_id` FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:30:27+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=null&user_id=5&or_id=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `sj_order` (`com_id`,`user_id`,`com_name`,`original_price`,`cut_price`,`thumb`,`subtitle`,`ac_id`,`if_end`,`if_prize`,`cut_arr`,`times`) VALUES ('0','5',NULL,NULL,NULL,NULL,NULL,NULL,'0','0','[null]','1528795827') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0510s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 0 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T17:30:42+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-06-12T17:31:11+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:31:25+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:31:28+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_rtuser.html?code=0715nyrb25xNkO0Ygbsb2rusrb25nyrV&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:32:15+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:38:32+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:38:42+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:39:04+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:39:13+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:41:12+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:41:16+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:41:19+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2018-06-12T17:43:12+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:44:22+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-06-12T17:44:25+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:45:07+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:45:15+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:45:28+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:47:27+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-12T17:47:35+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:48:38+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:48:47+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:48:51+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:49:25+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:49:48+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:50:07+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:50:19+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:50:39+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:51:01+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-12T17:51:08+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:51:23+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:51:29+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:51:40+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:51:52+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:52:37+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:53:41+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:54:09+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:55:12+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:56:02+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:57:17+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:57:46+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-12T17:58:08+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:58:11+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:58:21+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T17:59:09+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:59:15+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:59:16+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-12T17:59:29+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T17:59:36+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T17:59:57+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T18:00:17+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-06-12T18:00:34+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T18:18:38+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:25:56+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:27:05+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:28:11+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:28:37+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:28:47+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:29:17+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:30:58+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:31:15+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:31:56+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:33:06+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:33:17+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:44:46+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T18:45:06+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T19:00:15+08:00 ] 127.0.0.1 /index.php/Api/Add/up_imgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\shangjd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-12T19:01:35+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1710s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T19:01:37+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:02:18+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1400s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 55  [ RunTime:0.0020s ]
+
+[ 2018-06-12T19:34:14+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1460s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1070s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0990s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0820s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:34:15+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T19:34:16+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/rtuser.html?code=081gg9ki06zbqn1t9lmi08K5ki0gg9kD&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1570s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `user_id` FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T19:34:18+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1580s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1680s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1450s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T19:34:45+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T19:34:47+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/rtuser.html?code=081dvBLi1KnR3w0N91Li1gisLi1dvBLd&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = 'oKwcK0lg8qxZQc3iNiCQVqcXtjDA' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 48 行.
+NOTIC: [8] Undefined index: headimgurl D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 48 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 48 行.
+SQL: INSERT INTO `sj_customer` (`openid`,`user_img`,`user_name`) VALUES (NULL,NULL,NULL) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T19:34:48+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=57&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1160s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0200s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:34:50+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/cut_help
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 AND `cus_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `sj_actor` (`or_id`,`cus_id`,`ac_id`,`create_time`,`cut_money`) VALUES ('1','57','6','1528803290','2.27') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2018-06-12T19:34:51+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=57&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0070s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0310s ]
+
+[ 2018-06-12T19:34:55+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/cut_help
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 AND `cus_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:35:34+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T19:35:39+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T19:35:43+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T19:35:46+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/s_rtuser.html?code=081rYMTv1MjUYa0tstVv1AWLTv1rYMTG&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T19:36:02+08:00 ] 127.0.0.1 /index.php/Api/Add/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '13370777007' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T19:36:15+08:00 ] 127.0.0.1 /index.php/Api/Add/add_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0350s ]
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\shangjd\sjd\Api\Controller\AddController.class.php 第 120 行.
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = null LIMIT 1   [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\shangjd\sjd\Api\Controller\AddController.class.php 第 128 行.
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\shangjd\sjd\Api\Controller\AddController.class.php 第 129 行.
+NOTIC: [8] Undefined index: headimgurl D:\phpStudy\WWW\shangjd\sjd\Api\Controller\AddController.class.php 第 130 行.
+NOTIC: [8] Undefined index: city D:\phpStudy\WWW\shangjd\sjd\Api\Controller\AddController.class.php 第 131 行.
+SQL: INSERT INTO `sj_customer` (`phone`,`password`,`create_time`,`user_name`,`openid`,`user_img`,`city`) VALUES ('13370777007','7c4a8d09ca3762af61e59520943dc26494f8941b','1528803374',NULL,NULL,NULL,NULL) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T19:36:27+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '13370777007' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2018-06-12T19:36:43+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=58
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1210s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 58  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:39:02+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 5  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:39:24+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1660s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1640s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1550s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1590s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1560s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:39:24+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T19:39:25+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/rtuser.html?code=0618VU2s0TeOPe1Fda4s0WPM2s08VU2i&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1780s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `user_id` FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T19:39:26+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0800s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0850s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0850s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:39:50+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1370s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18223356394' AND `password` = '104c513b93ae69b9f1da75e38857930426e1722c' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T19:40:28+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1540s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1640s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1610s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1130s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:40:28+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T19:40:30+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1140s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1580s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1420s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1560s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1460s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:40:30+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T19:40:46+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=49&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0110s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:40:47+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T19:40:49+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/rtuser.html?code=0118hqLs1cTELn0L11Os11FuLs18hqLH&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1460s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = 'oKwcK0jftSooFu7YMAcon850Xv64' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `user_id` FROM `sj_customer` WHERE `openid` = 'oKwcK0jftSooFu7YMAcon850Xv64' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T19:41:23+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1620s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18223356394' AND `password` = '104c513b93ae69b9f1da75e38857930426e1722c' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T19:41:48+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1490s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0230s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:41:48+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-12T19:41:50+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/rtuser.html?code=0216shHb1hpCKv0wMoGb1pulHb16shH2&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `user_id` FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T19:41:50+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0830s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0820s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0820s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0820s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0820s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-12T19:42:10+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1650s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18223356394' AND `password` = '104c513b93ae69b9f1da75e38857930426e1722c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:42:15+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1650s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 5  [ RunTime:0.0020s ]
+
+[ 2018-06-12T19:42:47+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0190s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:42:47+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T19:42:49+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/rtuser.html?code=001Lnr4Y0Tz5832kUe3Y0NxJ4Y0Lnr4N&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1280s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = 'oKwcK0jftSooFu7YMAcon850Xv64' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `user_id` FROM `sj_customer` WHERE `openid` = 'oKwcK0jftSooFu7YMAcon850Xv64' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-06-12T19:43:05+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T19:43:09+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 0  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:43:31+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.2040s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.2220s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1520s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1190s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1260s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-12T19:43:31+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/get_user_info?com_id=1=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_id D:\phpStudy\WWW\shangjd\sjd\Api\Controller\UserinfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-12T19:43:32+08:00 ] 127.0.0.1 /index.php/Api/Userinfo/rtuser.html?code=011Vr2mU19PJ3W0lpJiU1kLXlU1Vr2mr&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1770s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `user_id` FROM `sj_customer` WHERE `openid` = 'oKwcK0vIifzgfEpIJpJdoS0ZpFjc' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-12T19:43:34+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1%3D5&user_id=5&or_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1740s ]
+SQL: SELECT * FROM `sj_order` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1420s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1900s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1420s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1650s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:44:24+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1270s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18223356394' AND `password` = '104c513b93ae69b9f1da75e38857930426e1722c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:44:26+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_activity_list?user_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 210 行.
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `sj_activity` WHERE `create_id` = 5  [ RunTime:0.0030s ]
+
+[ 2018-06-12T19:44:34+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/look_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sj_customer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1570s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1580s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `ac_id` = 6  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_actor` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1720s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_order` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_order` INNER JOIN sj_commodity on sj_commodity.com_id=sj_order.com_id  WHERE sj_order.user_id = '5' AND `if_end` = 1  [ RunTime:0.0020s ]
+
+[ 2018-06-12T19:44:38+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1&user_id=5&or_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1110s ]
+SQL: SELECT * FROM `sj_order` WHERE `com_id` = 1 AND `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0790s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0720s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0910s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0760s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-06-12T19:45:35+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1&user_id=5&or_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `sj_order` WHERE `com_id` = 1 AND `user_id` = 5 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0790s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0840s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-12T19:46:13+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/look_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1400s ]
+SQL: SELECT * FROM `sj_customer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1420s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1430s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `ac_id` = 6  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_actor` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0970s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_order` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_order` INNER JOIN sj_commodity on sj_commodity.com_id=sj_order.com_id  WHERE sj_order.user_id = '5' AND `if_end` = 1  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:46:14+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_kanjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1270s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE ( ac_id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `sj_order` WHERE ( user_id=5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0840s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:46:20+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/look_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sj_customer` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1440s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1580s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `ac_id` = 6  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_actor` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0610s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_order` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sj_order` INNER JOIN sj_commodity on sj_commodity.com_id=sj_order.com_id  WHERE sj_order.user_id = '5' AND `if_end` = 1  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:46:20+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_kanjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021002s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0220s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE ( ac_id=6 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `sj_order` WHERE ( user_id=5 )  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0300s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:46:26+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/look_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1510s ]
+SQL: SELECT * FROM `sj_customer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1540s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0860s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `ac_id` = 6  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0800s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_actor` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0840s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_order` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_order` INNER JOIN sj_commodity on sj_commodity.com_id=sj_order.com_id  WHERE sj_order.user_id = '5' AND `if_end` = 1  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:46:30+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_kanjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1570s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE ( ac_id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1700s ]
+SQL: SELECT * FROM `sj_order` WHERE ( user_id=5 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1520s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:46:36+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/create_cut?com_id=1&user_id=5&or_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1580s ]
+SQL: SELECT * FROM `sj_order` WHERE `com_id` = 1 AND `user_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1570s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1690s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1410s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ress D:\phpStudy\WWW\shangjd\sjd\Api\Controller\CutdownController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1390s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_customer` WHERE `user_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_actor` WHERE `or_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:46:39+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/my_kanjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1460s ]
+SQL: SELECT `end_time` FROM `sj_activity` WHERE ( ac_id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sj_order` WHERE ( user_id=5 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0990s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `com_num` FROM `sj_commodity` WHERE `com_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:46:40+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/look_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `sj_customer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `ac_id` = 6  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_actor` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_order` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_order` INNER JOIN sj_commodity on sj_commodity.com_id=sj_order.com_id  WHERE sj_order.user_id = '5' AND `if_end` = 1  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:46:48+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/cut_end
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1390s ]
+SQL: SELECT * FROM `sj_order` INNER JOIN sj_commodity on sj_commodity.com_id=sj_order.com_id  WHERE `or_id` = '1' AND `if_end` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2018-06-12T19:46:52+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/look_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1290s ]
+SQL: SELECT * FROM `sj_customer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1040s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `ac_id` = 6  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.0840s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_actor` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.0760s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_order` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sj_order` INNER JOIN sj_commodity on sj_commodity.com_id=sj_order.com_id  WHERE sj_order.user_id = '5' AND `if_end` = 1  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:47:03+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/cut_end
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1570s ]
+SQL: SELECT * FROM `sj_order` INNER JOIN sj_commodity on sj_commodity.com_id=sj_order.com_id  WHERE `or_id` = '1' AND `if_end` = 1 LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2018-06-12T19:47:08+08:00 ] 127.0.0.1 /index.php/Api/Cutdown/look_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.1540s ]
+SQL: SELECT * FROM `sj_customer` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sj_activity` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.1530s ]
+SQL: SELECT * FROM `sj_commodity` WHERE `ac_id` = 6  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sj_actor` [ RunTime:0.1690s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_actor` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sj_order` [ RunTime:0.1520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sj_order` WHERE `ac_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sj_order` INNER JOIN sj_commodity on sj_commodity.com_id=sj_order.com_id  WHERE sj_order.user_id = '5' AND `if_end` = 1  [ RunTime:0.0030s ]
+
+[ 2018-06-12T20:25:05+08:00 ] 127.0.0.1 /index.php/Api/Add/web_create_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+

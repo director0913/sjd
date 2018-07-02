@@ -1,0 +1,132 @@
+[ 2018-06-29T10:16:22+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18223356394' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0160s ]
+
+[ 2018-06-29T13:22:07+08:00 ] 127.0.0.1 /index.php/Api/Add/web_create_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0160s ]
+SQL: INSERT INTO `sj_activity` (`title`,`start_time`,`end_time`,`participants`,`if_participants`,`explain`,`limit`,`if_limit`,`indx`,`function_button`,`button_content`,`button_name`,`button_logo_img`,`create_id`,`ac_create_time`,`partic`,`if_partic`,`ac_thumb`,`if_send`) VALUES ('参与活动赢大奖','2018-06-10 19:39','2018-06-17 19:39','0','true','选择商品后进行砍价，自砍一刀后邀请好友帮忙砍，砍到目标价格后即可领取奖品。','3','true','3','1','','企业官网','//hd.faisys.com/image/qrcodeImg.jpg','1','1530249726','100','true','https://8171176.h40.faiusr.com/2/140/ACgIABACGAAgoKyM0gUop4XL3gUwgAU4-AI.jpg','0') [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0160s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值100元礼品','商品一','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','10') [ RunTime:0.0240s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值50元礼品','商品二','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','10') [ RunTime:0.0150s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值10元礼品','商品三','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','10') [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T13:22:09+08:00 ] 127.0.0.1 /index.php/Api/Add/web_create_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0430s ]
+SQL: INSERT INTO `sj_activity` (`title`,`start_time`,`end_time`,`participants`,`if_participants`,`explain`,`limit`,`if_limit`,`indx`,`function_button`,`button_content`,`button_name`,`button_logo_img`,`create_id`,`ac_create_time`,`partic`,`if_partic`,`ac_thumb`,`if_send`) VALUES ('参与活动赢大奖','2018-06-10 19:39','2018-06-17 19:39','0','true','选择商品后进行砍价，自砍一刀后邀请好友帮忙砍，砍到目标价格后即可领取奖品。','3','true','3','1','','企业官网','//hd.faisys.com/image/qrcodeImg.jpg','1','1530249728','100','true','https://8171176.h40.faiusr.com/2/140/ACgIABACGAAgoKyM0gUop4XL3gUwgAU4-AI.jpg','0') [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0400s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值100元礼品','商品一','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','11') [ RunTime:0.0380s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值50元礼品','商品二','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','11') [ RunTime:0.0410s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值10元礼品','商品三','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','11') [ RunTime:0.0400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T13:22:09+08:00 ] 127.0.0.1 /index.php/Api/Add/web_create_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0410s ]
+SQL: INSERT INTO `sj_activity` (`title`,`start_time`,`end_time`,`participants`,`if_participants`,`explain`,`limit`,`if_limit`,`indx`,`function_button`,`button_content`,`button_name`,`button_logo_img`,`create_id`,`ac_create_time`,`partic`,`if_partic`,`ac_thumb`,`if_send`) VALUES ('参与活动赢大奖','2018-06-10 19:39','2018-06-17 19:39','0','true','选择商品后进行砍价，自砍一刀后邀请好友帮忙砍，砍到目标价格后即可领取奖品。','3','true','3','1','','企业官网','//hd.faisys.com/image/qrcodeImg.jpg','1','1530249729','100','true','https://8171176.h40.faiusr.com/2/140/ACgIABACGAAgoKyM0gUop4XL3gUwgAU4-AI.jpg','0') [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0400s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值100元礼品','商品一','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','12') [ RunTime:0.0430s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值50元礼品','商品二','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','12') [ RunTime:0.0430s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值10元礼品','商品三','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','12') [ RunTime:0.0430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T13:22:10+08:00 ] 127.0.0.1 /index.php/Api/Add/web_create_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0190s ]
+SQL: INSERT INTO `sj_activity` (`title`,`start_time`,`end_time`,`participants`,`if_participants`,`explain`,`limit`,`if_limit`,`indx`,`function_button`,`button_content`,`button_name`,`button_logo_img`,`create_id`,`ac_create_time`,`partic`,`if_partic`,`ac_thumb`,`if_send`) VALUES ('参与活动赢大奖','2018-06-10 19:39','2018-06-17 19:39','0','true','选择商品后进行砍价，自砍一刀后邀请好友帮忙砍，砍到目标价格后即可领取奖品。','3','true','3','1','','企业官网','//hd.faisys.com/image/qrcodeImg.jpg','1','1530249730','100','true','https://8171176.h40.faiusr.com/2/140/ACgIABACGAAgoKyM0gUop4XL3gUwgAU4-AI.jpg','0') [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0200s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值100元礼品','商品一','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','13') [ RunTime:0.0220s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值50元礼品','商品二','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','13') [ RunTime:0.0240s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值10元礼品','商品三','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','13') [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T13:22:36+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18223356394' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0430s ]
+
+[ 2018-06-29T13:26:36+08:00 ] 127.0.0.1 /index.php/Api/Add/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_customer` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `sj_customer` WHERE `phone` = '18223356394' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0240s ]
+
+[ 2018-06-29T15:23:55+08:00 ] 127.0.0.1 /index.php/Api/Add/web_create_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0180s ]
+SQL: INSERT INTO `sj_activity` (`title`,`start_time`,`end_time`,`participants`,`if_participants`,`explain`,`limit`,`if_limit`,`indx`,`function_button`,`button_content`,`button_name`,`button_logo_img`,`create_id`,`ac_create_time`,`partic`,`if_partic`,`ac_thumb`,`if_send`) VALUES ('参与活动赢大奖','2018-06-10 19:39','2018-06-17 19:39','0','true','选择商品后进行砍价，自砍一刀后邀请好友帮忙砍，砍到目标价格后即可领取奖品。','3','true','3','1','','企业官网','//hd.faisys.com/image/qrcodeImg.jpg','1','1530257035','100','true','https://8171176.h40.faiusr.com/2/140/ACgIABACGAAgoKyM0gUop4XL3gUwgAU4-AI.jpg','0') [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0260s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值100元礼品','商品一','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','14') [ RunTime:0.0180s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值50元礼品','商品二','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','14') [ RunTime:0.0180s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值10元礼品','商品三','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','14') [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T15:23:58+08:00 ] 127.0.0.1 /index.php/Api/Add/web_create_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sj_activity` [ RunTime:0.0450s ]
+SQL: INSERT INTO `sj_activity` (`title`,`start_time`,`end_time`,`participants`,`if_participants`,`explain`,`limit`,`if_limit`,`indx`,`function_button`,`button_content`,`button_name`,`button_logo_img`,`create_id`,`ac_create_time`,`partic`,`if_partic`,`ac_thumb`,`if_send`) VALUES ('参与活动赢大奖','2018-06-10 19:39','2018-06-17 19:39','0','true','选择商品后进行砍价，自砍一刀后邀请好友帮忙砍，砍到目标价格后即可领取奖品。','3','true','3','1','','企业官网','//hd.faisys.com/image/qrcodeImg.jpg','1','1530257038','100','true','https://8171176.h40.faiusr.com/2/140/ACgIABACGAAgoKyM0gUop4XL3gUwgAU4-AI.jpg','0') [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `sj_commodity` [ RunTime:0.0580s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值100元礼品','商品一','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','15') [ RunTime:0.0390s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值50元礼品','商品二','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','15') [ RunTime:0.0480s ]
+SQL: INSERT INTO `sj_commodity` (`com_name`,`stab`,`com_num`,`original_price`,`cut_price`,`cut_num`,`thumb`,`change_way`,`do_notice`,`do_address`,`do_link`,`do_time`,`do_start_time`,`do_end_time`,`do_start_gd`,`do_end_gd`,`subtitle`,`service_phone`,`shoud_know`,`self_button`,`button_name`,`button_link`,`button_img`,`ac_id`) VALUES ('价值10元礼品','商品三','0','10','0','5','//hdg.faisys.com/image/dspkj/theGift.jpg?v=201504091029','1','凭券联系现场工作人员兑奖','请填写您的兑奖地址或者门店地址','http://','1','2018-06-10','2018-06-17','0','30','','','','1','','','//hd.faisys.com/image/qrcodeImg.jpg','15') [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

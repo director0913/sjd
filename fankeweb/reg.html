@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html style="min-height: 710px;">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="css/regcss.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<style>
+			
+			html{overflow: hidden;min-width: 980px;}
+			html, body{height: 100%;}
+		
+		</style>
+	</head>
+	<body>
+		<div class="m-header" style="">
+			<a class="logo " target="_blank" title="" href="#"></a>
+			<a class="slogan" biz="none" target="_blank" title="" href="#" style="display: inline-block;">
+				<i></i><font>做营销，上凡科网</font>
+			</a>
+			
+		</div>
+		
+		<div class="m-regForm" style="height: 69%;">
+			<div class="regBox">
+				<div class="u-borderTop"></div>
+				<div class="content">
+					<div class="u-input">
+						<label>帐号</label><!--这种注释写法是为了去除换行产生的4px的间隔
+						--><div class="inputWrapper">
+							<input type="text" placeholder="请输入手机号码" autocomplete="new-password" id="acct" maxlength="34">
+						</div><!--
+						--><span class="msg" style="display: none;">
+							<i></i><font></font>
+						</span>
+					</div>
+					<div class="u-input">
+						<label>密码</label><!--
+						--><div class="inputWrapper">
+							<input type="password" placeholder="4-20个字符，区分大小写" autocomplete="new-password" id="pwd" onpaste="return false;" maxlength="20">
+							<i class="vis z-on"></i>
+						</div><!--
+						--><span class="msg" style="display: none;">
+							<i></i><font></font>
+						</span>
+					</div>
+					<div class="u-input" id="verifyCodeLine">
+						<label>验证码</label><!--
+						--><div class="inputWrapper">
+							<input class="short" type="text" placeholder="请输入验证码" autocomplete="off" id="verifyCode" maxlength="4">
+							<button class="button" id="verifyCodeBtn">获取验证码</button>
+						</div><!--
+						--><span class="msg" style="display: none;">
+							<i></i><font id="verifyCodeMsg"></font>
+						</span>
+					</div>
+					<div id="resendNotice1" class="u-resendNotice" style="display: none;">
+						若仍未收到验证码，请点击&gt; 
+					</div>
+					
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="bottomBar">
+					<font class="msg" id="regMsg"></font>
+					<button class="u-bigBtn" id="regBtn">免费注册</button>
+				</div>
+				<div class="toLogin">
+					已有帐号？<a hidefocus="true" href="javascript:;" onclick="mRegForm.login();">直接登录</a>
+				</div>
+				<div class="footer">
+					Copyright © 2010-2018 广州凡科互联网科技股份有限公司
+				</div>
+			</div>
+		</div>
+		
+		<div class="m-wave">
+			<ul class="wave-item item1" style="margin-left: -1063.72px;">
+				<li class="wave-bg wave-bg1"></li>
+				<li class="wave-bg wave-bg1"></li>
+			</ul>
+			<ul class="wave-item item2" style="margin-left: -1139.7px;">
+				<li class="wave-bg wave-bg2"></li>
+				<li class="wave-bg wave-bg2"></li>
+			</ul>
+			<ul class="wave-item item3" style="margin-left: -2317px;">
+				<li class="wave-bg wave-bg3"></li>
+				<li class="wave-bg wave-bg3"></li>
+			</ul>
+		</div>
+		
+		<script type="text/javascript" src="js/reg_js.js" ></script>
+	</body>
+</html>

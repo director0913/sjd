@@ -1,0 +1,50 @@
+<style>
+.paging span.current{
+background:white;
+border:1px #000000 solid;
+color:#19a97b;
+padding:5px 8px;
+display:inlink-block;
+cursor:pointer;
+}
+
+</style>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+
+ <section>
+      <h2><strong style="color:grey;"></strong></h2>
+      <div class="page_title">
+      </div>
+      <table class="table">
+       <tr>
+        <th>ID编号</th>
+    	<th>活动标题</th>
+    	<th>起始时间</th>
+        <th>结束时间</th>
+        <th>虚拟人数</th>
+        <th>实际人数</th>
+        <th>砍价限制</th>
+    	<th>创建时间</th>
+       </tr>
+	   <foreach name="activity" item="vo">
+       <tr>
+        <td>{$vo.ac_id}</td>
+		<td>{$vo.title}</td>
+        <td>{$vo['start_time']}</td>
+        <td>{$vo['end_time']}</td>
+        <td>{$vo.participants}</td>
+        <td>{$vo.nums}</td>
+        <td>{$vo.partic}人</td>
+        <td><?php echo date('Y-m-d,H:i:s',$vo['ac_create_time']);?></td>
+       </tr>
+      </foreach>
+      </table>
+      <aside class="paging">
+		{$page}
+      </aside>
+     </section>
+	 
+	 </div>
+</section>
