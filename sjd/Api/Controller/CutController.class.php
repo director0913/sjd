@@ -7,8 +7,7 @@ class CutController extends Controller{
         if(!empty($_GET)){
             $parm = ['order'=>I('get.order'),'sort'=>I('get.sort'),'fen_id'=>I('get.fen_id'),'page'=>I('get.page,1')];
            // var_dump(D('Home/Cut'));die;
-            $aa = new \Home\Model\CutModel;
-            $data = $aa->rankList($parm);
+            $data = D('Home/Cut')->rankList($parm);
             $this->ajaxReturn($data);
         }
     }

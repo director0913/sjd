@@ -29,6 +29,7 @@
     </script>
 </head>
 <body>
+
 <div class="jiazaik" style="width: 100%;height: 100%;position: absolute;top:0;left:0;background: rgba(0,0,0,0.2);z-index:999;display: none;">
     <div id="loading" class="loading">保存中...</div>
 </div>
@@ -188,7 +189,8 @@
         return newItems;
     }
     $('#saveButon').click(function(){
-
+        //判断是否登录
+        
         //活动信息
         var title = $('.huodongtitle').val();
         var start_time = $('.kaishishijian').val();//活动开始时间
@@ -237,10 +239,10 @@
             alert('请填写商品名称！');
             return false;
         }
-        if(ac_thumb == ''){
-            alert('请选择活动图片！');
-            return false;
-        }
+        // if(ac_thumb == ''){
+        //     alert('请选择活动图片！');
+        //     return false;
+        // }
         if(bgm_id == ''){
             alert('请选择活动音乐！');
             return false;
@@ -302,6 +304,7 @@
                 }else{
                     alert('活动创建成功！');
                     window.location.href='activity.html';
+                    //window.location.href='/fankes/index.html?ac_id='+e+'&user_id=<?php echo get_current_userid();?>';
                 }
             },
         });

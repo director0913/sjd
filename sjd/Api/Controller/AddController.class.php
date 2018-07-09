@@ -187,8 +187,8 @@ class AddController extends Controller{
                 $project['table_id'] = $cc;
                 $project['table_id_name'] = 'ac_id';
                 $project['create_time'] = $data['ac_create_time'];
-                M('Project')->add($project);
-                echo 1;
+                $res = M('Project')->add($project);
+                echo $res;
             }else{
                 echo "活动规则入库失败";
             }
