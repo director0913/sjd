@@ -7,18 +7,25 @@ class SproutController extends Controller{
      */
     public function index(){
         $sprout_id = I('get.sprout_id','0');
+        $user_info=session('wx_userInfo');
+        if (!$user_info) {
+            A('WeChat')->start(get_host_name().(U('Home/Sprout/index',array('sprout_id'=>I('get.sprout_id','0')))));
+        }
         $res = M('sprout')->where(array('sprout_id'=>$sprout_id))->find();
         //报名人数
         $count = M('sign')->where(array('sprout_id'=>$sprout_id))->count();
         //累计票数
         $vote = M('sign')->where(array('sprout_id'=>$sprout_id))->sum('vote_num');
         $parm = ['sprout_id'=>$sprout_id,'order'=>'vote_num','sort'=>'desc'];
-        $rankList = D('Sprout')->rankList($parm);
+        $rankList = D("Sprout")->rankList($parm);
         $res['sort_rule'] = json_decode($res['sort_rule']);
+        //微信分享api
+        $wx_share = A('WeChat')->shareAPi(sp_get_url());
         $this->assign('res',$res);
         $this->assign('count',$count);
         $this->assign('vote',$vote);
         $this->assign('rankList',$rankList);
+        $this->assign('wx_share',$wx_share);
         $this->display();
     }
     //列表rank
@@ -117,6 +124,14 @@ class SproutController extends Controller{
     }
     //创建活动
     public function add(){
+        $user_info=session('wx_userInfo');
+        if (!$user_info) {
+            A('WeChat')->start(get_host_name().(U('Home/Sprout/index',array('sprout_id'=>I('get.sprout_id','0')))));
+        }
+        // if (!sp_is_user_login()) {
+        //     $service = urlencode(U('Home/Sprout/add'));
+        //     redirect('https://login.xiaoyingtong.net/login?service='.$service);
+        // }
         if (IS_POST) {
             $add['title'] = I('post.title');
             $add['start_at'] = strtotime(I('post.start_at'));
@@ -170,7 +185,7 @@ class SproutController extends Controller{
             $res = M('sprout')->add($add);
             if ($res) {
                 //添加到项目表
-                $project['create_id'] = $_SESSION['user_id'];
+                $project['create_id'] = sp_get_current_userid();
                 $project['table_name'] = 'Sprout';
                 $project['table_id'] = $res;
                 $project['table_id_name'] = 'sprout_id';
@@ -180,6 +195,28 @@ class SproutController extends Controller{
             }
         }else{
             $this->display();
+        }
+    }
+        //获取排序列表
+    public function getRankList(){
+        if(!empty($_GET)){
+            $sort = I('get.sort') == 'sort'?'asc':'desc';
+            $order = I('get.sort')== 'sort'?'sign_id':I('get.sort');;
+            $parm = ['sprout_id'=>I('get.sprout_id'),'order'=>$order,'sort'=>$sort];
+            $data = D('Sprout')->rankList($parm);
+            $this->ajaxReturn($data);
+        }
+    }
+    //投票
+    public function toVote(){
+        if(!empty($_GET)){
+            $sign_id = I('get.sign_id') ;
+            $sprout_id = I('get.sprout_id') ;
+            $parm['sign_id'] = $sign_id;
+            $parm['sprout_id'] = $sprout_id;
+            //$model = new Home\Model\SproutModel;;
+            $res = D('Sprout')->toVote($parm);
+            $this->ajaxReturn($res);            
         }
     }
 	

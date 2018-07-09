@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="__PUBLIC__/sprout/css/index.css"/>
     <script src="__PUBLIC__/sprout/js/jquery.js"></script>
     <script src="__PUBLIC__/sprout/js/layer/layer.js"></script>
+    <script src="__PUBLIC__/sprout/js/jweixin-1.2.0.js"></script>
+    <script src="__PUBLIC__/sprout/js/wx_share.js"></script>
+    <script type="text/javascript">
+    wechat('<?php echo C('WX_APPID');?>',<?php echo $wx_share["timestamp"];?>,'<?php echo $wx_share["noncestr"];?>','<?php echo $wx_share["signature"];?>',"<?php echo $res['title']?$res['title']:'萌娃投票';?>",'<?php echo $wx_share["url"];?>','<?php  if($res['wx_share_default']){echo get_host_name()."/public/sprout/img/mengwa.jpg";}else{echo get_host_name().$res["wx_share_logo"];}?>','萌娃投票')
+    </script>
     <title>萌宝投票</title>
     <script type="text/javascript">
     $(function () {
@@ -152,6 +157,59 @@
 </body>
 <script src="__PUBLIC__/sprout/js/code.js"></script>
 <script type="text/javascript">
+
+ // wx.config({
+ //    debug: false,
+ //    appId: '<?php echo C('WX_APPID');?>',
+ //    timestamp: <?php echo $wx_share["timestamp"];?>,
+ //    nonceStr: '<?php echo $wx_share["noncestr"];?>',
+ //    signature: '<?php echo $wx_share["signature"];?>',
+ //    jsApiList: [
+ //                'checkJsApi',
+ //            'onMenuShareTimeline',
+ //            'onMenuShareAppMessage',
+ //            'onMenuShareQQ',
+ //            'onMenuShareWeibo',
+ //            'chooseWXPay'
+ //      // 所有要调用的 API 都要加到这个列表中
+ //    ]
+ //  });
+ //    wx.ready(function () {
+ //        // 在这里调用 API
+ //        wx.onMenuShareTimeline({  //例如分享到朋友圈的API 
+ //            title: '<?php echo $res['title']?$res['title']:'萌娃投票';?>', // 分享标题
+ //            link: '<?php echo $wx_share["url"];?>', // 分享链接
+ //            imgUrl: '<?php if($res['wx_share_default']){echo get_host_name()."/public/sprout/img/mengwa.jpg";}else{echo get_host_name().$res["wx_share_logo"];}?>', // 分享图标
+ //             success: function () {
+ //                                alert('分享成功');
+ //            },
+ //            cancel: function () {
+ //                                alert('分享失败');
+ //            // 用户取消分享后执行的回调函数
+ //            }
+ //        })
+ //        wx.onMenuShareAppMessage({  
+ //            title: '<?php echo $res['title']?$res['title']:'萌娃投票';?>', // 分享标题 
+ //            desc: '', // 分享描述  
+ //            link: '<?php echo $wx_share["url"];?>', // 分享链接
+ //            imgUrl: '<?php if($res['wx_share_default']){echo get_host_name()."/public/sprout/img/mengwa.jpg";}else{echo get_host_name().$res["wx_share_logo"];}?>', // 分享图标 
+ //            type: '', // 分享类型,music、video或link，不填默认为link  
+ //            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空  
+ //            success: function () {   
+ //                 alert('分享成功');
+ //                // 用户确认分享后执行的回调函数  
+ //            },  
+ //            cancel: function () {   
+ //                alert('分享失败');
+ //                // 用户取消分享后执行的回调函数  
+ //            }  
+ //        });  
+               
+ //    });
+ //     wx.error(function(res){
+ //            // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+ //            alert(res);
+ //        });
     //投票,判断需不需要验证码
     $(".mingno2").click(function(){
     <?php if ($res['is_code']==1) {?>
@@ -176,14 +234,14 @@
         }
     <?php }else{ ?>
         var sign_id = $(this).find("input[name='sign_id']").val();
-        var sprout_id = $(this).find("input[name='sprout_id']").val();
+        var sprout_id = $(this).find("input[name='sprout_id']").val()?$(this).find("input[name='sprout_id']").val():'1';
         vote(sign_id,sprout_id)
     <?php } ?>  
     })
     function vote(sign_id,sprout_id){
         $.ajax({
             type: "get",
-            url: "{:U('Api/Sprout/toVote')}?sign_id="+sign_id+'&sprout_id='+sprout_id,
+            url: "{:U('Home/Sprout/toVote')}?sign_id="+sign_id+'&sprout_id='+sprout_id,
       //      data: {sign_id:sign_id,sprout_id:sprout_id},
             contentType : "application/json",
             dataType: "json",
@@ -195,7 +253,7 @@
     //排行切换
     $(".sort").click(function(){
         console.log($(this))
-        var sprout_id = <?php echo I('get.sprout_id')?>;
+        var sprout_id = <?php echo I('get.sprout_id')?I('get.sprout_id'):'1'?>;
         var sort = $(this).find("input").val();
         $.ajax({
             type: "get",
@@ -220,6 +278,5 @@
             }
         });
     })
-    
 </script>
 </html>
